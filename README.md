@@ -9,7 +9,7 @@
 </p>
 <p align="center">
   <a href="https://app.netlify.com/sites/freyam/deploys" target="_blank">
-    <img src="https://api.netlify.com/api/v1/badges/06514d98-646a-44d4-a92b-b70b5fd8160c/deploy-status" alt="Netlify Status" />
+    <img src="https://api.netlify.com/api/v1/badges/5ed130dd-81aa-4139-9892-0467d40d82c1/deploy-status" alt="Netlify Status" />
   </a>
 </p>
 
