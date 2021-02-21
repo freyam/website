@@ -1,7 +1,7 @@
 ---
 date: '2020-08-01'
 title: 'Cat Images Classification'
-cover: './catsclassification.png'
+cover: '../images/catsclassification.png'
 github: 'https://github.com/freyam/image-classification-of-cats-using-a-neural-network'
 external: 'https://github.com/freyam/image-classification-of-cats-using-a-neural-network'
 tech:

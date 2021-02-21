@@ -5,7 +5,7 @@ cover: './catsclassification.png'
 github: 'https://github.com/freyam/image-classification-of-cats-using-a-neural-network'
 external: 'https://github.com/freyam/image-classification-of-cats-using-a-neural-network'
 tech:
-  - Python
+  - Python./catsclassification.png
   - Jupyter
   - Numpy
   - Matplotlib

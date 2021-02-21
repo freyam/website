@@ -7,7 +7,7 @@ module.exports = {
       'Freyam Mehta is a software engineer specializing in building (and occasionally designing) exceptional websites, applications, and everything in between.',
     siteUrl: 'https://freyam.netlify.com', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
-    twitterUsername: '@bchiang7',
+    twitterUsername: '@fre7am',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
