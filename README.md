@@ -14,5 +14,5 @@
 </p>
 
 <p align="center">
-  Designed by <a href="https://brittanychiang.com/"> Brittany Chiang</a>.
+  Designed by <a href="https://brittanychiang.com/"> Brittany Chiang</a>
 </p>
