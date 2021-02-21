@@ -4,7 +4,7 @@ module.exports = {
   siteMetadata: {
     title: 'Freyam Mehta',
     description:
-      'Freyam Mehta is a software engineer specializing in building (and occasionally designing) exceptional websites, applications, and everything in between.',
+      'Freyam Mehta is a computer science student based in India. He is passionate about finding clean and creative solutions to all kinds of problems.',
     siteUrl: 'https://freyam.netlify.com', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@fre7am',
