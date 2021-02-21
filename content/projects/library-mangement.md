@@ -1,7 +1,6 @@
 ---
 date: '2019-07-01'
 title: 'State Library'
-cover: '../images/librarymanagement.png'
 github: 'https://github.com/freyam/state-library'
 external: 'https://github.com/freyam/state-library'
 tech:

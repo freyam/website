@@ -1,7 +1,6 @@
 ---
 date: '2018-07-01'
 title: 'Paradise Hotel'
-cover: '../images/hotelmanagement.png'
 github: 'https://github.com/freyam/paradise-hotel/'
 external: 'https://github.com/freyam/paradise-hotel/'
 tech:

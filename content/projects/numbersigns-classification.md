@@ -1,7 +1,6 @@
 ---
 date: '2020-07-01'
 title: 'Number Signs Classification'
-cover: '../images/numbersclassification.png'
 android: ''
 github: 'https://github.com/freyam/image-classification-of-numbers-using-a-neural-network'
 external: 'https://github.com/freyam/image-classification-of-numbers-using-a-neural-network'
