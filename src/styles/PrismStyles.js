@@ -5,7 +5,7 @@ const prismColors = {
   lineHighlight: `#1d2d50`,
   blue: `#5ccfe6`,
   purple: `#c3a6ff`,
-  green: `#bae67e`,
+  violet: `#7377fe`,
   yellow: `#ffd580`,
   orange: `#ffae57`,
   red: `#ef6b73`,
@@ -207,7 +207,7 @@ const PrismStyles = css`
   .token.regex,
   .token.variable,
   .token.inserted {
-    color: ${prismColors.green};
+    color: ${prismColors.violet};
   }
   .token.important,
   .token.bold {

@@ -181,7 +181,7 @@ const About = () => {
 
         <StyledPic>
           <div className="wrapper">
-            <Img fluid={data.avatar.childImageSharp.fluid} alt="Avatar" className="img" />
+            <Img fluid={data.avatar.childImageSharp.fluid} alt="Avatar" />
           </div>
         </StyledPic>
       </div>

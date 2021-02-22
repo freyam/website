@@ -327,7 +327,7 @@ const Featured = () => {
 
                 <div className="project-image">
                   <a href={external ? external : github ? github : '#'}>
-                    <Img fluid={cover.childImageSharp.fluid} alt={title} className="img" />
+                    <Img fluid={cover.childImageSharp.fluid} alt={title} />
                   </a>
                 </div>
               </StyledProject>
