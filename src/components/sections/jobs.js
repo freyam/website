@@ -69,7 +69,7 @@ const StyledTabButton = styled.button`
   background-color: transparent;
   color: ${({ isActive }) => (isActive ? 'var(--violet)' : 'var(--slate)')};
   font-family: var(--font-mono);
-  font-size: var(--fz-xs);
+  font-size: var(--fz-sm);
   text-align: left;
   white-space: nowrap;
 
@@ -149,7 +149,7 @@ const StyledTabContent = styled.div`
     margin-bottom: 30px;
     color: var(--light-slate);
     font-family: var(--font-mono);
-    font-size: var(--fz-xs);
+    font-size: var(--fz-sm);
   }
 `;
 

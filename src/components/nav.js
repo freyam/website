@@ -30,7 +30,7 @@ const StyledHeader = styled.header`
     css`
       height: var(--nav-scroll-height);
       transform: translateY(0px);
-      background-color: rgba(10, 25, 47, 0.85);
+      background-color: rgba(3, 3, 8, 0.8);
       box-shadow: 0 10px 30px -10px var(--navy-shadow);
     `};
 
@@ -102,7 +102,7 @@ const StyledLinks = styled.div`
       margin: 0 5px;
       position: relative;
       counter-increment: item 1;
-      font-size: var(--fz-xs);
+      font-size: var(--fz-md);
 
       a {
         padding: 10px;
@@ -111,7 +111,7 @@ const StyledLinks = styled.div`
           content: '0' counter(item) '.';
           margin-right: 5px;
           color: var(--violet);
-          font-size: var(--fz-xxs);
+          font-size: var(--fz-sm);
           text-align: right;
         }
       }

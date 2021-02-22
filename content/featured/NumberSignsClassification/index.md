@@ -1,5 +1,5 @@
 ---
-date: '3'
+date: '4'
 title: 'Number Signs Classification'
 cover: './numbersclassification.png'
 github: 'https://github.com/freyam/image-classification-of-numbers-using-a-neural-network'

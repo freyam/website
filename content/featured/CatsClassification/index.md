@@ -1,5 +1,5 @@
 ---
-date: '4'
+date: '3'
 title: 'Cat Images Classification'
 cover: './catsclassification.png'
 github: 'https://github.com/freyam/image-classification-of-cats-using-a-neural-network'
