@@ -200,7 +200,7 @@ const StyledProject = styled.div`
 
     a {
       width: 100%;
-      background-color: var(--green);
+      background-color: var(--slate);
       border-radius: var(--border-radius);
       vertical-align: middle;
 
@@ -327,7 +327,7 @@ const Featured = () => {
 
                 <div className="project-image">
                   <a href={external ? external : github ? github : '#'}>
-                    <Img fluid={cover.childImageSharp.fluid} alt={title} />
+                    <Img fluid={cover.childImageSharp.fluid} alt={title} className="img" />
                   </a>
                 </div>
               </StyledProject>
