@@ -3,7 +3,7 @@ date: '2017-12-01'
 title: 'Open Source Contributor'
 company: 'Google Code-in'
 location: 'Online'
-range: 'December 2018 - January 2019'
+range: 'October 2018 - January 2019'
 url: 'https://g.co/codein'
 ---
 
