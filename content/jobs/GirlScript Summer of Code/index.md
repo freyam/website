@@ -1,10 +1,10 @@
 ---
 date: '2021-02-01'
 title: 'Open Source Contributor'
-company: 'GirlScript SoC'
+company: 'GirlScript Summer of Code'
 location: 'Virtual'
 range: 'February 2021 - June 2021'
 url: 'https://gssoc.girlscript.tech/'
 ---
 
-- text
+- Actively contributing to several projects.
