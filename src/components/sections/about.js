@@ -153,24 +153,28 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Heyy! I'm Freyam, a computer science student based in India. I am passionate about
-              finding clean and creative solutions to all kinds of problems. My current interests
-              include UI/UX Designing, Data Structures and Algorithms, Machine Learning Applications
-              and, Open Source Development.
+              I'm Freyam, a computer science student based in India. I am passionate about finding
+              clean and creative solutions to all kinds of problems through my skills and talent.
             </p>
 
             <p>
+              My current interests include UI/UX Designing, Data Structures and Algorithms, Machine
+              Learning Applications and, Open Source Development.
+            </p>
+
+            {/* <p>
               I also enjoy playing sports like Cricket, Basketball, Volleyball, and Swimming. I am
               an avid binge-(re)watcher; Brooklyn Nine-Nine, The Office and Parks and Recreation are
               my favourite stress-relievers. I love animals! I find their presence very calming.
-            </p>
+            </p> */}
 
-            <p>
+            {/* <p>
               I also love writing, singing, and dancing. I also like spending time contributing back
               to society. Check out my dream project,{' '}
               <a href="https://www.instagram.com/theclimatesynergy/"> The Climate Synergy </a>, to
               know more.
-            </p>
+            </p> */}
+
             <p>Here are a few technologies I've been working with recently:</p>
           </div>
 
