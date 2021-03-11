@@ -47,7 +47,7 @@ const StyledText = styled.div`
 `;
 const StyledPic = styled.div`
   position: relative;
-  max-width: 300px;
+  max-width: 400px;
 
   @media (max-width: 768px) {
     margin: 50px auto 0;
@@ -163,17 +163,22 @@ const About = () => {
             </p>
 
             {/* <p>
+              Open Source holds an important place in my heart. I have always been a big fan of contributing to open-source organizations and always wanted to give back to the community. I have been using open-source tools for my daily work for 4 years now, and it has been a hell of a ride.
+            </p> */}
+
+            {/* <p>
               I also enjoy playing sports like Cricket, Basketball, Volleyball, and Swimming. I am
               an avid binge-(re)watcher; Brooklyn Nine-Nine, The Office and Parks and Recreation are
               my favourite stress-relievers. I love animals! I find their presence very calming.
             </p> */}
 
-            {/* <p>
-              I also love writing, singing, and dancing. I also like spending time contributing back
-              to society. Check out my dream project,{' '}
+            <p>
+              I enjoy playing team sports (Cricket, Basketball, and Volleyball), writing, singing,
+              and dancing. I also like spending time contributing back to society. Check out my
+              dream project,{' '}
               <a href="https://www.instagram.com/theclimatesynergy/"> The Climate Synergy </a>, to
               know more.
-            </p> */}
+            </p>
 
             <p>Here are a few technologies I've been working with recently:</p>
           </div>
