@@ -1,11 +1,11 @@
 {
-  "name": "freyam.github.io",
+  "name": "freyam_website",
   "description": "Personal Website",
   "version": "1.0.0",
   "author": "Freyam Mehta <frey77mehta@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/freyam/freyam.github.io"
+    "url": "https://github.com/freyam/my-website"
   },
   "keywords": [
     "gatsby"
