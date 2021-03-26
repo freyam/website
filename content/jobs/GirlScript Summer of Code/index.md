@@ -8,4 +8,5 @@ url: 'https://gssoc.girlscript.tech/'
 ---
 
 - Actively contributing to several projects built with Python and JavaScript.
--
+- Collaborating with like-minded students from across India on team projects.
+- Spent time discussing new ideas with Open Source Pioneers of India.
