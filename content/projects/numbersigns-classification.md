@@ -15,4 +15,4 @@ company: 'Personal'
 showInProjects: true
 ---
 
-A Python Project implementing and training a Deep Neural Network in Tensorflow to classify number signs by using Logistic Regression and applying optimization methods such as (Stochastic) Gradient Descent, Momentum, RMSProp, and Adam (99.1% Accuracy).
+A Python Project implementing and training a **Deep Neural Network** in **Tensorflow** to classify number signs by using **Logistic Regression** and applying optimization methods such as **(Stochastic) Gradient Descent, Momentum, RMSProp, and Adam** (**99.1% Accuracy**).
