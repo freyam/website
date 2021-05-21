@@ -1,8 +1,8 @@
 ---
 date: '2017-12-01'
-title: 'Open Source Contributor'
+title: 'Student Developer'
 company: 'Google Code-in'
-location: 'Virtual'
+location: 'Remote'
 range: 'October 2018 - January 2019'
 url: 'https://g.co/codein'
 ---
