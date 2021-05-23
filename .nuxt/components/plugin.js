@@ -21,14 +21,14 @@ const components = {
   NavigationNavMenu: () => import('../../components/Navigation/NavMenu.vue' /* webpackChunkName: "components/navigation-nav-menu" */).then(c => wrapFunctional(c.default || c)),
   NavigationNavbar: () => import('../../components/Navigation/Navbar.vue' /* webpackChunkName: "components/navigation-navbar" */).then(c => wrapFunctional(c.default || c)),
   NavigationSocialHandles: () => import('../../components/Navigation/SocialHandles.vue' /* webpackChunkName: "components/navigation-social-handles" */).then(c => wrapFunctional(c.default || c)),
-  WidgetsModal: () => import('../../components/Widgets/Modal.vue' /* webpackChunkName: "components/widgets-modal" */).then(c => wrapFunctional(c.default || c)),
   SectionsAbout: () => import('../../components/Sections/About.vue' /* webpackChunkName: "components/sections-about" */).then(c => wrapFunctional(c.default || c)),
   SectionsContact: () => import('../../components/Sections/Contact.vue' /* webpackChunkName: "components/sections-contact" */).then(c => wrapFunctional(c.default || c)),
   SectionsExperience: () => import('../../components/Sections/Experience.vue' /* webpackChunkName: "components/sections-experience" */).then(c => wrapFunctional(c.default || c)),
   SectionsFooter: () => import('../../components/Sections/Footer.vue' /* webpackChunkName: "components/sections-footer" */).then(c => wrapFunctional(c.default || c)),
   SectionsHeader: () => import('../../components/Sections/Header.vue' /* webpackChunkName: "components/sections-header" */).then(c => wrapFunctional(c.default || c)),
   SectionsProject: () => import('../../components/Sections/Project.vue' /* webpackChunkName: "components/sections-project" */).then(c => wrapFunctional(c.default || c)),
-  SectionsSkill: () => import('../../components/Sections/Skill.vue' /* webpackChunkName: "components/sections-skill" */).then(c => wrapFunctional(c.default || c))
+  SectionsSkill: () => import('../../components/Sections/Skill.vue' /* webpackChunkName: "components/sections-skill" */).then(c => wrapFunctional(c.default || c)),
+  WidgetsModal: () => import('../../components/Widgets/Modal.vue' /* webpackChunkName: "components/widgets-modal" */).then(c => wrapFunctional(c.default || c))
 }
 
 for (const name in components) {

@@ -56,9 +56,6 @@
   "NavigationSocialHandles": {
     "description": "Auto imported from components/Navigation/SocialHandles.vue"
   },
-  "WidgetsModal": {
-    "description": "Auto imported from components/Widgets/Modal.vue"
-  },
   "SectionsAbout": {
     "description": "Auto imported from components/Sections/About.vue"
   },
@@ -79,5 +76,8 @@
   },
   "SectionsSkill": {
     "description": "Auto imported from components/Sections/Skill.vue"
+  },
+  "WidgetsModal": {
+    "description": "Auto imported from components/Widgets/Modal.vue"
   }
 }

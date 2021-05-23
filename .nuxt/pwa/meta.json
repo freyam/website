@@ -23,7 +23,7 @@
     {
       "hid": "description",
       "name": "description",
-      "content": "A highly resourceful Student Developer."
+      "content": "A highly resourceful Student Developer studying Computer Science at IIIT Hyderabad."
     },
     {
       "hid": "theme-color",
@@ -52,7 +52,7 @@
       "hid": "og:description",
       "name": "og:description",
       "property": "og:description",
-      "content": "A highly resourceful Student Developer."
+      "content": "A highly resourceful Student Developer studying Computer Science at IIIT Hyderabad."
     }
   ],
   "link": [
@@ -69,7 +69,7 @@
     },
     {
       "rel": "manifest",
-      "href": "/_nuxt/manifest.01446382.json",
+      "href": "/_nuxt/manifest.f64a4d35.json",
       "hid": "manifest"
     }
   ],
