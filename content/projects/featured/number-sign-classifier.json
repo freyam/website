@@ -1,0 +1,13 @@
+{
+    "name": "Number Sign Classifier",
+    "cover_image": "/images/projects/number-sign-classifier.png",
+    "description": "A Python Project implementing and training a Deep Neural Network in Tensorflow to classify number signs by using Logistic Regression and applying optimization methods such as (Stochastic) Gradient Descent, Momentum, RMSProp, and Adam (99.1% Accuracy).",
+    "languages": [
+        "Python",
+        "Jupyter",
+        "TensorFlow",
+        "Keras & Caffe"
+    ],
+    "github_link": "https://github.com/freyam/image-classification-of-numbers-using-a-neural-network",
+    "live_link": "https://github.com/freyam/image-classification-of-numbers-using-a-neural-network"
+}

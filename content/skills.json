@@ -1,0 +1,52 @@
+{
+    "skills": [
+        {
+            "name":"C",
+            "icon":"c.svg"
+        },
+        {
+            "name":"C++",
+            "icon":"cpp.svg"
+        },
+        {
+            "name": "Python",
+            "icon": "python.svg"
+        },
+        {
+            "name": "Tensorflow",
+            "icon": "tensorflow.svg"
+        },
+        {
+            "name": "HTML",
+            "icon": "html.svg"
+        },
+        {
+            "name": "CSS",
+            "icon": "css.svg"
+        },
+        {
+            "name": "React",
+            "icon": "react.svg"
+        },
+        {
+            "name": "Javascript",
+            "icon": "javascript.svg"
+        },
+        {
+            "name": "Java",
+            "icon": "java.svg"
+        },
+        {
+            "name": "MySQL",
+            "icon": "mysql.svg"
+        },
+        {
+            "name": "Docker",
+            "icon": "docker.svg"
+        },
+        {
+            "name": "Git",
+            "icon": "git.svg"
+        }
+    ]
+}

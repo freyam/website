@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+@layer utilities {
+  .bg-blur {
+    backdrop-filter: blur(4px);
+  }
+
+  .writing-v-lr {
+    writing-mode: vertical-lr;
+  }
+}

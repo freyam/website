@@ -1,0 +1,11 @@
+{
+    "name": "Paradise Hotel Manager",
+    "cover_image": "/images/projects/paradise-hotel.png",
+    "description": "A C++ Project implementing critical functions (add, search, sort, modify, display, delete, payment, check-in & check-out) that are required in a resort/hotel by using an optimised database of rooms and guests.",
+    "languages": [
+        "C",
+        "C++"
+    ],
+    "github_link": "https://github.com/freyam/paradise-hotel/",
+    "live_link": "https://github.com/freyam/paradise-hotel/"
+}

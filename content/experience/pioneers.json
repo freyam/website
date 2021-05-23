@@ -1,0 +1,16 @@
+{
+    "company": "Pioneers Math Club",
+    "company_website": "https://todocode.dev",
+    "role": "Associate Software Engineer",
+    "contract": {
+        "type": "Part time",
+        "live": false
+    },
+    "duration": "May 2019 - Present",
+    "description": "Pioneers is a Math club that aims to be a dynamic platform that will provide resources to learn, explore experience and engage with Mathematical ideas.",
+    "tasks": [
+        "Worked with a great team of brilliant mathematicians and science enthusiasts.",
+        "Played an integral part in organizing our School's Successfull Attempt to achieve the Official Guinness World Record of \"The Largest Human Image of an Infinty Symbol\" (998 participants).",
+        "Conducted math competitions and workshops for students, assisted other instructors in constructing lesson plans and understanding lesson material, and interacted heavily with parents regarding student projects and progress."
+    ]
+}
