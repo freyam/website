@@ -7,14 +7,14 @@ const GlobalStyle = createGlobalStyle`
   ${Fonts};
 
   :root {
-    --dark-navy: #0b0b19;
-    --navy: #0b0b19;
+    --dark-navy: #0F172A;
+    --navy: #0F172A;
     --light-navy: #4d6796;
     --lightest-navy: #233554;
     --navy-shadow: rgba(2, 12, 27, 0.7);
-    --slate: #8892b0;
+    --slate: #E2E8F0;
     --light-slate: #a8b2d1;
-    --lightest-slate: #ccd6f6;
+    --lightest-slate: #94A3B8;
     --white: #f1f1fe;
     --violet: #7377fe;
     --violet-tint: rgba(100, 255, 218, 0.01);

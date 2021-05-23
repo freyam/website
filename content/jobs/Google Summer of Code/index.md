@@ -6,5 +6,3 @@ location: 'Remote'
 range: 'May 2021 - September 2021'
 url: 'https://summerofcode.withgoogle.com/'
 ---
-
--
