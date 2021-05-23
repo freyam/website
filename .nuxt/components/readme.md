@@ -25,6 +25,7 @@ You can directly use them in pages and other components without the need to impo
 - `<NavigationNavMenu>` | `<navigation-nav-menu>` (components/Navigation/NavMenu.vue)
 - `<NavigationNavbar>` | `<navigation-navbar>` (components/Navigation/Navbar.vue)
 - `<NavigationSocialHandles>` | `<navigation-social-handles>` (components/Navigation/SocialHandles.vue)
+- `<WidgetsModal>` | `<widgets-modal>` (components/Widgets/Modal.vue)
 - `<SectionsAbout>` | `<sections-about>` (components/Sections/About.vue)
 - `<SectionsContact>` | `<sections-contact>` (components/Sections/Contact.vue)
 - `<SectionsExperience>` | `<sections-experience>` (components/Sections/Experience.vue)
@@ -32,4 +33,3 @@ You can directly use them in pages and other components without the need to impo
 - `<SectionsHeader>` | `<sections-header>` (components/Sections/Header.vue)
 - `<SectionsProject>` | `<sections-project>` (components/Sections/Project.vue)
 - `<SectionsSkill>` | `<sections-skill>` (components/Sections/Skill.vue)
-- `<WidgetsModal>` | `<widgets-modal>` (components/Widgets/Modal.vue)
