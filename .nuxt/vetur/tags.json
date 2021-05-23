@@ -41,24 +41,6 @@
   "IconsYouTube": {
     "description": "Auto imported from components/Icons/YouTube.vue"
   },
-  "NavigationEmailHandle": {
-    "description": "Auto imported from components/Navigation/EmailHandle.vue"
-  },
-  "NavigationMobileMenu": {
-    "description": "Auto imported from components/Navigation/MobileMenu.vue"
-  },
-  "NavigationNavMenu": {
-    "description": "Auto imported from components/Navigation/NavMenu.vue"
-  },
-  "NavigationNavbar": {
-    "description": "Auto imported from components/Navigation/Navbar.vue"
-  },
-  "NavigationSocialHandles": {
-    "description": "Auto imported from components/Navigation/SocialHandles.vue"
-  },
-  "WidgetsModal": {
-    "description": "Auto imported from components/Widgets/Modal.vue"
-  },
   "SectionsAbout": {
     "description": "Auto imported from components/Sections/About.vue"
   },
@@ -79,5 +61,23 @@
   },
   "SectionsSkill": {
     "description": "Auto imported from components/Sections/Skill.vue"
+  },
+  "NavigationEmailHandle": {
+    "description": "Auto imported from components/Navigation/EmailHandle.vue"
+  },
+  "NavigationMobileMenu": {
+    "description": "Auto imported from components/Navigation/MobileMenu.vue"
+  },
+  "NavigationNavMenu": {
+    "description": "Auto imported from components/Navigation/NavMenu.vue"
+  },
+  "NavigationNavbar": {
+    "description": "Auto imported from components/Navigation/Navbar.vue"
+  },
+  "NavigationSocialHandles": {
+    "description": "Auto imported from components/Navigation/SocialHandles.vue"
+  },
+  "WidgetsModal": {
+    "description": "Auto imported from components/Widgets/Modal.vue"
   }
 }
