@@ -27,6 +27,3 @@ By tweaking around the source code, I learnt a lot about JavaScript, Gatsby, CSS
 <img src="https://github.com/freyam/website/blob/main/static/images/banner/banner-dark.png?raw=true">
 
 </div>
-
-<br>
-<br>
