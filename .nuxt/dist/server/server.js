@@ -301,7 +301,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "75a04a8f"
+  "03fc8fe8"
   
 )
 
@@ -377,7 +377,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "9d906a36"
+  "51bc7f6c"
   
 )
 
@@ -468,7 +468,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "8fc014ca"
+  "2831d1f4"
   
 )
 
@@ -529,7 +529,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "4a2929dc"
+  "434bbe2b"
   
 )
 
@@ -590,7 +590,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "5a0e716a"
+  "7b2276fa"
   
 )
 
@@ -651,7 +651,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "327d0d41"
+  "7e4d5acc"
   
 )
 
@@ -712,7 +712,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "79a31457"
+  "92610bc4"
   
 )
 
@@ -781,7 +781,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "3421bdb2"
+  "231b86ee"
   
 )
 
@@ -849,7 +849,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "12bc1931"
+  "43c9906c"
   
 )
 
@@ -1328,7 +1328,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "4179b4f8"
+  "40a94fcb"
   
 )
 
@@ -1402,7 +1402,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "0661d512"
+  "d00245e0"
   
 )
 
@@ -1489,7 +1489,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "5436375e"
+  "1f9555f7"
   
 )
 
@@ -1551,7 +1551,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "28893c7c"
+  "f229ad4a"
   
 )
 
@@ -1613,7 +1613,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "2594587a"
+  "1f44f7fe"
   
 )
 
@@ -1738,7 +1738,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "35c84415"
+  "701c1a48"
   
 )
 
@@ -1885,7 +1885,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "09920f4c"
+  "1be10033"
   
 )
 
@@ -1946,7 +1946,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "74a42c20"
+  "27b05639"
   
 )
 
@@ -2109,7 +2109,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "0f997d75"
+  "9978e508"
   
 )
 
@@ -2169,7 +2169,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "d71369c8"
+  "0652c396"
   
 )
 
@@ -2229,7 +2229,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "001edaac"
+  "6a8c839e"
   
 )
 
@@ -2267,6 +2267,151 @@ module.exports = require("property-information");
 
 /***/ }),
 /* 32 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+// ESM COMPAT FLAG
+__webpack_require__.r(__webpack_exports__);
+
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Widgets/Modal.vue?vue&type=template&id=8eebd6ac&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"fixed inset-0 bg-blur bg-gray-900 bg-opacity-50 transition-all duration-300 z-30",class:{
+    'opacity-0 invisible': !_vm.modal.active,
+    'opacity-100 visible': _vm.modal.active
+  }},[(_vm.modal.active)?_vm._ssrNode("<article class=\"bg-white dark:bg-gray-800 w-full max-w-4xl absolute top-0 md:top-1/2 left-0 md:left-1/2 bottom-0 md:bottom-auto md:transform md:-translate-x-1/2 md:-translate-y-1/2 md:rounded-xl shadow-xl overflow-x-hidden overflow-y-auto\">","</article>",[_vm._ssrNode("<div class=\"px-8 py-4 bg-blur bg-white bg-opacity-90 dark:bg-gray-800 dark:bg-opacity-90 sticky top-0 w-full flex items-center justify-between z-10\">","</div>",[_vm._ssrNode("<p class=\"text-xl\">View project</p> "),_vm._ssrNode("<button class=\"h-8 w-8 grid place-items-center rounded-full transform transition text-gray-600 dark:text-gray-400 hover:bg-blue-100 dark:hover:bg-gray-700 focus:bg-blue-100 dark:focus:bg-gray-700 outline-none\">","</button>",[_c('times',{staticClass:"h-2/3 w-2/3"})],1)],2),_vm._ssrNode(" "),_vm._ssrNode("<div class=\"px-8 py-4 md:pb-8 md:grid md:gap-8 md:grid-cols-2\">","</div>",[_vm._ssrNode("<div class=\"md:mb-0 h-60 md:h-80 rounded-xl overflow-hidden\"><img"+(_vm._ssrAttr("src",_vm.modal.content.cover_image))+" alt=\"Project Name\" class=\"h-full w-full object-cover\"></div> "),_vm._ssrNode("<div class=\"py-4 md:py-0 relative md:max-h-96 overflow-x-hidden overflow-y-auto\">","</div>",[_vm._ssrNode("<h2 class=\"mb-4 text-3xl font-bold\">"+_vm._ssrEscape(_vm._s(_vm.modal.content.name))+"</h2> <p class=\"leading-6\">"+_vm._ssrEscape("\n          "+_vm._s(_vm.modal.content.description)+"\n        ")+"</p> "),_vm._ssrNode("<div class=\"mt-6 sticky top-full text-lg text-gray-600 dark:text-gray-400 flex items-center\">","</div>",[_vm._ssrNode("<a"+(_vm._ssrAttr("href",_vm.modal.content.github_link))+" target=\"_blank\" rel=\"noreferrer\" class=\"flex items-center transition hover:text-blue-500 dark:hover:text-cyan-400 focus:text-blue-500 dark:focus:text-cyan-400\">","</a>",[_vm._ssrNode("<div class=\"flex-shrink-0 h-8 w-8 grid place-items-center\">","</div>",[_c('git-hub',{staticClass:"h-2/3 w-2/3"})],1),_vm._ssrNode("\n            GitHub\n          ")],2),_vm._ssrNode(" "),_vm._ssrNode("<a"+(_vm._ssrAttr("href",_vm.modal.content.live_link))+" target=\"_blank\" rel=\"noreferrer\" class=\"ml-6 flex items-center transition hover:text-blue-500 dark:hover:text-cyan-400 focus:text-blue-500 dark:focus:text-cyan-400\">","</a>",[_vm._ssrNode("<div class=\"flex-shrink-0 h-8 w-8 grid place-items-center\">","</div>",[_c('external-link',{staticClass:"h-2/3 w-2/3"})],1),_vm._ssrNode("\n            Live\n          ")],2)],2)],2)],2)],2):_vm._e()])}
+var staticRenderFns = []
+
+
+// CONCATENATED MODULE: ./components/Widgets/Modal.vue?vue&type=template&id=8eebd6ac&
+
+// EXTERNAL MODULE: external "vuex"
+var external_vuex_ = __webpack_require__(3);
+
+// EXTERNAL MODULE: ./components/Icons/Times.vue + 4 modules
+var Times = __webpack_require__(26);
+
+// EXTERNAL MODULE: ./components/Icons/ExternalLink.vue + 4 modules
+var ExternalLink = __webpack_require__(12);
+
+// EXTERNAL MODULE: ./components/Icons/GitHub.vue + 4 modules
+var GitHub = __webpack_require__(4);
+
+// CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Widgets/Modal.vue?vue&type=script&lang=js&
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+
+
+/* harmony default export */ var Modalvue_type_script_lang_js_ = ({
+  name: 'Modal',
+  components: {
+    Times: Times["default"],
+    GitHub: GitHub["default"],
+    ExternalLink: ExternalLink["default"]
+  },
+  computed: Object(external_vuex_["mapGetters"])({
+    modal: 'modal'
+  }),
+  methods: Object(external_vuex_["mapActions"])({
+    closeModal: 'closeModal'
+  })
+});
+// CONCATENATED MODULE: ./components/Widgets/Modal.vue?vue&type=script&lang=js&
+ /* harmony default export */ var Widgets_Modalvue_type_script_lang_js_ = (Modalvue_type_script_lang_js_); 
+// EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
+var componentNormalizer = __webpack_require__(0);
+
+// CONCATENATED MODULE: ./components/Widgets/Modal.vue
+
+
+
+
+
+/* normalize component */
+
+var component = Object(componentNormalizer["a" /* default */])(
+  Widgets_Modalvue_type_script_lang_js_,
+  render,
+  staticRenderFns,
+  false,
+  null,
+  null,
+  "265a216d"
+  
+)
+
+/* harmony default export */ var Modal = __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+/* 33 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2374,14 +2519,14 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "8340e6ba"
+  "26bfdfbc"
   
 )
 
 /* harmony default export */ var About = __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
-/* 33 */
+/* 34 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2519,14 +2664,14 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "0eed70c4"
+  "a11bb56a"
   
 )
 
 /* harmony default export */ var Experience = __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
-/* 34 */
+/* 35 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2610,14 +2755,14 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "30cbe167"
+  "57141d24"
   
 )
 
 /* harmony default export */ var Header = __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
-/* 35 */
+/* 36 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2812,14 +2957,14 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "6cb6c6af"
+  "3e4eb788"
   
 )
 
 /* harmony default export */ var Project = __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
-/* 36 */
+/* 37 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2909,156 +3054,11 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "f62f9d32"
+  "256ef700"
   
 )
 
 /* harmony default export */ var Skill = __webpack_exports__["default"] = (component.exports);
-
-/***/ }),
-/* 37 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-// ESM COMPAT FLAG
-__webpack_require__.r(__webpack_exports__);
-
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Widgets/Modal.vue?vue&type=template&id=8eebd6ac&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"fixed inset-0 bg-blur bg-gray-900 bg-opacity-50 transition-all duration-300 z-30",class:{
-    'opacity-0 invisible': !_vm.modal.active,
-    'opacity-100 visible': _vm.modal.active
-  }},[(_vm.modal.active)?_vm._ssrNode("<article class=\"bg-white dark:bg-gray-800 w-full max-w-4xl absolute top-0 md:top-1/2 left-0 md:left-1/2 bottom-0 md:bottom-auto md:transform md:-translate-x-1/2 md:-translate-y-1/2 md:rounded-xl shadow-xl overflow-x-hidden overflow-y-auto\">","</article>",[_vm._ssrNode("<div class=\"px-8 py-4 bg-blur bg-white bg-opacity-90 dark:bg-gray-800 dark:bg-opacity-90 sticky top-0 w-full flex items-center justify-between z-10\">","</div>",[_vm._ssrNode("<p class=\"text-xl\">View project</p> "),_vm._ssrNode("<button class=\"h-8 w-8 grid place-items-center rounded-full transform transition text-gray-600 dark:text-gray-400 hover:bg-blue-100 dark:hover:bg-gray-700 focus:bg-blue-100 dark:focus:bg-gray-700 outline-none\">","</button>",[_c('times',{staticClass:"h-2/3 w-2/3"})],1)],2),_vm._ssrNode(" "),_vm._ssrNode("<div class=\"px-8 py-4 md:pb-8 md:grid md:gap-8 md:grid-cols-2\">","</div>",[_vm._ssrNode("<div class=\"md:mb-0 h-60 md:h-80 rounded-xl overflow-hidden\"><img"+(_vm._ssrAttr("src",_vm.modal.content.cover_image))+" alt=\"Project Name\" class=\"h-full w-full object-cover\"></div> "),_vm._ssrNode("<div class=\"py-4 md:py-0 relative md:max-h-96 overflow-x-hidden overflow-y-auto\">","</div>",[_vm._ssrNode("<h2 class=\"mb-4 text-3xl font-bold\">"+_vm._ssrEscape(_vm._s(_vm.modal.content.name))+"</h2> <p class=\"leading-6\">"+_vm._ssrEscape("\n          "+_vm._s(_vm.modal.content.description)+"\n        ")+"</p> "),_vm._ssrNode("<div class=\"mt-6 sticky top-full text-lg text-gray-600 dark:text-gray-400 flex items-center\">","</div>",[_vm._ssrNode("<a"+(_vm._ssrAttr("href",_vm.modal.content.github_link))+" target=\"_blank\" rel=\"noreferrer\" class=\"flex items-center transition hover:text-blue-500 dark:hover:text-cyan-400 focus:text-blue-500 dark:focus:text-cyan-400\">","</a>",[_vm._ssrNode("<div class=\"flex-shrink-0 h-8 w-8 grid place-items-center\">","</div>",[_c('git-hub',{staticClass:"h-2/3 w-2/3"})],1),_vm._ssrNode("\n            GitHub\n          ")],2),_vm._ssrNode(" "),_vm._ssrNode("<a"+(_vm._ssrAttr("href",_vm.modal.content.live_link))+" target=\"_blank\" rel=\"noreferrer\" class=\"ml-6 flex items-center transition hover:text-blue-500 dark:hover:text-cyan-400 focus:text-blue-500 dark:focus:text-cyan-400\">","</a>",[_vm._ssrNode("<div class=\"flex-shrink-0 h-8 w-8 grid place-items-center\">","</div>",[_c('external-link',{staticClass:"h-2/3 w-2/3"})],1),_vm._ssrNode("\n            Live\n          ")],2)],2)],2)],2)],2):_vm._e()])}
-var staticRenderFns = []
-
-
-// CONCATENATED MODULE: ./components/Widgets/Modal.vue?vue&type=template&id=8eebd6ac&
-
-// EXTERNAL MODULE: external "vuex"
-var external_vuex_ = __webpack_require__(3);
-
-// EXTERNAL MODULE: ./components/Icons/Times.vue + 4 modules
-var Times = __webpack_require__(26);
-
-// EXTERNAL MODULE: ./components/Icons/ExternalLink.vue + 4 modules
-var ExternalLink = __webpack_require__(12);
-
-// EXTERNAL MODULE: ./components/Icons/GitHub.vue + 4 modules
-var GitHub = __webpack_require__(4);
-
-// CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Widgets/Modal.vue?vue&type=script&lang=js&
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
-
-
-
-/* harmony default export */ var Modalvue_type_script_lang_js_ = ({
-  name: 'Modal',
-  components: {
-    Times: Times["default"],
-    GitHub: GitHub["default"],
-    ExternalLink: ExternalLink["default"]
-  },
-  computed: Object(external_vuex_["mapGetters"])({
-    modal: 'modal'
-  }),
-  methods: Object(external_vuex_["mapActions"])({
-    closeModal: 'closeModal'
-  })
-});
-// CONCATENATED MODULE: ./components/Widgets/Modal.vue?vue&type=script&lang=js&
- /* harmony default export */ var Widgets_Modalvue_type_script_lang_js_ = (Modalvue_type_script_lang_js_); 
-// EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
-var componentNormalizer = __webpack_require__(0);
-
-// CONCATENATED MODULE: ./components/Widgets/Modal.vue
-
-
-
-
-
-/* normalize component */
-
-var component = Object(componentNormalizer["a" /* default */])(
-  Widgets_Modalvue_type_script_lang_js_,
-  render,
-  staticRenderFns,
-  false,
-  null,
-  null,
-  "2da488b4"
-  
-)
-
-/* harmony default export */ var Modal = __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 /* 38 */
@@ -3101,7 +3101,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "b1a87794"
+  "78c3b50f"
   
 )
 
@@ -4178,7 +4178,7 @@ function shouldScrollToTop(route) {
 
 
 
-const _49cfd884 = () => interopDefault(__webpack_require__.e(/* import() | pages/index */ 1).then(__webpack_require__.bind(null, 56)));
+const _89578f12 = () => interopDefault(__webpack_require__.e(/* import() | pages/index */ 1).then(__webpack_require__.bind(null, 56)));
 
 const emptyFn = () => {};
 
@@ -4191,7 +4191,7 @@ const routerOptions = {
   scrollBehavior: router_scrollBehavior,
   routes: [{
     path: "/",
-    component: _49cfd884,
+    component: _89578f12,
     name: "index"
   }],
   fallback: false
@@ -4379,7 +4379,7 @@ var error_component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "09169da0"
+  "405fe38e"
   
 )
 
@@ -4683,7 +4683,7 @@ var nuxt_loading_component = Object(componentNormalizer["a" /* default */])(
   false,
   injectStyles,
   null,
-  "75df3fea"
+  "df2102b8"
   
 )
 
@@ -4764,7 +4764,7 @@ var default_component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "eff8c54e"
+  "d3b9689c"
   
 )
 
@@ -5114,26 +5114,26 @@ var YouTube = __webpack_require__(11);
 // EXTERNAL MODULE: ./components/Navigation/NavMenu.vue + 4 modules
 var NavMenu = __webpack_require__(18);
 
+// EXTERNAL MODULE: ./components/Widgets/Modal.vue + 4 modules
+var Modal = __webpack_require__(32);
+
 // EXTERNAL MODULE: ./components/Sections/About.vue + 4 modules
-var About = __webpack_require__(32);
+var About = __webpack_require__(33);
 
 // EXTERNAL MODULE: ./components/Sections/Contact.vue + 3 modules
 var Contact = __webpack_require__(38);
 
 // EXTERNAL MODULE: ./components/Sections/Experience.vue + 4 modules
-var Experience = __webpack_require__(33);
+var Experience = __webpack_require__(34);
 
 // EXTERNAL MODULE: ./components/Sections/Header.vue + 4 modules
-var Header = __webpack_require__(34);
+var Header = __webpack_require__(35);
 
 // EXTERNAL MODULE: ./components/Sections/Project.vue + 4 modules
-var Project = __webpack_require__(35);
+var Project = __webpack_require__(36);
 
 // EXTERNAL MODULE: ./components/Sections/Skill.vue + 4 modules
-var Skill = __webpack_require__(36);
-
-// EXTERNAL MODULE: ./components/Widgets/Modal.vue + 4 modules
-var Modal = __webpack_require__(37);
+var Skill = __webpack_require__(37);
 
 // CONCATENATED MODULE: ./.nuxt/components/index.js
 
@@ -5182,14 +5182,14 @@ const LazyNavigationMobileMenu = Promise.resolve(/* import() */).then(__webpack_
 const LazyNavigationNavMenu = Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 18)).then(c => wrapFunctional(c.default || c));
 const LazyNavigationNavbar = Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 16)).then(c => wrapFunctional(c.default || c));
 const LazyNavigationSocialHandles = Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 22)).then(c => wrapFunctional(c.default || c));
-const LazySectionsAbout = Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 32)).then(c => wrapFunctional(c.default || c));
+const LazyWidgetsModal = Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 32)).then(c => wrapFunctional(c.default || c));
+const LazySectionsAbout = Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 33)).then(c => wrapFunctional(c.default || c));
 const LazySectionsContact = Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 38)).then(c => wrapFunctional(c.default || c));
-const LazySectionsExperience = Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 33)).then(c => wrapFunctional(c.default || c));
+const LazySectionsExperience = Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 34)).then(c => wrapFunctional(c.default || c));
 const LazySectionsFooter = Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 24)).then(c => wrapFunctional(c.default || c));
-const LazySectionsHeader = Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 34)).then(c => wrapFunctional(c.default || c));
-const LazySectionsProject = Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 35)).then(c => wrapFunctional(c.default || c));
-const LazySectionsSkill = Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 36)).then(c => wrapFunctional(c.default || c));
-const LazyWidgetsModal = Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 37)).then(c => wrapFunctional(c.default || c)); // nuxt/nuxt.js#8607
+const LazySectionsHeader = Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 35)).then(c => wrapFunctional(c.default || c));
+const LazySectionsProject = Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 36)).then(c => wrapFunctional(c.default || c));
+const LazySectionsSkill = Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 37)).then(c => wrapFunctional(c.default || c)); // nuxt/nuxt.js#8607
 
 function wrapFunctional(options) {
   if (!options || !options.functional) {
@@ -5243,14 +5243,14 @@ const components = {
   NavigationNavMenu: () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 18)).then(c => wrapFunctional(c.default || c)),
   NavigationNavbar: () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 16)).then(c => wrapFunctional(c.default || c)),
   NavigationSocialHandles: () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 22)).then(c => wrapFunctional(c.default || c)),
-  SectionsAbout: () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 32)).then(c => wrapFunctional(c.default || c)),
+  WidgetsModal: () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 32)).then(c => wrapFunctional(c.default || c)),
+  SectionsAbout: () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 33)).then(c => wrapFunctional(c.default || c)),
   SectionsContact: () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 38)).then(c => wrapFunctional(c.default || c)),
-  SectionsExperience: () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 33)).then(c => wrapFunctional(c.default || c)),
+  SectionsExperience: () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 34)).then(c => wrapFunctional(c.default || c)),
   SectionsFooter: () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 24)).then(c => wrapFunctional(c.default || c)),
-  SectionsHeader: () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 34)).then(c => wrapFunctional(c.default || c)),
-  SectionsProject: () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 35)).then(c => wrapFunctional(c.default || c)),
-  SectionsSkill: () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 36)).then(c => wrapFunctional(c.default || c)),
-  WidgetsModal: () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 37)).then(c => wrapFunctional(c.default || c))
+  SectionsHeader: () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 35)).then(c => wrapFunctional(c.default || c)),
+  SectionsProject: () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 36)).then(c => wrapFunctional(c.default || c)),
+  SectionsSkill: () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 37)).then(c => wrapFunctional(c.default || c))
 };
 
 for (const name in components) {

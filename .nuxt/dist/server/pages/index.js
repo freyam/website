@@ -19,22 +19,22 @@ var staticRenderFns = []
 var external_vuex_ = __webpack_require__(3);
 
 // EXTERNAL MODULE: ./components/Sections/Header.vue + 4 modules
-var Header = __webpack_require__(34);
+var Header = __webpack_require__(35);
 
 // EXTERNAL MODULE: ./components/Sections/About.vue + 4 modules
-var About = __webpack_require__(32);
+var About = __webpack_require__(33);
 
 // EXTERNAL MODULE: ./components/Sections/Skill.vue + 4 modules
-var Skill = __webpack_require__(36);
+var Skill = __webpack_require__(37);
 
 // EXTERNAL MODULE: ./components/Sections/Experience.vue + 4 modules
-var Experience = __webpack_require__(33);
+var Experience = __webpack_require__(34);
 
 // EXTERNAL MODULE: ./components/Widgets/Modal.vue + 4 modules
-var Modal = __webpack_require__(37);
+var Modal = __webpack_require__(32);
 
 // EXTERNAL MODULE: ./components/Sections/Project.vue + 4 modules
-var Project = __webpack_require__(35);
+var Project = __webpack_require__(36);
 
 // EXTERNAL MODULE: ./components/Sections/Contact.vue + 3 modules
 var Contact = __webpack_require__(38);
@@ -99,7 +99,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "81beff36"
+  "1b017984"
   
 )
 

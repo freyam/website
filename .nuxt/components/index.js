@@ -17,6 +17,7 @@ export { default as NavigationMobileMenu } from '../../components/Navigation/Mob
 export { default as NavigationNavMenu } from '../../components/Navigation/NavMenu.vue'
 export { default as NavigationNavbar } from '../../components/Navigation/Navbar.vue'
 export { default as NavigationSocialHandles } from '../../components/Navigation/SocialHandles.vue'
+export { default as WidgetsModal } from '../../components/Widgets/Modal.vue'
 export { default as SectionsAbout } from '../../components/Sections/About.vue'
 export { default as SectionsContact } from '../../components/Sections/Contact.vue'
 export { default as SectionsExperience } from '../../components/Sections/Experience.vue'
@@ -24,7 +25,6 @@ export { default as SectionsFooter } from '../../components/Sections/Footer.vue'
 export { default as SectionsHeader } from '../../components/Sections/Header.vue'
 export { default as SectionsProject } from '../../components/Sections/Project.vue'
 export { default as SectionsSkill } from '../../components/Sections/Skill.vue'
-export { default as WidgetsModal } from '../../components/Widgets/Modal.vue'
 
 export const LazyControlsMenuToggle = import('../../components/Controls/MenuToggle.vue' /* webpackChunkName: "components/controls-menu-toggle" */).then(c => wrapFunctional(c.default || c))
 export const LazyControlsThemeToggle = import('../../components/Controls/ThemeToggle.vue' /* webpackChunkName: "components/controls-theme-toggle" */).then(c => wrapFunctional(c.default || c))
@@ -45,6 +45,7 @@ export const LazyNavigationMobileMenu = import('../../components/Navigation/Mobi
 export const LazyNavigationNavMenu = import('../../components/Navigation/NavMenu.vue' /* webpackChunkName: "components/navigation-nav-menu" */).then(c => wrapFunctional(c.default || c))
 export const LazyNavigationNavbar = import('../../components/Navigation/Navbar.vue' /* webpackChunkName: "components/navigation-navbar" */).then(c => wrapFunctional(c.default || c))
 export const LazyNavigationSocialHandles = import('../../components/Navigation/SocialHandles.vue' /* webpackChunkName: "components/navigation-social-handles" */).then(c => wrapFunctional(c.default || c))
+export const LazyWidgetsModal = import('../../components/Widgets/Modal.vue' /* webpackChunkName: "components/widgets-modal" */).then(c => wrapFunctional(c.default || c))
 export const LazySectionsAbout = import('../../components/Sections/About.vue' /* webpackChunkName: "components/sections-about" */).then(c => wrapFunctional(c.default || c))
 export const LazySectionsContact = import('../../components/Sections/Contact.vue' /* webpackChunkName: "components/sections-contact" */).then(c => wrapFunctional(c.default || c))
 export const LazySectionsExperience = import('../../components/Sections/Experience.vue' /* webpackChunkName: "components/sections-experience" */).then(c => wrapFunctional(c.default || c))
@@ -52,7 +53,6 @@ export const LazySectionsFooter = import('../../components/Sections/Footer.vue' 
 export const LazySectionsHeader = import('../../components/Sections/Header.vue' /* webpackChunkName: "components/sections-header" */).then(c => wrapFunctional(c.default || c))
 export const LazySectionsProject = import('../../components/Sections/Project.vue' /* webpackChunkName: "components/sections-project" */).then(c => wrapFunctional(c.default || c))
 export const LazySectionsSkill = import('../../components/Sections/Skill.vue' /* webpackChunkName: "components/sections-skill" */).then(c => wrapFunctional(c.default || c))
-export const LazyWidgetsModal = import('../../components/Widgets/Modal.vue' /* webpackChunkName: "components/widgets-modal" */).then(c => wrapFunctional(c.default || c))
 
 // nuxt/nuxt.js#8607
 export function wrapFunctional(options) {
