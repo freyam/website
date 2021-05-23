@@ -1,9 +1,9 @@
 {
     "company": "Google Summer of Code",
     "company_website": "https://summerofcode.withgoogle.com/",
-    "role": "Studnet Developer",
+    "role": "Student Developer",
     "contract": {
-        "type": "Part time",
+        "location": "Remote",
         "live": true
     },
     "duration": "May 2021 - Present",

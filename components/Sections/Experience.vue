@@ -46,7 +46,7 @@
               >
             </h2>
             <span class="text-sm text-gray-500 dark:text-gray-400">
-              {{ exp.contract.type }} &middot; {{ exp.duration }}
+              {{ exp.duration }} &middot; {{ exp.contract.location }}
             </span>
           </div>
           <p class="mb-2">
