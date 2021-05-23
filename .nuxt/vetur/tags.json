@@ -1,0 +1,83 @@
+{
+  "ControlsMenuToggle": {
+    "description": "Auto imported from components/Controls/MenuToggle.vue"
+  },
+  "ControlsThemeToggle": {
+    "description": "Auto imported from components/Controls/ThemeToggle.vue"
+  },
+  "IconsDark": {
+    "description": "Auto imported from components/Icons/Dark.vue"
+  },
+  "IconsEnvelope": {
+    "description": "Auto imported from components/Icons/Envelope.vue"
+  },
+  "IconsExternalLink": {
+    "description": "Auto imported from components/Icons/ExternalLink.vue"
+  },
+  "IconsFacebook": {
+    "description": "Auto imported from components/Icons/Facebook.vue"
+  },
+  "IconsGitHub": {
+    "description": "Auto imported from components/Icons/GitHub.vue"
+  },
+  "IconsLight": {
+    "description": "Auto imported from components/Icons/Light.vue"
+  },
+  "IconsLinkedIn": {
+    "description": "Auto imported from components/Icons/LinkedIn.vue"
+  },
+  "IconsLogo": {
+    "description": "Auto imported from components/Icons/Logo.vue"
+  },
+  "IconsMedium": {
+    "description": "Auto imported from components/Icons/Medium.vue"
+  },
+  "IconsTimes": {
+    "description": "Auto imported from components/Icons/Times.vue"
+  },
+  "IconsTwitter": {
+    "description": "Auto imported from components/Icons/Twitter.vue"
+  },
+  "IconsYouTube": {
+    "description": "Auto imported from components/Icons/YouTube.vue"
+  },
+  "NavigationEmailHandle": {
+    "description": "Auto imported from components/Navigation/EmailHandle.vue"
+  },
+  "NavigationMobileMenu": {
+    "description": "Auto imported from components/Navigation/MobileMenu.vue"
+  },
+  "NavigationNavMenu": {
+    "description": "Auto imported from components/Navigation/NavMenu.vue"
+  },
+  "NavigationNavbar": {
+    "description": "Auto imported from components/Navigation/Navbar.vue"
+  },
+  "NavigationSocialHandles": {
+    "description": "Auto imported from components/Navigation/SocialHandles.vue"
+  },
+  "SectionsAbout": {
+    "description": "Auto imported from components/Sections/About.vue"
+  },
+  "SectionsContact": {
+    "description": "Auto imported from components/Sections/Contact.vue"
+  },
+  "SectionsExperience": {
+    "description": "Auto imported from components/Sections/Experience.vue"
+  },
+  "SectionsFooter": {
+    "description": "Auto imported from components/Sections/Footer.vue"
+  },
+  "SectionsHeader": {
+    "description": "Auto imported from components/Sections/Header.vue"
+  },
+  "SectionsProject": {
+    "description": "Auto imported from components/Sections/Project.vue"
+  },
+  "SectionsSkill": {
+    "description": "Auto imported from components/Sections/Skill.vue"
+  },
+  "WidgetsModal": {
+    "description": "Auto imported from components/Widgets/Modal.vue"
+  }
+}
