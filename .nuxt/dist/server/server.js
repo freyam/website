@@ -3140,7 +3140,7 @@ module.exports = require("vue-meta");
 /* 42 */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"title\":\"Freyam Mehta\",\"meta\":[{\"hid\":\"charset\",\"charset\":\"utf-8\"},{\"hid\":\"viewport\",\"name\":\"viewport\",\"content\":\"width=device-width, initial-scale=1\"},{\"hid\":\"mobile-web-app-capable\",\"name\":\"mobile-web-app-capable\",\"content\":\"yes\"},{\"hid\":\"apple-mobile-web-app-title\",\"name\":\"apple-mobile-web-app-title\",\"content\":\"Freyam Mehta\"},{\"hid\":\"description\",\"name\":\"description\",\"content\":\"A highly resourceful Student Developer studying Computer Science at IIIT Hyderabad.\"},{\"hid\":\"theme-color\",\"name\":\"theme-color\",\"content\":\"#406bc7\"},{\"hid\":\"og:type\",\"name\":\"og:type\",\"property\":\"og:type\",\"content\":\"website\"},{\"hid\":\"og:title\",\"name\":\"og:title\",\"property\":\"og:title\",\"content\":\"Freyam Mehta\"},{\"hid\":\"og:site_name\",\"name\":\"og:site_name\",\"property\":\"og:site_name\",\"content\":\"Freyam Mehta\"},{\"hid\":\"og:description\",\"name\":\"og:description\",\"property\":\"og:description\",\"content\":\"A highly resourceful Student Developer studying Computer Science at IIIT Hyderabad.\"}],\"link\":[{\"hid\":\"shortcut-icon\",\"rel\":\"shortcut icon\",\"href\":\"/icons/android-chrome-192x192.png\"},{\"hid\":\"apple-touch-icon\",\"rel\":\"apple-touch-icon\",\"href\":\"/icons/android-chrome-384x384.png\",\"sizes\":\"384x384\"},{\"rel\":\"manifest\",\"href\":\"/_nuxt/manifest.f64a4d35.json\",\"hid\":\"manifest\"}],\"htmlAttrs\":{\"lang\":\"en\"}}");
+module.exports = JSON.parse("{\"title\":\"Freyam Mehta\",\"meta\":[{\"hid\":\"charset\",\"charset\":\"utf-8\"},{\"hid\":\"viewport\",\"name\":\"viewport\",\"content\":\"width=device-width, initial-scale=1\"},{\"hid\":\"mobile-web-app-capable\",\"name\":\"mobile-web-app-capable\",\"content\":\"yes\"},{\"hid\":\"apple-mobile-web-app-title\",\"name\":\"apple-mobile-web-app-title\",\"content\":\"Freyam Mehta\"},{\"hid\":\"description\",\"name\":\"description\",\"content\":\"A highly passionate Student Developer studying Computer Science at IIIT Hyderabad.\"},{\"hid\":\"theme-color\",\"name\":\"theme-color\",\"content\":\"#406bc7\"},{\"hid\":\"og:type\",\"name\":\"og:type\",\"property\":\"og:type\",\"content\":\"website\"},{\"hid\":\"og:title\",\"name\":\"og:title\",\"property\":\"og:title\",\"content\":\"Freyam Mehta\"},{\"hid\":\"og:site_name\",\"name\":\"og:site_name\",\"property\":\"og:site_name\",\"content\":\"Freyam Mehta\"},{\"hid\":\"og:description\",\"name\":\"og:description\",\"property\":\"og:description\",\"content\":\"A highly passionate Student Developer studying Computer Science at IIIT Hyderabad.\"}],\"link\":[{\"hid\":\"shortcut-icon\",\"rel\":\"shortcut icon\",\"href\":\"/icons/android-chrome-192x192.png\"},{\"hid\":\"apple-touch-icon\",\"rel\":\"apple-touch-icon\",\"href\":\"/icons/android-chrome-384x384.png\",\"sizes\":\"384x384\"},{\"rel\":\"manifest\",\"href\":\"/_nuxt/manifest.c38410ed.json\",\"hid\":\"manifest\"}],\"htmlAttrs\":{\"lang\":\"en\"}}");
 
 /***/ }),
 /* 43 */
@@ -5111,6 +5111,9 @@ var Twitter = __webpack_require__(10);
 // EXTERNAL MODULE: ./components/Icons/YouTube.vue + 4 modules
 var YouTube = __webpack_require__(11);
 
+// EXTERNAL MODULE: ./components/Navigation/NavMenu.vue + 4 modules
+var NavMenu = __webpack_require__(18);
+
 // EXTERNAL MODULE: ./components/Sections/About.vue + 4 modules
 var About = __webpack_require__(32);
 
@@ -5128,9 +5131,6 @@ var Project = __webpack_require__(35);
 
 // EXTERNAL MODULE: ./components/Sections/Skill.vue + 4 modules
 var Skill = __webpack_require__(36);
-
-// EXTERNAL MODULE: ./components/Navigation/NavMenu.vue + 4 modules
-var NavMenu = __webpack_require__(18);
 
 // EXTERNAL MODULE: ./components/Widgets/Modal.vue + 4 modules
 var Modal = __webpack_require__(37);
@@ -5177,6 +5177,11 @@ const LazyIconsMedium = Promise.resolve(/* import() */).then(__webpack_require__
 const LazyIconsTimes = Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 26)).then(c => wrapFunctional(c.default || c));
 const LazyIconsTwitter = Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 10)).then(c => wrapFunctional(c.default || c));
 const LazyIconsYouTube = Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 11)).then(c => wrapFunctional(c.default || c));
+const LazyNavigationEmailHandle = Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 23)).then(c => wrapFunctional(c.default || c));
+const LazyNavigationMobileMenu = Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 21)).then(c => wrapFunctional(c.default || c));
+const LazyNavigationNavMenu = Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 18)).then(c => wrapFunctional(c.default || c));
+const LazyNavigationNavbar = Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 16)).then(c => wrapFunctional(c.default || c));
+const LazyNavigationSocialHandles = Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 22)).then(c => wrapFunctional(c.default || c));
 const LazySectionsAbout = Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 32)).then(c => wrapFunctional(c.default || c));
 const LazySectionsContact = Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 38)).then(c => wrapFunctional(c.default || c));
 const LazySectionsExperience = Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 33)).then(c => wrapFunctional(c.default || c));
@@ -5184,11 +5189,6 @@ const LazySectionsFooter = Promise.resolve(/* import() */).then(__webpack_requir
 const LazySectionsHeader = Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 34)).then(c => wrapFunctional(c.default || c));
 const LazySectionsProject = Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 35)).then(c => wrapFunctional(c.default || c));
 const LazySectionsSkill = Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 36)).then(c => wrapFunctional(c.default || c));
-const LazyNavigationEmailHandle = Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 23)).then(c => wrapFunctional(c.default || c));
-const LazyNavigationMobileMenu = Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 21)).then(c => wrapFunctional(c.default || c));
-const LazyNavigationNavMenu = Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 18)).then(c => wrapFunctional(c.default || c));
-const LazyNavigationNavbar = Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 16)).then(c => wrapFunctional(c.default || c));
-const LazyNavigationSocialHandles = Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 22)).then(c => wrapFunctional(c.default || c));
 const LazyWidgetsModal = Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 37)).then(c => wrapFunctional(c.default || c)); // nuxt/nuxt.js#8607
 
 function wrapFunctional(options) {
@@ -5238,6 +5238,11 @@ const components = {
   IconsTimes: () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 26)).then(c => wrapFunctional(c.default || c)),
   IconsTwitter: () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 10)).then(c => wrapFunctional(c.default || c)),
   IconsYouTube: () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 11)).then(c => wrapFunctional(c.default || c)),
+  NavigationEmailHandle: () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 23)).then(c => wrapFunctional(c.default || c)),
+  NavigationMobileMenu: () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 21)).then(c => wrapFunctional(c.default || c)),
+  NavigationNavMenu: () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 18)).then(c => wrapFunctional(c.default || c)),
+  NavigationNavbar: () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 16)).then(c => wrapFunctional(c.default || c)),
+  NavigationSocialHandles: () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 22)).then(c => wrapFunctional(c.default || c)),
   SectionsAbout: () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 32)).then(c => wrapFunctional(c.default || c)),
   SectionsContact: () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 38)).then(c => wrapFunctional(c.default || c)),
   SectionsExperience: () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 33)).then(c => wrapFunctional(c.default || c)),
@@ -5245,11 +5250,6 @@ const components = {
   SectionsHeader: () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 34)).then(c => wrapFunctional(c.default || c)),
   SectionsProject: () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 35)).then(c => wrapFunctional(c.default || c)),
   SectionsSkill: () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 36)).then(c => wrapFunctional(c.default || c)),
-  NavigationEmailHandle: () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 23)).then(c => wrapFunctional(c.default || c)),
-  NavigationMobileMenu: () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 21)).then(c => wrapFunctional(c.default || c)),
-  NavigationNavMenu: () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 18)).then(c => wrapFunctional(c.default || c)),
-  NavigationNavbar: () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 16)).then(c => wrapFunctional(c.default || c)),
-  NavigationSocialHandles: () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 22)).then(c => wrapFunctional(c.default || c)),
   WidgetsModal: () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 37)).then(c => wrapFunctional(c.default || c))
 };
 
@@ -5605,7 +5605,7 @@ async function createApp(ssrContext, config = {}) {
       }, {
         "hid": "description",
         "name": "description",
-        "content": "A highly resourceful Student Developer studying Computer Science at IIIT Hyderabad."
+        "content": "A highly passionate Student Developer studying Computer Science at IIIT Hyderabad."
       }, {
         "hid": "msapplication-TileColor",
         "name": "msapplication-TileColor",
