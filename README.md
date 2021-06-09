@@ -17,7 +17,7 @@ Designed by [Brittiany Chang](https://brittanychiang.com/) and [Norman Nuthu](ht
 
 By tweaking around the source code, I learnt a lot about JavaScript, Gatsby, CSS3, TailWindCSS, TypeScript, VueJS, NuxtJS, NodeJS and many other frameworks.
 
-# The User Experience
+## The User Experience
 
 <img src="https://github.com/freyam/my-website/blob/main/static/images/banner/website.gif">
 
