@@ -1,14 +1,17 @@
 {
-    "company": "Google Summer of Code",
-    "company_website": "https://summerofcode.withgoogle.com/",
-    "role": "Student Developer",
-    "contract": {
-        "location": "Remote",
-        "live": true
-    },
-    "duration": "May 2021 - Present",
-    "description": "Google Summer of Code is a global program focused on bringing more student developers into open source software development. Students work with an open source organization on a 10 week programming project during their break from school.",
-    "tasks": [
-        "Contributing to Dask."
-    ]
+  "company": "Google Summer of Code",
+  "company_website": "https://summerofcode.withgoogle.com/",
+  "role": "Student Developer - Dask",
+  "contract": {
+    "location": "Remote",
+    "live": true
+  },
+  "duration": "May 2021 - September 2021",
+  "description": "Dask's primary job is building task graphs and optimizing them before decorating the functions to operate lazily. Task graphs are a visual representation of the order and dependencies of each task within a dask computation. They are a handy diagnostic tool. However, task graphs can currently be daunting when dealing with complex computations and do not provide a clear picture of job feasibility. There is room for improvement here.",
+  "tasks": [
+    "I redesigned the task graph visualizations by introducing colors and enhancing the illustration of information.",
+    "I worked on making them more illustrative, engaging, and informative. The Graphviz library boasts a great set of attributes that can be modified to create a more visually appealing output.",
+    "My work also involved pushing more metadata to the user-end of the task graphs in a creative way.",
+    "These new features would enable users to learn more about their program's performance characteristics and find room for optimizations easily."
+  ]
 }

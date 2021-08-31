@@ -1,13 +1,8 @@
 {
-    "name": "Cat Image Classifier",
-    "cover_image": "/images/projects/cat-classifier.png",
-    "description": "A Python Project implementing and training an L-layer Neural Network to classify cats vs non-cat images by using Logistic Regression and storing a cache to pass information from forward to back propagation (82.4% Accuracy).",
-    "languages": [
-        "Python",
-        "Jupyter",
-        "Numpy",
-        "Matplotlib"
-    ],
-    "github_link": "https://github.com/freyam/image-classification-of-cats-using-a-neural-network",
-    "live_link": "https://github.com/freyam/image-classification-of-cats-using-a-neural-network"
+  "name": "Cat Image Classifier",
+  "cover_image": "/images/projects/cat-classifier.png",
+  "description": "A Python Project implementing and training an L-layer Neural Network to classify cats vs non-cat images by using Logistic Regression and storing a cache to pass information from forward to back propagation (82.4% Accuracy).",
+  "languages": ["Python", "Jupyter", "Numpy", "Matplotlib"],
+  "github_link": "https://github.com/freyam/image-classification-of-cats-using-a-neural-network",
+  "live_link": "https://github.com/freyam/image-classification-of-cats-using-a-neural-network"
 }

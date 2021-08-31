@@ -1,13 +1,8 @@
 {
-    "name": "Amigos App",
-    "cover_image": "/images/projects/amigos.png",
-    "description": "Amigos is a clever Friend Recommendation Application that inventively suggests friends to Users. The User Database is stored in an array of polished AVL (Adelson-Velsky and Landis) Trees. We are not just any other Social Media. Our remarkable CompatiFriend algorithm is using excellent computation to deliver accurate results.",
-    "languages": [
-        "C",
-        "C++",
-        "Makefile",
-        "DOT"
-    ],
-    "github_link": "https://github.com/freyam/amigos",
-    "live_link": "https://github.com/freyam/amigos"
+  "name": "Amigos App",
+  "cover_image": "/images/projects/amigos.png",
+  "description": "Amigos is a clever Friend Recommendation Application that inventively suggests friends to Users. The User Database is stored in an array of polished AVL (Adelson-Velsky and Landis) Trees. We are not just any other Social Media. Our remarkable CompatiFriend algorithm is using excellent computation to deliver accurate results.",
+  "languages": ["C", "C++", "Makefile", "DOT"],
+  "github_link": "https://github.com/freyam/amigos",
+  "live_link": "https://github.com/freyam/amigos"
 }

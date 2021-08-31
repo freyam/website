@@ -43,7 +43,7 @@ module.exports =
 /******/
 /******/ 		// "0" is the signal for "already loaded"
 /******/ 		if(installedChunks[chunkId] !== 0) {
-/******/ 			var chunk = require("./" + ({"1":"pages/index"}[chunkId]||chunkId) + ".js");
+/******/ 			var chunk = require("./" + ({"1":"components/icons-external-link","2":"components/icons-times","3":"components/sections-about","4":"components/sections-contact","5":"components/sections-experience","6":"components/sections-header","7":"components/sections-project","8":"components/sections-skill","9":"components/widgets-modal","10":"pages/index"}[chunkId]||chunkId) + ".js");
 /******/ 			var moreModules = chunk.modules, chunkIds = chunk.ids;
 /******/ 			for(var moduleId in moreModules) {
 /******/ 				modules[moduleId] = moreModules[moduleId];
@@ -115,11 +115,17 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 43);
+/******/ 	return __webpack_require__(__webpack_require__.s = 33);
 /******/ })
 /************************************************************************/
 /******/ ([
 /* 0 */
+/***/ (function(module, exports) {
+
+module.exports = require("vue");
+
+/***/ }),
+/* 1 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -225,12 +231,6 @@ function normalizeComponent (
 
 
 /***/ }),
-/* 1 */
-/***/ (function(module, exports) {
-
-module.exports = require("vue");
-
-/***/ }),
 /* 2 */
 /***/ (function(module, exports) {
 
@@ -284,7 +284,7 @@ var staticRenderFns = []
 // CONCATENATED MODULE: ./components/Icons/GitHub.vue?vue&type=script&lang=js&
  /* harmony default export */ var Icons_GitHubvue_type_script_lang_js_ = (GitHubvue_type_script_lang_js_); 
 // EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
-var componentNormalizer = __webpack_require__(0);
+var componentNormalizer = __webpack_require__(1);
 
 // CONCATENATED MODULE: ./components/Icons/GitHub.vue
 
@@ -309,554 +309,6 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /***/ }),
 /* 5 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-// ESM COMPAT FLAG
-__webpack_require__.r(__webpack_exports__);
-
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Controls/MenuToggle.vue?vue&type=template&id=6e1a2b6f&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('button',{staticClass:"px-2 h-10 w-10 md:hidden transition hover:bg-blue-100 dark:hover:bg-gray-700 outline-none rounded-full z-20",class:{ 'bg-blue-100 dark:bg-gray-800': _vm.menu },on:{"click":_vm.toggleMenu}},[_vm._ssrNode("<span"+(_vm._ssrClass("ml-auto transform h-0.5 w-6 block bg-blue-500 dark:bg-cyan-400 rounded-full transition duration-300",{ 'my-2': !_vm.menu, 'rotate-45': _vm.menu }))+"></span> <span"+(_vm._ssrClass("ml-auto my-2 h-0.5 w-4 block bg-blue-500 dark:bg-cyan-400 rounded-full transition duration-300",{ hidden: _vm.menu }))+"></span> <span"+(_vm._ssrClass("ml-auto transform h-0.5 block bg-blue-500 dark:bg-cyan-400 rounded-full transition duration-300",{ 'my-2 w-2': !_vm.menu, '-my-0.5 w-6 -rotate-45': _vm.menu }))+"></span>")])}
-var staticRenderFns = []
-
-
-// CONCATENATED MODULE: ./components/Controls/MenuToggle.vue?vue&type=template&id=6e1a2b6f&
-
-// EXTERNAL MODULE: external "vuex"
-var external_vuex_ = __webpack_require__(3);
-
-// CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Controls/MenuToggle.vue?vue&type=script&lang=js&
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
-/* harmony default export */ var MenuTogglevue_type_script_lang_js_ = ({
-  name: 'MenuToggle',
-  computed: Object(external_vuex_["mapGetters"])({
-    menu: 'menu'
-  }),
-  methods: Object(external_vuex_["mapActions"])({
-    toggleMenu: 'toggleMenu'
-  })
-});
-// CONCATENATED MODULE: ./components/Controls/MenuToggle.vue?vue&type=script&lang=js&
- /* harmony default export */ var Controls_MenuTogglevue_type_script_lang_js_ = (MenuTogglevue_type_script_lang_js_); 
-// EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
-var componentNormalizer = __webpack_require__(0);
-
-// CONCATENATED MODULE: ./components/Controls/MenuToggle.vue
-
-
-
-
-
-/* normalize component */
-
-var component = Object(componentNormalizer["a" /* default */])(
-  Controls_MenuTogglevue_type_script_lang_js_,
-  render,
-  staticRenderFns,
-  false,
-  null,
-  null,
-  "51bc7f6c"
-  
-)
-
-/* harmony default export */ var MenuToggle = __webpack_exports__["default"] = (component.exports);
-
-/***/ }),
-/* 6 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-// ESM COMPAT FLAG
-__webpack_require__.r(__webpack_exports__);
-
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Controls/ThemeToggle.vue?vue&type=template&id=7b04d68b&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_vm._ssrNode("<button class=\"h-10 w-10 grid place-items-center rounded-full transform transition hover:bg-blue-100 dark:hover:bg-gray-700 focus:bg-blue-100 dark:focus:bg-gray-700 outline-none\""+(_vm._ssrStyle(null,null, { display: (_vm.theme === 'dark') ? '' : 'none' }))+">","</button>",[_c('light',{staticClass:"h-2/3 w-2/3"})],1),_vm._ssrNode(" "),_vm._ssrNode("<button class=\"h-10 w-10 grid place-items-center rounded-full transform transition hover:bg-blue-100 dark:hover:bg-gray-700 focus:bg-blue-100 dark:focus:bg-gray-700 outline-none\""+(_vm._ssrStyle(null,null, { display: (_vm.theme === 'light') ? '' : 'none' }))+">","</button>",[_c('dark',{staticClass:"h-2/3 w-2/3"})],1)],2)}
-var staticRenderFns = []
-
-
-// CONCATENATED MODULE: ./components/Controls/ThemeToggle.vue?vue&type=template&id=7b04d68b&
-
-// EXTERNAL MODULE: external "vuex"
-var external_vuex_ = __webpack_require__(3);
-
-// EXTERNAL MODULE: ./components/Icons/Dark.vue + 4 modules
-var Dark = __webpack_require__(19);
-
-// EXTERNAL MODULE: ./components/Icons/Light.vue + 4 modules
-var Light = __webpack_require__(20);
-
-// CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Controls/ThemeToggle.vue?vue&type=script&lang=js&
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
-
-
-/* harmony default export */ var ThemeTogglevue_type_script_lang_js_ = ({
-  name: 'ThemeToggle',
-  components: {
-    Light: Light["default"],
-    Dark: Dark["default"]
-  },
-  computed: Object(external_vuex_["mapGetters"])({
-    theme: 'theme'
-  }),
-
-  mounted() {
-    this.setTheme();
-  },
-
-  methods: Object(external_vuex_["mapActions"])({
-    setTheme: 'setTheme'
-  })
-});
-// CONCATENATED MODULE: ./components/Controls/ThemeToggle.vue?vue&type=script&lang=js&
- /* harmony default export */ var Controls_ThemeTogglevue_type_script_lang_js_ = (ThemeTogglevue_type_script_lang_js_); 
-// EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
-var componentNormalizer = __webpack_require__(0);
-
-// CONCATENATED MODULE: ./components/Controls/ThemeToggle.vue
-
-
-
-
-
-/* normalize component */
-
-var component = Object(componentNormalizer["a" /* default */])(
-  Controls_ThemeTogglevue_type_script_lang_js_,
-  render,
-  staticRenderFns,
-  false,
-  null,
-  null,
-  "2831d1f4"
-  
-)
-
-/* harmony default export */ var ThemeToggle = __webpack_exports__["default"] = (component.exports);
-
-/***/ }),
-/* 7 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-// ESM COMPAT FLAG
-__webpack_require__.r(__webpack_exports__);
-
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Icons/Facebook.vue?vue&type=template&id=14d46682&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('svg',{attrs:{"xmlns":"http://www.w3.org/2000/svg","xmlns:xlink":"http://www.w3.org/1999/xlink","width":"100%","height":"100%","viewBox":"0 0 256 256"}},[_vm._ssrNode("<path fill=\"currentColor\" d=\"M236 128a108 108 0 1 0-108.026 108L128 236l.026-.001A108.122 108.122 0 0 0 236 128zm-96 83.129V156h20a12 12 0 0 0 0-24h-20v-20a12.014 12.014 0 0 1 12-12h16a12 12 0 0 0 0-24h-16a36.04 36.04 0 0 0-36 36v20H96a12 12 0 0 0 0 24h20v55.128a84 84 0 1 1 24 0z\" class=\"transition-all\"></path>")])}
-var staticRenderFns = []
-
-
-// CONCATENATED MODULE: ./components/Icons/Facebook.vue?vue&type=template&id=14d46682&
-
-// CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Icons/Facebook.vue?vue&type=script&lang=js&
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-/* harmony default export */ var Facebookvue_type_script_lang_js_ = ({
-  name: 'Facebook'
-});
-// CONCATENATED MODULE: ./components/Icons/Facebook.vue?vue&type=script&lang=js&
- /* harmony default export */ var Icons_Facebookvue_type_script_lang_js_ = (Facebookvue_type_script_lang_js_); 
-// EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
-var componentNormalizer = __webpack_require__(0);
-
-// CONCATENATED MODULE: ./components/Icons/Facebook.vue
-
-
-
-
-
-/* normalize component */
-
-var component = Object(componentNormalizer["a" /* default */])(
-  Icons_Facebookvue_type_script_lang_js_,
-  render,
-  staticRenderFns,
-  false,
-  null,
-  null,
-  "434bbe2b"
-  
-)
-
-/* harmony default export */ var Facebook = __webpack_exports__["default"] = (component.exports);
-
-/***/ }),
-/* 8 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-// ESM COMPAT FLAG
-__webpack_require__.r(__webpack_exports__);
-
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Icons/LinkedIn.vue?vue&type=template&id=5e7ece52&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('svg',{attrs:{"xmlns":"http://www.w3.org/2000/svg","xmlns:xlink":"http://www.w3.org/1999/xlink","width":"100%","height":"100%","viewBox":"0 0 24 24"}},[_vm._ssrNode("<path fill=\"currentColor\" d=\"M17.5 8.999a5.419 5.419 0 0 0-2.565.645A1 1 0 0 0 14 8.999h-4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1v-5.5a1 1 0 1 1 2 0v5.5a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1v-7.5a5.507 5.507 0 0 0-5.5-5.5zm3.5 12h-2v-4.5a3 3 0 1 0-6 0v4.5h-2v-10h2v.703a1 1 0 0 0 1.781.625A3.483 3.483 0 0 1 21 14.5zm-14-12H3a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1v-12a1 1 0 0 0-1-1zm-1 12H4v-10h2zM5.015 1.542a3.233 3.233 0 1 0-.057 6.457h.028a3.233 3.233 0 1 0 .029-6.457zm-.029 4.457h-.028a1.222 1.222 0 0 1-1.37-1.228c0-.747.56-1.229 1.427-1.229A1.234 1.234 0 0 1 6.41 4.771c0 .746-.56 1.228-1.425 1.228z\" class=\"transition-all\"></path>")])}
-var staticRenderFns = []
-
-
-// CONCATENATED MODULE: ./components/Icons/LinkedIn.vue?vue&type=template&id=5e7ece52&
-
-// CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Icons/LinkedIn.vue?vue&type=script&lang=js&
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-/* harmony default export */ var LinkedInvue_type_script_lang_js_ = ({
-  name: 'LinkedIn'
-});
-// CONCATENATED MODULE: ./components/Icons/LinkedIn.vue?vue&type=script&lang=js&
- /* harmony default export */ var Icons_LinkedInvue_type_script_lang_js_ = (LinkedInvue_type_script_lang_js_); 
-// EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
-var componentNormalizer = __webpack_require__(0);
-
-// CONCATENATED MODULE: ./components/Icons/LinkedIn.vue
-
-
-
-
-
-/* normalize component */
-
-var component = Object(componentNormalizer["a" /* default */])(
-  Icons_LinkedInvue_type_script_lang_js_,
-  render,
-  staticRenderFns,
-  false,
-  null,
-  null,
-  "7b2276fa"
-  
-)
-
-/* harmony default export */ var LinkedIn = __webpack_exports__["default"] = (component.exports);
-
-/***/ }),
-/* 9 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-// ESM COMPAT FLAG
-__webpack_require__.r(__webpack_exports__);
-
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Icons/Medium.vue?vue&type=template&id=69b05586&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('svg',{attrs:{"xmlns":"http://www.w3.org/2000/svg","xmlns:xlink":"http://www.w3.org/1999/xlink","width":"100%","height":"100%","viewBox":"0 0 256 256"}},[_vm._ssrNode("<path fill=\"currentColor\" d=\"M56.07 136a8 8 0 0 1-8 8h-24a8 8 0 0 1 0-16h8V64h-8a8 8 0 1 1 0-16h16c.086 0 .169.011.254.014c.088.003.176.007.264.013a8.001 8.001 0 0 1 1.128.145l.009.002a7.863 7.863 0 0 1 1.115.33c.053.019.106.037.158.057a7.875 7.875 0 0 1 1.025.49c.052.03.102.062.153.093a8.04 8.04 0 0 1 .917.634l.052.04a8.081 8.081 0 0 1 .826.794l.15.164a8.071 8.071 0 0 1 .686.921c.014.023.033.041.047.064l33.216 53.146l33.216-53.146c.015-.023.033-.04.047-.064a8.028 8.028 0 0 1 .687-.92c.05-.057.1-.11.15-.165a7.985 7.985 0 0 1 .826-.795l.053-.04a8.046 8.046 0 0 1 .914-.632c.052-.031.102-.064.156-.094a7.919 7.919 0 0 1 1.022-.489c.054-.021.109-.04.163-.06a7.897 7.897 0 0 1 1.104-.326l.019-.005a8.01 8.01 0 0 1 1.122-.144c.09-.005.18-.01.271-.013c.084-.003.166-.013.25-.013h16a8 8 0 0 1 0 16h-8v64h8a8 8 0 0 1 0 16h-24a8 8 0 0 1 0-16V83.895l-25.216 40.346a8 8 0 0 1-13.568 0L48.07 83.895v44.106a8 8 0 0 1 8 8zm112-24h72a8 8 0 0 0 0-16h-72a8 8 0 0 0 0 16zm72 16h-72a8 8 0 0 0 0 16h72a8 8 0 0 0 0-16zm0 32h-168a8 8 0 0 0 0 16h168a8 8 0 0 0 0-16zm0 32h-168a8 8 0 0 0 0 16h168a8 8 0 0 0 0-16z\" class=\"transition-all\"></path>")])}
-var staticRenderFns = []
-
-
-// CONCATENATED MODULE: ./components/Icons/Medium.vue?vue&type=template&id=69b05586&
-
-// CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Icons/Medium.vue?vue&type=script&lang=js&
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-/* harmony default export */ var Mediumvue_type_script_lang_js_ = ({
-  name: 'Medium'
-});
-// CONCATENATED MODULE: ./components/Icons/Medium.vue?vue&type=script&lang=js&
- /* harmony default export */ var Icons_Mediumvue_type_script_lang_js_ = (Mediumvue_type_script_lang_js_); 
-// EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
-var componentNormalizer = __webpack_require__(0);
-
-// CONCATENATED MODULE: ./components/Icons/Medium.vue
-
-
-
-
-
-/* normalize component */
-
-var component = Object(componentNormalizer["a" /* default */])(
-  Icons_Mediumvue_type_script_lang_js_,
-  render,
-  staticRenderFns,
-  false,
-  null,
-  null,
-  "7e4d5acc"
-  
-)
-
-/* harmony default export */ var Medium = __webpack_exports__["default"] = (component.exports);
-
-/***/ }),
-/* 10 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-// ESM COMPAT FLAG
-__webpack_require__.r(__webpack_exports__);
-
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Icons/Twitter.vue?vue&type=template&id=4c444c32&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('svg',{attrs:{"xmlns":"http://www.w3.org/2000/svg","xmlns:xlink":"http://www.w3.org/1999/xlink","width":"100%","height":"100%","viewBox":"0 0 24 24"}},[_vm._ssrNode("<path fill=\"currentColor\" d=\"M22.991 3.95a1 1 0 0 0-1.51-.86a7.48 7.48 0 0 1-1.874.794a5.152 5.152 0 0 0-3.374-1.242a5.232 5.232 0 0 0-5.223 5.063a11.032 11.032 0 0 1-6.814-3.924a1.012 1.012 0 0 0-.857-.365a.999.999 0 0 0-.785.5a5.276 5.276 0 0 0-.242 4.769l-.002.001a1.041 1.041 0 0 0-.496.89a3.042 3.042 0 0 0 .027.439a5.185 5.185 0 0 0 1.568 3.312a.998.998 0 0 0-.066.77a5.204 5.204 0 0 0 2.362 2.922a7.465 7.465 0 0 1-3.59.448A1 1 0 0 0 1.45 19.3a12.942 12.942 0 0 0 7.01 2.061a12.788 12.788 0 0 0 12.465-9.363a12.822 12.822 0 0 0 .535-3.646l-.001-.2a5.77 5.77 0 0 0 1.532-4.202zm-3.306 3.212a.995.995 0 0 0-.234.702c.01.165.009.331.009.488a10.824 10.824 0 0 1-.454 3.08a10.685 10.685 0 0 1-10.546 7.93a10.938 10.938 0 0 1-2.55-.301a9.48 9.48 0 0 0 2.942-1.564a1 1 0 0 0-.602-1.786a3.208 3.208 0 0 1-2.214-.935q.224-.042.445-.105a1 1 0 0 0-.08-1.943a3.198 3.198 0 0 1-2.25-1.726a5.3 5.3 0 0 0 .545.046a1.02 1.02 0 0 0 .984-.696a1 1 0 0 0-.4-1.137a3.196 3.196 0 0 1-1.425-2.673c0-.066.002-.133.006-.198a13.014 13.014 0 0 0 8.21 3.48a1.02 1.02 0 0 0 .817-.36a1 1 0 0 0 .206-.867a3.157 3.157 0 0 1-.087-.729a3.23 3.23 0 0 1 3.226-3.226a3.184 3.184 0 0 1 2.345 1.02a.993.993 0 0 0 .921.298a9.27 9.27 0 0 0 1.212-.322a6.681 6.681 0 0 1-1.026 1.524z\" class=\"transition-all\"></path>")])}
-var staticRenderFns = []
-
-
-// CONCATENATED MODULE: ./components/Icons/Twitter.vue?vue&type=template&id=4c444c32&
-
-// CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Icons/Twitter.vue?vue&type=script&lang=js&
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-/* harmony default export */ var Twittervue_type_script_lang_js_ = ({
-  name: 'Twitter'
-});
-// CONCATENATED MODULE: ./components/Icons/Twitter.vue?vue&type=script&lang=js&
- /* harmony default export */ var Icons_Twittervue_type_script_lang_js_ = (Twittervue_type_script_lang_js_); 
-// EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
-var componentNormalizer = __webpack_require__(0);
-
-// CONCATENATED MODULE: ./components/Icons/Twitter.vue
-
-
-
-
-
-/* normalize component */
-
-var component = Object(componentNormalizer["a" /* default */])(
-  Icons_Twittervue_type_script_lang_js_,
-  render,
-  staticRenderFns,
-  false,
-  null,
-  null,
-  "92610bc4"
-  
-)
-
-/* harmony default export */ var Twitter = __webpack_exports__["default"] = (component.exports);
-
-/***/ }),
-/* 11 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-// ESM COMPAT FLAG
-__webpack_require__.r(__webpack_exports__);
-
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Icons/YouTube.vue?vue&type=template&id=72ada82b&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('svg',{attrs:{"xmlns":"http://www.w3.org/2000/svg","xmlns:xlink":"http://www.w3.org/1999/xlink","width":"100%","height":"100%","viewBox":"0 0 24 24"}},[_vm._ssrNode("<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"transition-all\"><path d=\"M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2a29 29 0 0 0 .46-5.25a29 29 0 0 0-.46-5.33z\"></path> <path d=\"M9.75 15.02l5.75-3.27l-5.75-3.27v6.54z\"></path></g>")])}
-var staticRenderFns = []
-
-
-// CONCATENATED MODULE: ./components/Icons/YouTube.vue?vue&type=template&id=72ada82b&
-
-// CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Icons/YouTube.vue?vue&type=script&lang=js&
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-/* harmony default export */ var YouTubevue_type_script_lang_js_ = ({
-  name: 'YouTube'
-});
-// CONCATENATED MODULE: ./components/Icons/YouTube.vue?vue&type=script&lang=js&
- /* harmony default export */ var Icons_YouTubevue_type_script_lang_js_ = (YouTubevue_type_script_lang_js_); 
-// EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
-var componentNormalizer = __webpack_require__(0);
-
-// CONCATENATED MODULE: ./components/Icons/YouTube.vue
-
-
-
-
-
-/* normalize component */
-
-var component = Object(componentNormalizer["a" /* default */])(
-  Icons_YouTubevue_type_script_lang_js_,
-  render,
-  staticRenderFns,
-  false,
-  null,
-  null,
-  "231b86ee"
-  
-)
-
-/* harmony default export */ var YouTube = __webpack_exports__["default"] = (component.exports);
-
-/***/ }),
-/* 12 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-// ESM COMPAT FLAG
-__webpack_require__.r(__webpack_exports__);
-
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Icons/ExternalLink.vue?vue&type=template&id=f7c12d2a&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('svg',{attrs:{"xmlns":"http://www.w3.org/2000/svg","xmlns:xlink":"http://www.w3.org/1999/xlink","width":"100%","height":"100%","viewBox":"0 0 24 24"}},[_vm._ssrNode("<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"transition\"><path d=\"M11 7H6a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h9a2 2 0 0 0 2-2v-5\"></path> <path d=\"M10 14L20 4\"></path> <path d=\"M15 4h5v5\"></path></g>")])}
-var staticRenderFns = []
-
-
-// CONCATENATED MODULE: ./components/Icons/ExternalLink.vue?vue&type=template&id=f7c12d2a&
-
-// CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Icons/ExternalLink.vue?vue&type=script&lang=js&
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-/* harmony default export */ var ExternalLinkvue_type_script_lang_js_ = ({
-  name: 'ExternalLink'
-});
-// CONCATENATED MODULE: ./components/Icons/ExternalLink.vue?vue&type=script&lang=js&
- /* harmony default export */ var Icons_ExternalLinkvue_type_script_lang_js_ = (ExternalLinkvue_type_script_lang_js_); 
-// EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
-var componentNormalizer = __webpack_require__(0);
-
-// CONCATENATED MODULE: ./components/Icons/ExternalLink.vue
-
-
-
-
-
-/* normalize component */
-
-var component = Object(componentNormalizer["a" /* default */])(
-  Icons_ExternalLinkvue_type_script_lang_js_,
-  render,
-  staticRenderFns,
-  false,
-  null,
-  null,
-  "43c9906c"
-  
-)
-
-/* harmony default export */ var ExternalLink = __webpack_exports__["default"] = (component.exports);
-
-/***/ }),
-/* 13 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -868,27 +320,27 @@ var component = Object(componentNormalizer["a" /* default */])(
 */
 // css base code, injected by the css-loader
 // eslint-disable-next-line func-names
-module.exports = function (useSourceMap) {
+module.exports = function (cssWithMappingToString) {
   var list = []; // return the list of modules as css string
 
   list.toString = function toString() {
     return this.map(function (item) {
-      var content = cssWithMappingToString(item, useSourceMap);
+      var content = cssWithMappingToString(item);
 
       if (item[2]) {
         return "@media ".concat(item[2], " {").concat(content, "}");
       }
 
       return content;
-    }).join('');
+    }).join("");
   }; // import a list of modules into the list
   // eslint-disable-next-line func-names
 
 
   list.i = function (modules, mediaQuery, dedupe) {
-    if (typeof modules === 'string') {
+    if (typeof modules === "string") {
       // eslint-disable-next-line no-param-reassign
-      modules = [[null, modules, '']];
+      modules = [[null, modules, ""]];
     }
 
     var alreadyImportedModules = {};
@@ -927,36 +379,8 @@ module.exports = function (useSourceMap) {
   return list;
 };
 
-function cssWithMappingToString(item, useSourceMap) {
-  var content = item[1] || ''; // eslint-disable-next-line prefer-destructuring
-
-  var cssMapping = item[3];
-
-  if (!cssMapping) {
-    return content;
-  }
-
-  if (useSourceMap && typeof btoa === 'function') {
-    var sourceMapping = toComment(cssMapping);
-    var sourceURLs = cssMapping.sources.map(function (source) {
-      return "/*# sourceURL=".concat(cssMapping.sourceRoot || '').concat(source, " */");
-    });
-    return [content].concat(sourceURLs).concat([sourceMapping]).join('\n');
-  }
-
-  return [content].join('\n');
-} // Adapted from convert-source-map (MIT)
-
-
-function toComment(sourceMap) {
-  // eslint-disable-next-line no-undef
-  var base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));
-  var data = "sourceMappingURL=data:application/json;charset=utf-8;base64,".concat(base64);
-  return "/*# ".concat(data, " */");
-}
-
 /***/ }),
-/* 14 */
+/* 6 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1079,161 +503,552 @@ function renderStyles (styles) {
 
 
 /***/ }),
-/* 15 */
+/* 7 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(URLSearchParams) {//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-/* harmony default export */ __webpack_exports__["a"] = ({
-  name: 'Contact',
+// ESM COMPAT FLAG
+__webpack_require__.r(__webpack_exports__);
 
-  data() {
-    return {
-      status: null,
-      busy: false,
-      form: {
-        name: null,
-        email: null,
-        subject: null,
-        message: null
-      }
-    };
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Controls/MenuToggle.vue?vue&type=template&id=6e1a2b6f&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('button',{staticClass:"px-2 h-10 w-10 md:hidden transition hover:bg-blue-100 dark:hover:bg-gray-700 outline-none rounded-full z-20",class:{ 'bg-blue-100 dark:bg-gray-800': _vm.menu },on:{"click":_vm.toggleMenu}},[_vm._ssrNode("<span"+(_vm._ssrClass("ml-auto transform h-0.5 w-6 block bg-blue-500 dark:bg-cyan-400 rounded-full transition duration-300",{ 'my-2': !_vm.menu, 'rotate-45': _vm.menu }))+"></span> <span"+(_vm._ssrClass("ml-auto my-2 h-0.5 w-4 block bg-blue-500 dark:bg-cyan-400 rounded-full transition duration-300",{ hidden: _vm.menu }))+"></span> <span"+(_vm._ssrClass("ml-auto transform h-0.5 block bg-blue-500 dark:bg-cyan-400 rounded-full transition duration-300",{ 'my-2 w-2': !_vm.menu, '-my-0.5 w-6 -rotate-45': _vm.menu }))+"></span>")])}
+var staticRenderFns = []
+
+
+// CONCATENATED MODULE: ./components/Controls/MenuToggle.vue?vue&type=template&id=6e1a2b6f&
+
+// EXTERNAL MODULE: external "vuex"
+var external_vuex_ = __webpack_require__(3);
+
+// CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Controls/MenuToggle.vue?vue&type=script&lang=js&
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+/* harmony default export */ var MenuTogglevue_type_script_lang_js_ = ({
+  name: 'MenuToggle',
+  computed: Object(external_vuex_["mapGetters"])({
+    menu: 'menu'
+  }),
+  methods: Object(external_vuex_["mapActions"])({
+    toggleMenu: 'toggleMenu'
+  })
+});
+// CONCATENATED MODULE: ./components/Controls/MenuToggle.vue?vue&type=script&lang=js&
+ /* harmony default export */ var Controls_MenuTogglevue_type_script_lang_js_ = (MenuTogglevue_type_script_lang_js_); 
+// EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
+var componentNormalizer = __webpack_require__(1);
+
+// CONCATENATED MODULE: ./components/Controls/MenuToggle.vue
+
+
+
+
+
+/* normalize component */
+
+var component = Object(componentNormalizer["a" /* default */])(
+  Controls_MenuTogglevue_type_script_lang_js_,
+  render,
+  staticRenderFns,
+  false,
+  null,
+  null,
+  "51bc7f6c"
+  
+)
+
+/* harmony default export */ var MenuToggle = __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+/* 8 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+// ESM COMPAT FLAG
+__webpack_require__.r(__webpack_exports__);
+
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Controls/ThemeToggle.vue?vue&type=template&id=7b04d68b&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_vm._ssrNode("<button class=\"h-10 w-10 grid place-items-center rounded-full transform transition hover:bg-blue-100 dark:hover:bg-gray-700 focus:bg-blue-100 dark:focus:bg-gray-700 outline-none\""+(_vm._ssrStyle(null,null, { display: (_vm.theme === 'dark') ? '' : 'none' }))+">","</button>",[_c('light',{staticClass:"h-2/3 w-2/3"})],1),_vm._ssrNode(" "),_vm._ssrNode("<button class=\"h-10 w-10 grid place-items-center rounded-full transform transition hover:bg-blue-100 dark:hover:bg-gray-700 focus:bg-blue-100 dark:focus:bg-gray-700 outline-none\""+(_vm._ssrStyle(null,null, { display: (_vm.theme === 'light') ? '' : 'none' }))+">","</button>",[_c('dark',{staticClass:"h-2/3 w-2/3"})],1)],2)}
+var staticRenderFns = []
+
+
+// CONCATENATED MODULE: ./components/Controls/ThemeToggle.vue?vue&type=template&id=7b04d68b&
+
+// EXTERNAL MODULE: external "vuex"
+var external_vuex_ = __webpack_require__(3);
+
+// EXTERNAL MODULE: ./components/Icons/Dark.vue + 4 modules
+var Dark = __webpack_require__(26);
+
+// EXTERNAL MODULE: ./components/Icons/Light.vue + 4 modules
+var Light = __webpack_require__(27);
+
+// CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Controls/ThemeToggle.vue?vue&type=script&lang=js&
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+
+/* harmony default export */ var ThemeTogglevue_type_script_lang_js_ = ({
+  name: 'ThemeToggle',
+  components: {
+    Light: Light["default"],
+    Dark: Dark["default"]
+  },
+  computed: Object(external_vuex_["mapGetters"])({
+    theme: 'theme'
+  }),
+
+  mounted() {
+    this.setTheme();
   },
 
-  methods: {
-    encode(data) {
-      const formData = new FormData();
-
-      for (const key of Object.keys(data)) {
-        formData.append(key, data[key]);
-      }
-
-      return new URLSearchParams(formData).toString();
-    },
-
-    submitForm() {
-      this.status = null;
-      this.busy = true;
-      fetch('/', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/x-www-form-urlencoded'
-        },
-        body: this.encode({
-          'form-name': 'contact',
-          ...this.form
-        })
-      }).then(() => {
-        this.status = 'success';
-        this.busy = false;
-        this.form.name = null;
-        this.form.email = null;
-        this.form.subject = null;
-        this.form.message = null;
-      }).catch(err => {
-        this.status = 'error';
-        this.busy = false; // eslint-disable-next-line no-console
-
-        console.error(err);
-      });
-    }
-
-  }
+  methods: Object(external_vuex_["mapActions"])({
+    setTheme: 'setTheme'
+  })
 });
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(54)["URLSearchParams"]))
+// CONCATENATED MODULE: ./components/Controls/ThemeToggle.vue?vue&type=script&lang=js&
+ /* harmony default export */ var Controls_ThemeTogglevue_type_script_lang_js_ = (ThemeTogglevue_type_script_lang_js_); 
+// EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
+var componentNormalizer = __webpack_require__(1);
+
+// CONCATENATED MODULE: ./components/Controls/ThemeToggle.vue
+
+
+
+
+
+/* normalize component */
+
+var component = Object(componentNormalizer["a" /* default */])(
+  Controls_ThemeTogglevue_type_script_lang_js_,
+  render,
+  staticRenderFns,
+  false,
+  null,
+  null,
+  "2831d1f4"
+  
+)
+
+/* harmony default export */ var ThemeToggle = __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+/* 9 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+// ESM COMPAT FLAG
+__webpack_require__.r(__webpack_exports__);
+
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Icons/Facebook.vue?vue&type=template&id=14d46682&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('svg',{attrs:{"xmlns":"http://www.w3.org/2000/svg","xmlns:xlink":"http://www.w3.org/1999/xlink","width":"100%","height":"100%","viewBox":"0 0 256 256"}},[_vm._ssrNode("<path fill=\"currentColor\" d=\"M236 128a108 108 0 1 0-108.026 108L128 236l.026-.001A108.122 108.122 0 0 0 236 128zm-96 83.129V156h20a12 12 0 0 0 0-24h-20v-20a12.014 12.014 0 0 1 12-12h16a12 12 0 0 0 0-24h-16a36.04 36.04 0 0 0-36 36v20H96a12 12 0 0 0 0 24h20v55.128a84 84 0 1 1 24 0z\" class=\"transition-all\"></path>")])}
+var staticRenderFns = []
+
+
+// CONCATENATED MODULE: ./components/Icons/Facebook.vue?vue&type=template&id=14d46682&
+
+// CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Icons/Facebook.vue?vue&type=script&lang=js&
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ var Facebookvue_type_script_lang_js_ = ({
+  name: 'Facebook'
+});
+// CONCATENATED MODULE: ./components/Icons/Facebook.vue?vue&type=script&lang=js&
+ /* harmony default export */ var Icons_Facebookvue_type_script_lang_js_ = (Facebookvue_type_script_lang_js_); 
+// EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
+var componentNormalizer = __webpack_require__(1);
+
+// CONCATENATED MODULE: ./components/Icons/Facebook.vue
+
+
+
+
+
+/* normalize component */
+
+var component = Object(componentNormalizer["a" /* default */])(
+  Icons_Facebookvue_type_script_lang_js_,
+  render,
+  staticRenderFns,
+  false,
+  null,
+  null,
+  "434bbe2b"
+  
+)
+
+/* harmony default export */ var Facebook = __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+/* 10 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+// ESM COMPAT FLAG
+__webpack_require__.r(__webpack_exports__);
+
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Icons/LinkedIn.vue?vue&type=template&id=5e7ece52&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('svg',{attrs:{"xmlns":"http://www.w3.org/2000/svg","xmlns:xlink":"http://www.w3.org/1999/xlink","width":"100%","height":"100%","viewBox":"0 0 24 24"}},[_vm._ssrNode("<path fill=\"currentColor\" d=\"M17.5 8.999a5.419 5.419 0 0 0-2.565.645A1 1 0 0 0 14 8.999h-4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1v-5.5a1 1 0 1 1 2 0v5.5a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1v-7.5a5.507 5.507 0 0 0-5.5-5.5zm3.5 12h-2v-4.5a3 3 0 1 0-6 0v4.5h-2v-10h2v.703a1 1 0 0 0 1.781.625A3.483 3.483 0 0 1 21 14.5zm-14-12H3a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1v-12a1 1 0 0 0-1-1zm-1 12H4v-10h2zM5.015 1.542a3.233 3.233 0 1 0-.057 6.457h.028a3.233 3.233 0 1 0 .029-6.457zm-.029 4.457h-.028a1.222 1.222 0 0 1-1.37-1.228c0-.747.56-1.229 1.427-1.229A1.234 1.234 0 0 1 6.41 4.771c0 .746-.56 1.228-1.425 1.228z\" class=\"transition-all\"></path>")])}
+var staticRenderFns = []
+
+
+// CONCATENATED MODULE: ./components/Icons/LinkedIn.vue?vue&type=template&id=5e7ece52&
+
+// CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Icons/LinkedIn.vue?vue&type=script&lang=js&
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ var LinkedInvue_type_script_lang_js_ = ({
+  name: 'LinkedIn'
+});
+// CONCATENATED MODULE: ./components/Icons/LinkedIn.vue?vue&type=script&lang=js&
+ /* harmony default export */ var Icons_LinkedInvue_type_script_lang_js_ = (LinkedInvue_type_script_lang_js_); 
+// EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
+var componentNormalizer = __webpack_require__(1);
+
+// CONCATENATED MODULE: ./components/Icons/LinkedIn.vue
+
+
+
+
+
+/* normalize component */
+
+var component = Object(componentNormalizer["a" /* default */])(
+  Icons_LinkedInvue_type_script_lang_js_,
+  render,
+  staticRenderFns,
+  false,
+  null,
+  null,
+  "7b2276fa"
+  
+)
+
+/* harmony default export */ var LinkedIn = __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+/* 11 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+// ESM COMPAT FLAG
+__webpack_require__.r(__webpack_exports__);
+
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Icons/Medium.vue?vue&type=template&id=69b05586&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('svg',{attrs:{"xmlns":"http://www.w3.org/2000/svg","xmlns:xlink":"http://www.w3.org/1999/xlink","width":"100%","height":"100%","viewBox":"0 0 256 256"}},[_vm._ssrNode("<path fill=\"currentColor\" d=\"M56.07 136a8 8 0 0 1-8 8h-24a8 8 0 0 1 0-16h8V64h-8a8 8 0 1 1 0-16h16c.086 0 .169.011.254.014c.088.003.176.007.264.013a8.001 8.001 0 0 1 1.128.145l.009.002a7.863 7.863 0 0 1 1.115.33c.053.019.106.037.158.057a7.875 7.875 0 0 1 1.025.49c.052.03.102.062.153.093a8.04 8.04 0 0 1 .917.634l.052.04a8.081 8.081 0 0 1 .826.794l.15.164a8.071 8.071 0 0 1 .686.921c.014.023.033.041.047.064l33.216 53.146l33.216-53.146c.015-.023.033-.04.047-.064a8.028 8.028 0 0 1 .687-.92c.05-.057.1-.11.15-.165a7.985 7.985 0 0 1 .826-.795l.053-.04a8.046 8.046 0 0 1 .914-.632c.052-.031.102-.064.156-.094a7.919 7.919 0 0 1 1.022-.489c.054-.021.109-.04.163-.06a7.897 7.897 0 0 1 1.104-.326l.019-.005a8.01 8.01 0 0 1 1.122-.144c.09-.005.18-.01.271-.013c.084-.003.166-.013.25-.013h16a8 8 0 0 1 0 16h-8v64h8a8 8 0 0 1 0 16h-24a8 8 0 0 1 0-16V83.895l-25.216 40.346a8 8 0 0 1-13.568 0L48.07 83.895v44.106a8 8 0 0 1 8 8zm112-24h72a8 8 0 0 0 0-16h-72a8 8 0 0 0 0 16zm72 16h-72a8 8 0 0 0 0 16h72a8 8 0 0 0 0-16zm0 32h-168a8 8 0 0 0 0 16h168a8 8 0 0 0 0-16zm0 32h-168a8 8 0 0 0 0 16h168a8 8 0 0 0 0-16z\" class=\"transition-all\"></path>")])}
+var staticRenderFns = []
+
+
+// CONCATENATED MODULE: ./components/Icons/Medium.vue?vue&type=template&id=69b05586&
+
+// CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Icons/Medium.vue?vue&type=script&lang=js&
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ var Mediumvue_type_script_lang_js_ = ({
+  name: 'Medium'
+});
+// CONCATENATED MODULE: ./components/Icons/Medium.vue?vue&type=script&lang=js&
+ /* harmony default export */ var Icons_Mediumvue_type_script_lang_js_ = (Mediumvue_type_script_lang_js_); 
+// EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
+var componentNormalizer = __webpack_require__(1);
+
+// CONCATENATED MODULE: ./components/Icons/Medium.vue
+
+
+
+
+
+/* normalize component */
+
+var component = Object(componentNormalizer["a" /* default */])(
+  Icons_Mediumvue_type_script_lang_js_,
+  render,
+  staticRenderFns,
+  false,
+  null,
+  null,
+  "7e4d5acc"
+  
+)
+
+/* harmony default export */ var Medium = __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+/* 12 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+// ESM COMPAT FLAG
+__webpack_require__.r(__webpack_exports__);
+
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Icons/Twitter.vue?vue&type=template&id=4c444c32&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('svg',{attrs:{"xmlns":"http://www.w3.org/2000/svg","xmlns:xlink":"http://www.w3.org/1999/xlink","width":"100%","height":"100%","viewBox":"0 0 24 24"}},[_vm._ssrNode("<path fill=\"currentColor\" d=\"M22.991 3.95a1 1 0 0 0-1.51-.86a7.48 7.48 0 0 1-1.874.794a5.152 5.152 0 0 0-3.374-1.242a5.232 5.232 0 0 0-5.223 5.063a11.032 11.032 0 0 1-6.814-3.924a1.012 1.012 0 0 0-.857-.365a.999.999 0 0 0-.785.5a5.276 5.276 0 0 0-.242 4.769l-.002.001a1.041 1.041 0 0 0-.496.89a3.042 3.042 0 0 0 .027.439a5.185 5.185 0 0 0 1.568 3.312a.998.998 0 0 0-.066.77a5.204 5.204 0 0 0 2.362 2.922a7.465 7.465 0 0 1-3.59.448A1 1 0 0 0 1.45 19.3a12.942 12.942 0 0 0 7.01 2.061a12.788 12.788 0 0 0 12.465-9.363a12.822 12.822 0 0 0 .535-3.646l-.001-.2a5.77 5.77 0 0 0 1.532-4.202zm-3.306 3.212a.995.995 0 0 0-.234.702c.01.165.009.331.009.488a10.824 10.824 0 0 1-.454 3.08a10.685 10.685 0 0 1-10.546 7.93a10.938 10.938 0 0 1-2.55-.301a9.48 9.48 0 0 0 2.942-1.564a1 1 0 0 0-.602-1.786a3.208 3.208 0 0 1-2.214-.935q.224-.042.445-.105a1 1 0 0 0-.08-1.943a3.198 3.198 0 0 1-2.25-1.726a5.3 5.3 0 0 0 .545.046a1.02 1.02 0 0 0 .984-.696a1 1 0 0 0-.4-1.137a3.196 3.196 0 0 1-1.425-2.673c0-.066.002-.133.006-.198a13.014 13.014 0 0 0 8.21 3.48a1.02 1.02 0 0 0 .817-.36a1 1 0 0 0 .206-.867a3.157 3.157 0 0 1-.087-.729a3.23 3.23 0 0 1 3.226-3.226a3.184 3.184 0 0 1 2.345 1.02a.993.993 0 0 0 .921.298a9.27 9.27 0 0 0 1.212-.322a6.681 6.681 0 0 1-1.026 1.524z\" class=\"transition-all\"></path>")])}
+var staticRenderFns = []
+
+
+// CONCATENATED MODULE: ./components/Icons/Twitter.vue?vue&type=template&id=4c444c32&
+
+// CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Icons/Twitter.vue?vue&type=script&lang=js&
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ var Twittervue_type_script_lang_js_ = ({
+  name: 'Twitter'
+});
+// CONCATENATED MODULE: ./components/Icons/Twitter.vue?vue&type=script&lang=js&
+ /* harmony default export */ var Icons_Twittervue_type_script_lang_js_ = (Twittervue_type_script_lang_js_); 
+// EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
+var componentNormalizer = __webpack_require__(1);
+
+// CONCATENATED MODULE: ./components/Icons/Twitter.vue
+
+
+
+
+
+/* normalize component */
+
+var component = Object(componentNormalizer["a" /* default */])(
+  Icons_Twittervue_type_script_lang_js_,
+  render,
+  staticRenderFns,
+  false,
+  null,
+  null,
+  "92610bc4"
+  
+)
+
+/* harmony default export */ var Twitter = __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+/* 13 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+// ESM COMPAT FLAG
+__webpack_require__.r(__webpack_exports__);
+
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Icons/YouTube.vue?vue&type=template&id=72ada82b&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('svg',{attrs:{"xmlns":"http://www.w3.org/2000/svg","xmlns:xlink":"http://www.w3.org/1999/xlink","width":"100%","height":"100%","viewBox":"0 0 24 24"}},[_vm._ssrNode("<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"transition-all\"><path d=\"M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2a29 29 0 0 0 .46-5.25a29 29 0 0 0-.46-5.33z\"></path> <path d=\"M9.75 15.02l5.75-3.27l-5.75-3.27v6.54z\"></path></g>")])}
+var staticRenderFns = []
+
+
+// CONCATENATED MODULE: ./components/Icons/YouTube.vue?vue&type=template&id=72ada82b&
+
+// CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Icons/YouTube.vue?vue&type=script&lang=js&
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ var YouTubevue_type_script_lang_js_ = ({
+  name: 'YouTube'
+});
+// CONCATENATED MODULE: ./components/Icons/YouTube.vue?vue&type=script&lang=js&
+ /* harmony default export */ var Icons_YouTubevue_type_script_lang_js_ = (YouTubevue_type_script_lang_js_); 
+// EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
+var componentNormalizer = __webpack_require__(1);
+
+// CONCATENATED MODULE: ./components/Icons/YouTube.vue
+
+
+
+
+
+/* normalize component */
+
+var component = Object(componentNormalizer["a" /* default */])(
+  Icons_YouTubevue_type_script_lang_js_,
+  render,
+  staticRenderFns,
+  false,
+  null,
+  null,
+  "231b86ee"
+  
+)
+
+/* harmony default export */ var YouTube = __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+/* 14 */
+/***/ (function(module, exports) {
+
+module.exports = require("vue-no-ssr");
+
+/***/ }),
+/* 15 */
+/***/ (function(module, exports) {
+
+// This file is intentionally left empty for noop aliases
 
 /***/ }),
 /* 16 */
+/***/ (function(module, exports) {
+
+module.exports = require("vue-client-only");
+
+/***/ }),
+/* 17 */
+/***/ (function(module, exports) {
+
+module.exports = require("vue-router");
+
+/***/ }),
+/* 18 */
+/***/ (function(module, exports) {
+
+module.exports = require("property-information");
+
+/***/ }),
+/* 19 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(36);
+if(content.__esModule) content = content.default;
+if(typeof content === 'string') content = [[module.i, content, '']];
+if(content.locals) module.exports = content.locals;
+// add CSS to SSR context
+var add = __webpack_require__(6).default
+module.exports.__inject__ = function (context) {
+  add("53f61d5f", content, true, context)
+};
+
+/***/ }),
+/* 20 */
+/***/ (function(module, exports) {
+
+module.exports = require("node-fetch");
+
+/***/ }),
+/* 21 */
+/***/ (function(module, exports) {
+
+module.exports = require("vue-meta");
+
+/***/ }),
+/* 22 */
+/***/ (function(module) {
+
+module.exports = JSON.parse("{\"title\":\"Freyam Mehta\",\"meta\":[{\"hid\":\"charset\",\"charset\":\"utf-8\"},{\"hid\":\"viewport\",\"name\":\"viewport\",\"content\":\"width=device-width, initial-scale=1\"},{\"hid\":\"mobile-web-app-capable\",\"name\":\"mobile-web-app-capable\",\"content\":\"yes\"},{\"hid\":\"apple-mobile-web-app-title\",\"name\":\"apple-mobile-web-app-title\",\"content\":\"Freyam Mehta\"},{\"hid\":\"description\",\"name\":\"description\",\"content\":\"A highly passionate Student Developer studying Computer Science at IIIT Hyderabad.\"},{\"hid\":\"theme-color\",\"name\":\"theme-color\",\"content\":\"#406bc7\"},{\"hid\":\"og:type\",\"name\":\"og:type\",\"property\":\"og:type\",\"content\":\"website\"},{\"hid\":\"og:title\",\"name\":\"og:title\",\"property\":\"og:title\",\"content\":\"Freyam Mehta\"},{\"hid\":\"og:site_name\",\"name\":\"og:site_name\",\"property\":\"og:site_name\",\"content\":\"Freyam Mehta\"},{\"hid\":\"og:description\",\"name\":\"og:description\",\"property\":\"og:description\",\"content\":\"A highly passionate Student Developer studying Computer Science at IIIT Hyderabad.\"}],\"link\":[{\"hid\":\"shortcut-icon\",\"rel\":\"shortcut icon\",\"href\":\"/icons/android-chrome-192x192.png\"},{\"hid\":\"apple-touch-icon\",\"rel\":\"apple-touch-icon\",\"href\":\"/icons/android-chrome-384x384.png\",\"sizes\":\"384x384\"},{\"rel\":\"manifest\",\"href\":\"/_nuxt/manifest.c38410ed.json\",\"hid\":\"manifest\"}],\"htmlAttrs\":{\"lang\":\"en\"}}");
+
+/***/ }),
+/* 23 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1248,16 +1063,16 @@ var staticRenderFns = []
 // CONCATENATED MODULE: ./components/Navigation/Navbar.vue?vue&type=template&id=492288d9&
 
 // EXTERNAL MODULE: ./components/Icons/Logo.vue + 4 modules
-var Logo = __webpack_require__(17);
+var Logo = __webpack_require__(24);
 
 // EXTERNAL MODULE: ./components/Controls/MenuToggle.vue + 4 modules
-var MenuToggle = __webpack_require__(5);
+var MenuToggle = __webpack_require__(7);
 
 // EXTERNAL MODULE: ./components/Navigation/NavMenu.vue + 4 modules
-var NavMenu = __webpack_require__(18);
+var NavMenu = __webpack_require__(25);
 
 // EXTERNAL MODULE: ./components/Controls/ThemeToggle.vue + 4 modules
-var ThemeToggle = __webpack_require__(6);
+var ThemeToggle = __webpack_require__(8);
 
 // CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Navigation/Navbar.vue?vue&type=script&lang=js&
 //
@@ -1311,7 +1126,7 @@ var ThemeToggle = __webpack_require__(6);
 // CONCATENATED MODULE: ./components/Navigation/Navbar.vue?vue&type=script&lang=js&
  /* harmony default export */ var Navigation_Navbarvue_type_script_lang_js_ = (Navbarvue_type_script_lang_js_); 
 // EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
-var componentNormalizer = __webpack_require__(0);
+var componentNormalizer = __webpack_require__(1);
 
 // CONCATENATED MODULE: ./components/Navigation/Navbar.vue
 
@@ -1335,7 +1150,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 /* harmony default export */ var Navbar = __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
-/* 17 */
+/* 24 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1385,7 +1200,7 @@ var staticRenderFns = []
 // CONCATENATED MODULE: ./components/Icons/Logo.vue?vue&type=script&lang=js&
  /* harmony default export */ var Icons_Logovue_type_script_lang_js_ = (Logovue_type_script_lang_js_); 
 // EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
-var componentNormalizer = __webpack_require__(0);
+var componentNormalizer = __webpack_require__(1);
 
 // CONCATENATED MODULE: ./components/Icons/Logo.vue
 
@@ -1409,7 +1224,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 /* harmony default export */ var Logo = __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
-/* 18 */
+/* 25 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1472,7 +1287,7 @@ var staticRenderFns = []
 // CONCATENATED MODULE: ./components/Navigation/NavMenu.vue?vue&type=script&lang=js&
  /* harmony default export */ var Navigation_NavMenuvue_type_script_lang_js_ = (NavMenuvue_type_script_lang_js_); 
 // EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
-var componentNormalizer = __webpack_require__(0);
+var componentNormalizer = __webpack_require__(1);
 
 // CONCATENATED MODULE: ./components/Navigation/NavMenu.vue
 
@@ -1496,7 +1311,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 /* harmony default export */ var NavMenu = __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
-/* 19 */
+/* 26 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1534,7 +1349,7 @@ var staticRenderFns = []
 // CONCATENATED MODULE: ./components/Icons/Dark.vue?vue&type=script&lang=js&
  /* harmony default export */ var Icons_Darkvue_type_script_lang_js_ = (Darkvue_type_script_lang_js_); 
 // EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
-var componentNormalizer = __webpack_require__(0);
+var componentNormalizer = __webpack_require__(1);
 
 // CONCATENATED MODULE: ./components/Icons/Dark.vue
 
@@ -1558,7 +1373,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 /* harmony default export */ var Dark = __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
-/* 20 */
+/* 27 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1596,7 +1411,7 @@ var staticRenderFns = []
 // CONCATENATED MODULE: ./components/Icons/Light.vue?vue&type=script&lang=js&
  /* harmony default export */ var Icons_Lightvue_type_script_lang_js_ = (Lightvue_type_script_lang_js_); 
 // EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
-var componentNormalizer = __webpack_require__(0);
+var componentNormalizer = __webpack_require__(1);
 
 // CONCATENATED MODULE: ./components/Icons/Light.vue
 
@@ -1620,7 +1435,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 /* harmony default export */ var Light = __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
-/* 21 */
+/* 28 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1641,10 +1456,10 @@ var staticRenderFns = []
 var external_vuex_ = __webpack_require__(3);
 
 // EXTERNAL MODULE: ./components/Controls/MenuToggle.vue + 4 modules
-var MenuToggle = __webpack_require__(5);
+var MenuToggle = __webpack_require__(7);
 
 // EXTERNAL MODULE: ./components/Controls/ThemeToggle.vue + 4 modules
-var ThemeToggle = __webpack_require__(6);
+var ThemeToggle = __webpack_require__(8);
 
 // CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Navigation/MobileMenu.vue?vue&type=script&lang=js&
 //
@@ -1721,7 +1536,7 @@ var ThemeToggle = __webpack_require__(6);
 // CONCATENATED MODULE: ./components/Navigation/MobileMenu.vue?vue&type=script&lang=js&
  /* harmony default export */ var Navigation_MobileMenuvue_type_script_lang_js_ = (MobileMenuvue_type_script_lang_js_); 
 // EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
-var componentNormalizer = __webpack_require__(0);
+var componentNormalizer = __webpack_require__(1);
 
 // CONCATENATED MODULE: ./components/Navigation/MobileMenu.vue
 
@@ -1745,7 +1560,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 /* harmony default export */ var MobileMenu = __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
-/* 22 */
+/* 29 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1760,22 +1575,22 @@ var staticRenderFns = []
 // CONCATENATED MODULE: ./components/Navigation/SocialHandles.vue?vue&type=template&id=ed132c50&
 
 // EXTERNAL MODULE: ./components/Icons/Facebook.vue + 4 modules
-var Facebook = __webpack_require__(7);
+var Facebook = __webpack_require__(9);
 
 // EXTERNAL MODULE: ./components/Icons/GitHub.vue + 4 modules
 var GitHub = __webpack_require__(4);
 
 // EXTERNAL MODULE: ./components/Icons/LinkedIn.vue + 4 modules
-var LinkedIn = __webpack_require__(8);
+var LinkedIn = __webpack_require__(10);
 
 // EXTERNAL MODULE: ./components/Icons/Medium.vue + 4 modules
-var Medium = __webpack_require__(9);
+var Medium = __webpack_require__(11);
 
 // EXTERNAL MODULE: ./components/Icons/Twitter.vue + 4 modules
-var Twitter = __webpack_require__(10);
+var Twitter = __webpack_require__(12);
 
 // EXTERNAL MODULE: ./components/Icons/YouTube.vue + 4 modules
-var YouTube = __webpack_require__(11);
+var YouTube = __webpack_require__(13);
 
 // CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Navigation/SocialHandles.vue?vue&type=script&lang=js&
 //
@@ -1868,7 +1683,7 @@ var YouTube = __webpack_require__(11);
 // CONCATENATED MODULE: ./components/Navigation/SocialHandles.vue?vue&type=script&lang=js&
  /* harmony default export */ var Navigation_SocialHandlesvue_type_script_lang_js_ = (SocialHandlesvue_type_script_lang_js_); 
 // EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
-var componentNormalizer = __webpack_require__(0);
+var componentNormalizer = __webpack_require__(1);
 
 // CONCATENATED MODULE: ./components/Navigation/SocialHandles.vue
 
@@ -1892,7 +1707,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 /* harmony default export */ var SocialHandles = __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
-/* 23 */
+/* 30 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1929,7 +1744,7 @@ var staticRenderFns = []
 // CONCATENATED MODULE: ./components/Navigation/EmailHandle.vue?vue&type=script&lang=js&
  /* harmony default export */ var Navigation_EmailHandlevue_type_script_lang_js_ = (EmailHandlevue_type_script_lang_js_); 
 // EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
-var componentNormalizer = __webpack_require__(0);
+var componentNormalizer = __webpack_require__(1);
 
 // CONCATENATED MODULE: ./components/Navigation/EmailHandle.vue
 
@@ -1953,7 +1768,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 /* harmony default export */ var EmailHandle = __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
-/* 24 */
+/* 31 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1968,25 +1783,25 @@ var staticRenderFns = []
 // CONCATENATED MODULE: ./components/Sections/Footer.vue?vue&type=template&id=5fe5ebc3&
 
 // EXTERNAL MODULE: ./components/Icons/Envelope.vue + 4 modules
-var Envelope = __webpack_require__(25);
+var Envelope = __webpack_require__(32);
 
 // EXTERNAL MODULE: ./components/Icons/Facebook.vue + 4 modules
-var Facebook = __webpack_require__(7);
+var Facebook = __webpack_require__(9);
 
 // EXTERNAL MODULE: ./components/Icons/GitHub.vue + 4 modules
 var GitHub = __webpack_require__(4);
 
 // EXTERNAL MODULE: ./components/Icons/LinkedIn.vue + 4 modules
-var LinkedIn = __webpack_require__(8);
+var LinkedIn = __webpack_require__(10);
 
 // EXTERNAL MODULE: ./components/Icons/Medium.vue + 4 modules
-var Medium = __webpack_require__(9);
+var Medium = __webpack_require__(11);
 
 // EXTERNAL MODULE: ./components/Icons/Twitter.vue + 4 modules
-var Twitter = __webpack_require__(10);
+var Twitter = __webpack_require__(12);
 
 // EXTERNAL MODULE: ./components/Icons/YouTube.vue + 4 modules
-var YouTube = __webpack_require__(11);
+var YouTube = __webpack_require__(13);
 
 // CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Sections/Footer.vue?vue&type=script&lang=js&
 //
@@ -2092,7 +1907,7 @@ var YouTube = __webpack_require__(11);
 // CONCATENATED MODULE: ./components/Sections/Footer.vue?vue&type=script&lang=js&
  /* harmony default export */ var Sections_Footervue_type_script_lang_js_ = (Footervue_type_script_lang_js_); 
 // EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
-var componentNormalizer = __webpack_require__(0);
+var componentNormalizer = __webpack_require__(1);
 
 // CONCATENATED MODULE: ./components/Sections/Footer.vue
 
@@ -2116,7 +1931,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 /* harmony default export */ var Footer = __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
-/* 25 */
+/* 32 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2152,7 +1967,7 @@ var staticRenderFns = []
 // CONCATENATED MODULE: ./components/Icons/Envelope.vue?vue&type=script&lang=js&
  /* harmony default export */ var Icons_Envelopevue_type_script_lang_js_ = (Envelopevue_type_script_lang_js_); 
 // EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
-var componentNormalizer = __webpack_require__(0);
+var componentNormalizer = __webpack_require__(1);
 
 // CONCATENATED MODULE: ./components/Icons/Envelope.vue
 
@@ -2176,982 +1991,15 @@ var component = Object(componentNormalizer["a" /* default */])(
 /* harmony default export */ var Envelope = __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
-/* 26 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-// ESM COMPAT FLAG
-__webpack_require__.r(__webpack_exports__);
-
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Icons/Times.vue?vue&type=template&id=480f0a33&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('svg',{attrs:{"xmlns":"http://www.w3.org/2000/svg","xmlns:xlink":"http://www.w3.org/1999/xlink","width":"100%","height":"100%","viewBox":"0 0 24 24"}},[_vm._ssrNode("<path fill=\"currentColor\" d=\"M13.41 12l4.3-4.29a1 1 0 1 0-1.42-1.42L12 10.59l-4.29-4.3a1 1 0 0 0-1.42 1.42l4.3 4.29l-4.3 4.29a1 1 0 0 0 0 1.42a1 1 0 0 0 1.42 0l4.29-4.3l4.29 4.3a1 1 0 0 0 1.42 0a1 1 0 0 0 0-1.42z\"></path>")])}
-var staticRenderFns = []
-
-
-// CONCATENATED MODULE: ./components/Icons/Times.vue?vue&type=template&id=480f0a33&
-
-// CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Icons/Times.vue?vue&type=script&lang=js&
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-/* harmony default export */ var Timesvue_type_script_lang_js_ = ({
-  name: 'Times'
-});
-// CONCATENATED MODULE: ./components/Icons/Times.vue?vue&type=script&lang=js&
- /* harmony default export */ var Icons_Timesvue_type_script_lang_js_ = (Timesvue_type_script_lang_js_); 
-// EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
-var componentNormalizer = __webpack_require__(0);
-
-// CONCATENATED MODULE: ./components/Icons/Times.vue
-
-
-
-
-
-/* normalize component */
-
-var component = Object(componentNormalizer["a" /* default */])(
-  Icons_Timesvue_type_script_lang_js_,
-  render,
-  staticRenderFns,
-  false,
-  null,
-  null,
-  "6a8c839e"
-  
-)
-
-/* harmony default export */ var Times = __webpack_exports__["default"] = (component.exports);
-
-/***/ }),
-/* 27 */
-/***/ (function(module, exports) {
-
-module.exports = require("vue-no-ssr");
-
-/***/ }),
-/* 28 */
-/***/ (function(module, exports) {
-
-// This file is intentionally left empty for noop aliases
-
-/***/ }),
-/* 29 */
-/***/ (function(module, exports) {
-
-module.exports = require("vue-client-only");
-
-/***/ }),
-/* 30 */
-/***/ (function(module, exports) {
-
-module.exports = require("vue-router");
-
-/***/ }),
-/* 31 */
-/***/ (function(module, exports) {
-
-module.exports = require("property-information");
-
-/***/ }),
-/* 32 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-// ESM COMPAT FLAG
-__webpack_require__.r(__webpack_exports__);
-
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Sections/About.vue?vue&type=template&id=3499d1b3&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',{attrs:{"id":"about"}},[_vm._ssrNode("<div class=\"container mx-auto px-8 py-4 md:px-20 md:py-10 max-w-6xl\"><div class=\"mb-5 lg:mb-10 flex items-center\"><h1 class=\"text-3xl md:text-4xl font-bold whitespace-nowrap\">\n        About Me\n      </h1> <span class=\"ml-4 h-px w-64 bg-gray-300 dark:bg-gray-600\"></span></div> "+((_vm.about)?("<div class=\"lg:grid lg:grid-cols-2\"><div>"+(_vm._ssrList((_vm.description),function(desc,index){return ("<p class=\"mb-2\">"+_vm._ssrEscape("\n          "+_vm._s(desc)+"\n        ")+"</p>")}))+"</div> <div class=\"mt-6 lg:mt-0\"><div class=\"mx-auto relative h-72 w-full max-w-md lg:w-72 lg:max-w-full rounded-xl shadow-xl overflow-hidden\"><div class=\"absolute inset-0 bg-blue-500 dark:bg-cyan-400 bg-opacity-50 dark:bg-opacity-50 transition duration-300 hover:bg-opacity-0 dark:hover:bg-opacity-0\"></div> <img"+(_vm._ssrAttr("src",("/images/profile/" + (_vm.about.image))))+(_vm._ssrAttr("alt",_vm.about.name))+" class=\"h-full w-full object-cover\"></div></div></div>"):"<!---->")+"</div>")])}
-var staticRenderFns = []
-
-
-// CONCATENATED MODULE: ./components/Sections/About.vue?vue&type=template&id=3499d1b3&
-
-// CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Sections/About.vue?vue&type=script&lang=js&
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-/* harmony default export */ var Aboutvue_type_script_lang_js_ = ({
-  name: 'About',
-
-  data() {
-    return {
-      about: null
-    };
-  },
-
-  computed: {
-    description() {
-      const about = this.about;
-      let description;
-
-      if (about !== null) {
-        description = about.description.split('\n');
-      }
-
-      return description;
-    }
-
-  },
-
-  created() {
-    this.getAbout();
-  },
-
-  methods: {
-    async getAbout() {
-      const about = await this.$content('about').fetch();
-      this.about = about;
-    }
-
-  }
-});
-// CONCATENATED MODULE: ./components/Sections/About.vue?vue&type=script&lang=js&
- /* harmony default export */ var Sections_Aboutvue_type_script_lang_js_ = (Aboutvue_type_script_lang_js_); 
-// EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
-var componentNormalizer = __webpack_require__(0);
-
-// CONCATENATED MODULE: ./components/Sections/About.vue
-
-
-
-
-
-/* normalize component */
-
-var component = Object(componentNormalizer["a" /* default */])(
-  Sections_Aboutvue_type_script_lang_js_,
-  render,
-  staticRenderFns,
-  false,
-  null,
-  null,
-  "26bfdfbc"
-  
-)
-
-/* harmony default export */ var About = __webpack_exports__["default"] = (component.exports);
-
-/***/ }),
 /* 33 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
-"use strict";
-// ESM COMPAT FLAG
-__webpack_require__.r(__webpack_exports__);
+__webpack_require__(34);
+module.exports = __webpack_require__(44);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Sections/Experience.vue?vue&type=template&id=668b4f1a&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',{attrs:{"id":"experience"}},[_vm._ssrNode("<div class=\"container mx-auto px-8 py-4 md:px-20 md:py-10 max-w-6xl\"><div class=\"mb-5 md:mb-10 flex items-center\"><h1 class=\"text-3xl md:text-4xl font-bold whitespace-nowrap\">\n        Experience\n      </h1> <span class=\"ml-4 h-px w-64 bg-gray-300 dark:bg-gray-600\"></span></div> <div class=\"md:flex\"><ul class=\"flex items-center overflow-x-auto md:overflow-visible md:block\">"+(_vm._ssrList((_vm.experience),function(exp,index){return ("<li><button"+(_vm._ssrClass("px-4 py-3 whitespace-nowrap text-left block w-full border-b-2 md:border-b-0 md:border-l-2 dark:border-gray-600 transition hover:text-blue-500 hover:bg-gray-100 dark:hover:text-cyan-400 dark:hover:bg-gray-800 focus:text-blue-500 focus:bg-gray-100 dark:focus:text-cyan-400 dark:focus:bg-gray-800 outline-none",{
-              'text-gray-400 border-gray-300': _vm.activeTab !== exp.company,
-              'text-blue-500 dark:text-cyan-400 bg-gray-100 dark:bg-gray-800 border-blue-500 dark:border-cyan-400':
-                _vm.activeTab === exp.company
-            }))+">"+_vm._ssrEscape("\n            "+_vm._s(exp.company)+"\n          ")+"</button></li>")}))+"</ul> "+(_vm._ssrList((_vm.experience),function(exp,index){return ("<div"+(_vm._ssrClass("py-4 md:px-4 md:py-2",{ hidden: _vm.activeTab !== exp.company }))+"><div class=\"mb-2\"><h2 class=\"text-xl md:text-2xl\">"+_vm._ssrEscape("\n            "+_vm._s(exp.role)+"\n            ")+"<a"+(_vm._ssrAttr("href",exp.company_website))+" target=\"_blank\" rel=\"noreferrer\" class=\"text-blue-500 dark:text-cyan-400\">"+_vm._ssrEscape("@"+_vm._s(exp.company))+"</a></h2> <span class=\"text-sm text-gray-500 dark:text-gray-400\">"+_vm._ssrEscape("\n            "+_vm._s(exp.duration)+" · "+_vm._s(exp.contract.location)+"\n          ")+"</span></div> <p class=\"mb-2\">"+_vm._ssrEscape("\n          "+_vm._s(exp.description)+"\n          ")+"</p> <ul class=\"px-4 list-disc\">"+(_vm._ssrList((exp.tasks),function(task,i){return ("<li class=\"mb-2\">"+_vm._ssrEscape("\n            "+_vm._s(task)+"\n          ")+"</li>")}))+"</ul></div>")}))+"</div></div>")])}
-var staticRenderFns = []
-
-
-// CONCATENATED MODULE: ./components/Sections/Experience.vue?vue&type=template&id=668b4f1a&
-
-// CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Sections/Experience.vue?vue&type=script&lang=js&
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-/* harmony default export */ var Experiencevue_type_script_lang_js_ = ({
-  name: 'Experience',
-
-  data() {
-    return {
-      experience: [],
-      activeTab: null
-    };
-  },
-
-  created() {
-    this.getAbout().then(() => this.setActiveTab());
-  },
-
-  methods: {
-    async getAbout() {
-      const experience = await this.$content('experience').sortBy('updatedAt').fetch();
-      this.experience = experience;
-    },
-
-    setActiveTab() {
-      if (this.experience.length > 0) {
-        this.activeTab = this.experience[0].company;
-      }
-    }
-
-  }
-});
-// CONCATENATED MODULE: ./components/Sections/Experience.vue?vue&type=script&lang=js&
- /* harmony default export */ var Sections_Experiencevue_type_script_lang_js_ = (Experiencevue_type_script_lang_js_); 
-// EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
-var componentNormalizer = __webpack_require__(0);
-
-// CONCATENATED MODULE: ./components/Sections/Experience.vue
-
-
-
-
-
-/* normalize component */
-
-var component = Object(componentNormalizer["a" /* default */])(
-  Sections_Experiencevue_type_script_lang_js_,
-  render,
-  staticRenderFns,
-  false,
-  null,
-  null,
-  "a11bb56a"
-  
-)
-
-/* harmony default export */ var Experience = __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 /* 34 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-// ESM COMPAT FLAG
-__webpack_require__.r(__webpack_exports__);
-
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Sections/Header.vue?vue&type=template&id=3c0d7622&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('header',[_vm._ssrNode("<div class=\"container mx-auto px-8 py-4 md:px-12 md:py-10 flex items-center min-h-screen max-w-6xl\">","</div>",[(_vm.about)?_vm._ssrNode("<main>","</main>",[_vm._ssrNode("<h1 class=\"text-6xl md:text-7xl lg:text-8xl font-light\">"+_vm._ssrEscape("\n        "+_vm._s(_vm.about.name)+"\n      ")+"</h1> <h2 class=\"text-6xl md:text-7xl lg:text-8xl font-bold text-gray-500 dark:text-gray-400\">"+_vm._ssrEscape("\n        "+_vm._s(_vm.about.title)+"\n      ")+"</h2> <p class=\"mt-4 max-w-lg text-gray-500 dark:text-gray-400 leading-1\">"+_vm._ssrEscape("\n        "+_vm._s(_vm.about.bio)+"\n      ")+"</p> "),_c('nuxt-link',{staticClass:"mt-8 px-6 py-3 font-sourcecode text-blue-500 dark:text-cyan-400 inline-block border-2 border-blue-500 dark:border-cyan-400 rounded-md transition hover:bg-blue-500 dark:hover:bg-cyan-400 hover:bg-opacity-20 dark:hover:bg-opacity-20 focus:bg-blue-500 dark:focus:bg-cyan-400 focus:bg-opacity-20 dark:focus:bg-opacity-20",attrs:{"to":"/#contact"}},[_vm._v("\n        Get In Touch\n      ")])],2):_vm._e()])])}
-var staticRenderFns = []
-
-
-// CONCATENATED MODULE: ./components/Sections/Header.vue?vue&type=template&id=3c0d7622&
-
-// CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Sections/Header.vue?vue&type=script&lang=js&
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-/* harmony default export */ var Headervue_type_script_lang_js_ = ({
-  name: 'Header',
-
-  data() {
-    return {
-      about: {}
-    };
-  },
-
-  created() {
-    this.getAbout();
-  },
-
-  methods: {
-    async getAbout() {
-      const about = await this.$content('about').fetch();
-      this.about = about;
-    }
-
-  }
-});
-// CONCATENATED MODULE: ./components/Sections/Header.vue?vue&type=script&lang=js&
- /* harmony default export */ var Sections_Headervue_type_script_lang_js_ = (Headervue_type_script_lang_js_); 
-// EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
-var componentNormalizer = __webpack_require__(0);
-
-// CONCATENATED MODULE: ./components/Sections/Header.vue
-
-
-
-
-
-/* normalize component */
-
-var component = Object(componentNormalizer["a" /* default */])(
-  Sections_Headervue_type_script_lang_js_,
-  render,
-  staticRenderFns,
-  false,
-  null,
-  null,
-  "57141d24"
-  
-)
-
-/* harmony default export */ var Header = __webpack_exports__["default"] = (component.exports);
-
-/***/ }),
-/* 35 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-// ESM COMPAT FLAG
-__webpack_require__.r(__webpack_exports__);
-
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Sections/Project.vue?vue&type=template&id=22caaf2e&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',{attrs:{"id":"projects"}},[_vm._ssrNode("<div class=\"container mx-auto px-8 py-4 md:px-20 md:py-10 max-w-6xl\">","</div>",[_vm._ssrNode("<h1 class=\"mb-5 md:mb-10 text-3xl md:text-4xl font-bold text-center whitespace-nowrap\">\n      Projects\n    </h1> "),_vm._l((_vm.projects),function(project,index){return _vm._ssrNode("<div"+(_vm._ssrClass("mx-auto mb-10 md:mb-16 relative lg:flex lg:items-center rounded-xl overflow-hidden",{
-        'text-right flex-row': index % 2 === 0,
-        'text-left flex-row-reverse': index % 2 !== 0
-      }))+">","</div>",[_vm._ssrNode("<div class=\"h-80 lg:max-w-xl relative rounded-xl overflow-hidden shadow-xl\"><div class=\"hidden lg:block absolute inset-0 bg-blue-500 dark:bg-cyan-400 bg-opacity-50 dark:bg-opacity-50 transition duration-300 hover:bg-opacity-0 dark:hover:bg-opacity-0\"></div> <img"+(_vm._ssrAttr("src",project.cover_image))+(_vm._ssrAttr("alt",project.name))+" class=\"h-full w-full object-cover\"></div> "),_vm._ssrNode("<div"+(_vm._ssrClass("p-4 md:p-6 lg:p-0 flex items-center absolute text-gray-200 lg:text-gray-900 lg:dark:text-gray-200 bg-blue-900 bg-opacity-90 dark:bg-green-900 dark:bg-opacity-90 inset-0 lg:relative lg:bg-transparent lg:dark:bg-transparent z-10",{
-          'lg:-ml-12 lg:-mr-0': index % 2 === 0,
-          'lg:-ml-0 lg:-mr-12': index % 2 !== 0
-        }))+">","</div>",[_vm._ssrNode("<div>","</div>",[_vm._ssrNode("<h2 class=\"mb-2 md:mb-4 font-bold text-xl md:text-3xl tracking-tight\">"+_vm._ssrEscape("\n            "+_vm._s(project.name)+"\n          ")+"</h2> <div class=\"lg:p-4 lg:bg-gray-100 lg:dark:bg-gray-800 lg:shadow-xl lg:rounded-lg\"><p>"+_vm._ssrEscape("\n              "+_vm._s(_vm.trimDescription(project.description))+"\n              ")+((_vm.trimDescription(project.description).length > 135)?("<button class=\"text-blue-500 dark:text-cyan-400 underline\">\n                Read more\n              </button>"):"<!---->")+"</p></div> <p class=\"mt-2 md:mt-4 font-sourcecode text-gray-200 lg:text-gray-500 lg:dark:text-gray-400 rounded\">"+(_vm._ssrList((project.languages),function(lang,i){return ("<span>"+_vm._ssrEscape("\n              "+_vm._s(lang)+"\n            ")+"</span>")}))+"</p> "),_vm._ssrNode("<div"+(_vm._ssrClass("mt-2 md:mt-4 text-lg text-gray-200 lg:text-gray-500 lg:dark:text-gray-400 flex items-center",{
-              'justify-end': index % 2 === 0
-            }))+">","</div>",[_vm._ssrNode("<a"+(_vm._ssrAttr("href",project.github_link))+" target=\"_blank\" rel=\"noreferrer\" class=\"h-8 w-8 grid place-items-center hover:text-blue-500 focus:text-blue-500 dark:hover:text-cyan-400 dark:focus:text-cyan-400 rounded-full\">","</a>",[_c('git-hub',{staticClass:"h-2/3 w-2/3"})],1),_vm._ssrNode(" "),_vm._ssrNode("<a"+(_vm._ssrAttr("href",project.live_link))+" target=\"_blank\" rel=\"noreferrer\" class=\"ml-4 h-8 w-8 grid place-items-center hover:text-blue-500 focus:text-blue-500 dark:hover:text-cyan-400 dark:focus:text-cyan-400 rounded-full\">","</a>",[_c('external-link',{staticClass:"h-2/3 w-2/3"})],1)],2)],2)])],2)})],2)])}
-var staticRenderFns = []
-
-
-// CONCATENATED MODULE: ./components/Sections/Project.vue?vue&type=template&id=22caaf2e&
-
-// EXTERNAL MODULE: external "vuex"
-var external_vuex_ = __webpack_require__(3);
-
-// EXTERNAL MODULE: ./components/Icons/ExternalLink.vue + 4 modules
-var ExternalLink = __webpack_require__(12);
-
-// EXTERNAL MODULE: ./components/Icons/GitHub.vue + 4 modules
-var GitHub = __webpack_require__(4);
-
-// CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Sections/Project.vue?vue&type=script&lang=js&
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
-
-
-/* harmony default export */ var Projectvue_type_script_lang_js_ = ({
-  name: 'Project',
-  components: {
-    GitHub: GitHub["default"],
-    ExternalLink: ExternalLink["default"]
-  },
-
-  data() {
-    return {
-      projects: []
-    };
-  },
-
-  created() {
-    this.getProjects();
-  },
-
-  methods: { ...Object(external_vuex_["mapActions"])({
-      openModal: 'openModal'
-    }),
-
-    async getProjects() {
-      const projects = await this.$content('projects/featured').sortBy('createdAt').fetch();
-      this.projects = projects;
-    },
-
-    trimDescription(description) {
-      const maxLength = 135;
-      let trimmedDesc;
-
-      if (description.length > maxLength) {
-        trimmedDesc = `${description.substring(0, maxLength)}...`;
-      } else {
-        trimmedDesc = description;
-      }
-
-      return trimmedDesc;
-    }
-
-  }
-});
-// CONCATENATED MODULE: ./components/Sections/Project.vue?vue&type=script&lang=js&
- /* harmony default export */ var Sections_Projectvue_type_script_lang_js_ = (Projectvue_type_script_lang_js_); 
-// EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
-var componentNormalizer = __webpack_require__(0);
-
-// CONCATENATED MODULE: ./components/Sections/Project.vue
-
-
-
-
-
-/* normalize component */
-
-var component = Object(componentNormalizer["a" /* default */])(
-  Sections_Projectvue_type_script_lang_js_,
-  render,
-  staticRenderFns,
-  false,
-  null,
-  null,
-  "3e4eb788"
-  
-)
-
-/* harmony default export */ var Project = __webpack_exports__["default"] = (component.exports);
-
-/***/ }),
-/* 36 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-// ESM COMPAT FLAG
-__webpack_require__.r(__webpack_exports__);
-
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Sections/Skill.vue?vue&type=template&id=3b0df74c&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',{attrs:{"id":"skills"}},[_vm._ssrNode("<div class=\"container mx-auto px-8 py-4 md:px-20 md:py-10 max-w-6xl\"><h1 class=\"mb-5 md:mb-10 text-3xl md:text-4xl font-bold text-center whitespace-nowrap\">\n      Skills\n    </h1> "+((_vm.skills)?("<div><ul class=\"mx-auto flex items-center justify-center flex-wrap max-w-3xl\">"+(_vm._ssrList((_vm.skills.skills),function(skill,index){return ("<li class=\"m-1 md:m-2 flex items-center border dark:border-gray-700 rounded-xl overflow-hidden\"><div class=\"p-4 h-14 w-14 overflow-hidden\"><img"+(_vm._ssrAttr("src",("/images/skills/" + (skill.icon))))+(_vm._ssrAttr("alt",skill.name))+" class=\"w-full h-full object-contain\"></div> <p class=\"px-4 text-sm md:text-base\">"+_vm._ssrEscape("\n            "+_vm._s(skill.name)+"\n          ")+"</p></li>")}))+"</ul></div>"):"<!---->")+"</div>")])}
-var staticRenderFns = []
-
-
-// CONCATENATED MODULE: ./components/Sections/Skill.vue?vue&type=template&id=3b0df74c&
-
-// CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Sections/Skill.vue?vue&type=script&lang=js&
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-/* harmony default export */ var Skillvue_type_script_lang_js_ = ({
-  name: 'Skill',
-
-  data() {
-    return {
-      skills: null
-    };
-  },
-
-  created() {
-    this.getSkills();
-  },
-
-  methods: {
-    async getSkills() {
-      const skills = await this.$content('skills').fetch();
-      this.skills = skills;
-    }
-
-  }
-});
-// CONCATENATED MODULE: ./components/Sections/Skill.vue?vue&type=script&lang=js&
- /* harmony default export */ var Sections_Skillvue_type_script_lang_js_ = (Skillvue_type_script_lang_js_); 
-// EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
-var componentNormalizer = __webpack_require__(0);
-
-// CONCATENATED MODULE: ./components/Sections/Skill.vue
-
-
-
-
-
-/* normalize component */
-
-var component = Object(componentNormalizer["a" /* default */])(
-  Sections_Skillvue_type_script_lang_js_,
-  render,
-  staticRenderFns,
-  false,
-  null,
-  null,
-  "256ef700"
-  
-)
-
-/* harmony default export */ var Skill = __webpack_exports__["default"] = (component.exports);
-
-/***/ }),
-/* 37 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-// ESM COMPAT FLAG
-__webpack_require__.r(__webpack_exports__);
-
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Widgets/Modal.vue?vue&type=template&id=8eebd6ac&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"fixed inset-0 bg-blur bg-gray-900 bg-opacity-50 transition-all duration-300 z-30",class:{
-    'opacity-0 invisible': !_vm.modal.active,
-    'opacity-100 visible': _vm.modal.active
-  }},[(_vm.modal.active)?_vm._ssrNode("<article class=\"bg-white dark:bg-gray-800 w-full max-w-4xl absolute top-0 md:top-1/2 left-0 md:left-1/2 bottom-0 md:bottom-auto md:transform md:-translate-x-1/2 md:-translate-y-1/2 md:rounded-xl shadow-xl overflow-x-hidden overflow-y-auto\">","</article>",[_vm._ssrNode("<div class=\"px-8 py-4 bg-blur bg-white bg-opacity-90 dark:bg-gray-800 dark:bg-opacity-90 sticky top-0 w-full flex items-center justify-between z-10\">","</div>",[_vm._ssrNode("<p class=\"text-xl\">View project</p> "),_vm._ssrNode("<button class=\"h-8 w-8 grid place-items-center rounded-full transform transition text-gray-600 dark:text-gray-400 hover:bg-blue-100 dark:hover:bg-gray-700 focus:bg-blue-100 dark:focus:bg-gray-700 outline-none\">","</button>",[_c('times',{staticClass:"h-2/3 w-2/3"})],1)],2),_vm._ssrNode(" "),_vm._ssrNode("<div class=\"px-8 py-4 md:pb-8 md:grid md:gap-8 md:grid-cols-2\">","</div>",[_vm._ssrNode("<div class=\"md:mb-0 h-60 md:h-80 rounded-xl overflow-hidden\"><img"+(_vm._ssrAttr("src",_vm.modal.content.cover_image))+" alt=\"Project Name\" class=\"h-full w-full object-cover\"></div> "),_vm._ssrNode("<div class=\"py-4 md:py-0 relative md:max-h-96 overflow-x-hidden overflow-y-auto\">","</div>",[_vm._ssrNode("<h2 class=\"mb-4 text-3xl font-bold\">"+_vm._ssrEscape(_vm._s(_vm.modal.content.name))+"</h2> <p class=\"leading-6\">"+_vm._ssrEscape("\n          "+_vm._s(_vm.modal.content.description)+"\n        ")+"</p> "),_vm._ssrNode("<div class=\"mt-6 sticky top-full text-lg text-gray-600 dark:text-gray-400 flex items-center\">","</div>",[_vm._ssrNode("<a"+(_vm._ssrAttr("href",_vm.modal.content.github_link))+" target=\"_blank\" rel=\"noreferrer\" class=\"flex items-center transition hover:text-blue-500 dark:hover:text-cyan-400 focus:text-blue-500 dark:focus:text-cyan-400\">","</a>",[_vm._ssrNode("<div class=\"flex-shrink-0 h-8 w-8 grid place-items-center\">","</div>",[_c('git-hub',{staticClass:"h-2/3 w-2/3"})],1),_vm._ssrNode("\n            GitHub\n          ")],2),_vm._ssrNode(" "),_vm._ssrNode("<a"+(_vm._ssrAttr("href",_vm.modal.content.live_link))+" target=\"_blank\" rel=\"noreferrer\" class=\"ml-6 flex items-center transition hover:text-blue-500 dark:hover:text-cyan-400 focus:text-blue-500 dark:focus:text-cyan-400\">","</a>",[_vm._ssrNode("<div class=\"flex-shrink-0 h-8 w-8 grid place-items-center\">","</div>",[_c('external-link',{staticClass:"h-2/3 w-2/3"})],1),_vm._ssrNode("\n            Live\n          ")],2)],2)],2)],2)],2):_vm._e()])}
-var staticRenderFns = []
-
-
-// CONCATENATED MODULE: ./components/Widgets/Modal.vue?vue&type=template&id=8eebd6ac&
-
-// EXTERNAL MODULE: external "vuex"
-var external_vuex_ = __webpack_require__(3);
-
-// EXTERNAL MODULE: ./components/Icons/Times.vue + 4 modules
-var Times = __webpack_require__(26);
-
-// EXTERNAL MODULE: ./components/Icons/ExternalLink.vue + 4 modules
-var ExternalLink = __webpack_require__(12);
-
-// EXTERNAL MODULE: ./components/Icons/GitHub.vue + 4 modules
-var GitHub = __webpack_require__(4);
-
-// CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Widgets/Modal.vue?vue&type=script&lang=js&
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
-
-
-
-/* harmony default export */ var Modalvue_type_script_lang_js_ = ({
-  name: 'Modal',
-  components: {
-    Times: Times["default"],
-    GitHub: GitHub["default"],
-    ExternalLink: ExternalLink["default"]
-  },
-  computed: Object(external_vuex_["mapGetters"])({
-    modal: 'modal'
-  }),
-  methods: Object(external_vuex_["mapActions"])({
-    closeModal: 'closeModal'
-  })
-});
-// CONCATENATED MODULE: ./components/Widgets/Modal.vue?vue&type=script&lang=js&
- /* harmony default export */ var Widgets_Modalvue_type_script_lang_js_ = (Modalvue_type_script_lang_js_); 
-// EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
-var componentNormalizer = __webpack_require__(0);
-
-// CONCATENATED MODULE: ./components/Widgets/Modal.vue
-
-
-
-
-
-/* normalize component */
-
-var component = Object(componentNormalizer["a" /* default */])(
-  Widgets_Modalvue_type_script_lang_js_,
-  render,
-  staticRenderFns,
-  false,
-  null,
-  null,
-  "265a216d"
-  
-)
-
-/* harmony default export */ var Modal = __webpack_exports__["default"] = (component.exports);
-
-/***/ }),
-/* 38 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-// ESM COMPAT FLAG
-__webpack_require__.r(__webpack_exports__);
-
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Sections/Contact.vue?vue&type=template&id=17b87908&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',{attrs:{"id":"contact"}},[_vm._ssrNode("<div class=\"container mx-auto px-8 py-4 md:px-20 md:py-10 max-w-6xl\"><h1 class=\"mb-5 md:mb-10 text-3xl md:text-4xl font-bold text-center\">\n      Get In Touch\n    </h1> <div class=\"mx-auto max-w-sm\"><div"+(_vm._ssrClass("mb-4 font-bold text-center",{
-          'text-cyan-500': _vm.status === 'success',
-          'text-red-500': _vm.status === 'error'
-        }))+">"+((_vm.status === 'success')?("<p>Message sent successfully.</p>"):"<!---->")+" "+((_vm.status === 'error')?("<p>\n          There was a error submitting the form.\n        </p>"):"<!---->")+"</div> <form autocomplete=\"off\" name=\"contact\" method=\"POST\" action=\"/success\" data-netlify=\"true\" data-netlify-honeypot=\"bot-field\"><input type=\"hidden\" name=\"form-name\" value=\"contact\"> <div class=\"mb-4\"><label for=\"name\" class=\"block\">Name</label> <input id=\"name\" name=\"name\" type=\"text\" required=\"required\" placeholder=\"Full Name\""+(_vm._ssrAttr("value",(_vm.form.name)))+" class=\"p-2 block w-full border-b dark:bg-gray-800 border-gray-300 dark:border-gray-700 transition focus:border-blue-500 dark:focus:border-cyan-400 outline-none\"></div> <div class=\"mb-4\"><label for=\"subject\" class=\"block\">Subject</label> <input id=\"subject\" name=\"subject\" type=\"text\" required=\"required\" placeholder=\"Query/Opportunity\""+(_vm._ssrAttr("value",(_vm.form.subject)))+" class=\"p-2 block w-full border-b dark:bg-gray-800 border-gray-300 dark:border-gray-700 transition focus:border-blue-500 dark:focus:border-cyan-400 outline-none\"></div> <div class=\"mb-4\"><label for=\"email\" class=\"block\">Email</label> <input id=\"email\" name=\"email\" type=\"email\" required=\"required\" placeholder=\"Email Address\""+(_vm._ssrAttr("value",(_vm.form.email)))+" class=\"p-2 block w-full border-b dark:bg-gray-800 border-gray-300 dark:border-gray-700 transition focus:border-blue-500 dark:focus:border-cyan-400 outline-none\"></div> <div class=\"mb-4\"><label for=\"message\" class=\"block\">Message</label> <textarea id=\"message\" name=\"message\" rows=\"3\" required=\"required\" placeholder=\"Body of the Message\" class=\"p-2 block w-full border-b dark:bg-gray-800 border-gray-300 dark:border-gray-700 transition focus:border-blue-500 dark:focus:border-cyan-400 outline-none\">"+_vm._ssrEscape(_vm._s(_vm.form.message))+"</textarea></div> <button type=\"submit\""+(_vm._ssrClass("mx-auto mt-6 px-6 py-3 block font-sourcecode text-blue-500 dark:text-cyan-400 border-2 border-blue-500 dark:border-cyan-400 rounded-md transition hover:bg-blue-500 dark:hover:bg-cyan-400 hover:bg-opacity-20 dark:hover:bg-opacity-20 focus:bg-blue-500 dark:focus:bg-cyan-400 focus:bg-opacity-20 dark:focus:bg-opacity-20",{ 'pointer-events-none': _vm.busy }))+">"+((_vm.busy)?("<span>Sending...</span>"):"<!---->")+" "+((!_vm.busy)?("<span>Send</span>"):"<!---->")+"</button></form></div></div>")])}
-var staticRenderFns = []
-
-
-// CONCATENATED MODULE: ./components/Sections/Contact.vue?vue&type=template&id=17b87908&
-
-// EXTERNAL MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Sections/Contact.vue?vue&type=script&lang=js&
-var Contactvue_type_script_lang_js_ = __webpack_require__(15);
-
-// CONCATENATED MODULE: ./components/Sections/Contact.vue?vue&type=script&lang=js&
- /* harmony default export */ var Sections_Contactvue_type_script_lang_js_ = (Contactvue_type_script_lang_js_["a" /* default */]); 
-// EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
-var componentNormalizer = __webpack_require__(0);
-
-// CONCATENATED MODULE: ./components/Sections/Contact.vue
-
-
-
-
-
-/* normalize component */
-
-var component = Object(componentNormalizer["a" /* default */])(
-  Sections_Contactvue_type_script_lang_js_,
-  render,
-  staticRenderFns,
-  false,
-  null,
-  null,
-  "78c3b50f"
-  
-)
-
-/* harmony default export */ var Contact = __webpack_exports__["default"] = (component.exports);
-
-/***/ }),
-/* 39 */
-/***/ (function(module, exports, __webpack_require__) {
-
-// style-loader: Adds some css to the DOM by adding a <style> tag
-
-// load the styles
-var content = __webpack_require__(46);
-if(content.__esModule) content = content.default;
-if(typeof content === 'string') content = [[module.i, content, '']];
-if(content.locals) module.exports = content.locals;
-// add CSS to SSR context
-var add = __webpack_require__(14).default
-module.exports.__inject__ = function (context) {
-  add("7e56e4e3", content, true, context)
-};
-
-/***/ }),
-/* 40 */
-/***/ (function(module, exports) {
-
-module.exports = require("node-fetch");
-
-/***/ }),
-/* 41 */
-/***/ (function(module, exports) {
-
-module.exports = require("vue-meta");
-
-/***/ }),
-/* 42 */
-/***/ (function(module) {
-
-module.exports = JSON.parse("{\"title\":\"Freyam Mehta\",\"meta\":[{\"hid\":\"charset\",\"charset\":\"utf-8\"},{\"hid\":\"viewport\",\"name\":\"viewport\",\"content\":\"width=device-width, initial-scale=1\"},{\"hid\":\"mobile-web-app-capable\",\"name\":\"mobile-web-app-capable\",\"content\":\"yes\"},{\"hid\":\"apple-mobile-web-app-title\",\"name\":\"apple-mobile-web-app-title\",\"content\":\"Freyam Mehta\"},{\"hid\":\"description\",\"name\":\"description\",\"content\":\"A highly passionate Student Developer studying Computer Science at IIIT Hyderabad.\"},{\"hid\":\"theme-color\",\"name\":\"theme-color\",\"content\":\"#406bc7\"},{\"hid\":\"og:type\",\"name\":\"og:type\",\"property\":\"og:type\",\"content\":\"website\"},{\"hid\":\"og:title\",\"name\":\"og:title\",\"property\":\"og:title\",\"content\":\"Freyam Mehta\"},{\"hid\":\"og:site_name\",\"name\":\"og:site_name\",\"property\":\"og:site_name\",\"content\":\"Freyam Mehta\"},{\"hid\":\"og:description\",\"name\":\"og:description\",\"property\":\"og:description\",\"content\":\"A highly passionate Student Developer studying Computer Science at IIIT Hyderabad.\"}],\"link\":[{\"hid\":\"shortcut-icon\",\"rel\":\"shortcut icon\",\"href\":\"/icons/android-chrome-192x192.png\"},{\"hid\":\"apple-touch-icon\",\"rel\":\"apple-touch-icon\",\"href\":\"/icons/android-chrome-384x384.png\",\"sizes\":\"384x384\"},{\"rel\":\"manifest\",\"href\":\"/_nuxt/manifest.c38410ed.json\",\"hid\":\"manifest\"}],\"htmlAttrs\":{\"lang\":\"en\"}}");
-
-/***/ }),
-/* 43 */
-/***/ (function(module, exports, __webpack_require__) {
-
-__webpack_require__(44);
-module.exports = __webpack_require__(55);
-
-
-/***/ }),
-/* 44 */
 /***/ (function(module, exports) {
 
 global.installComponents = function (component, components) {
@@ -3195,109 +2043,113 @@ function provideFunctionalComponents(component, components) {
 
 
 /***/ }),
-/* 45 */
+/* 35 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_nuxt_loading_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(39);
-/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_nuxt_loading_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_nuxt_loading_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__);
-/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_nuxt_loading_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_nuxt_loading_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_nuxt_postcss8_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_nuxt_postcss8_node_modules_postcss_loader_dist_cjs_js_ref_3_oneOf_1_2_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_nuxt_loading_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(19);
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_nuxt_postcss8_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_nuxt_postcss8_node_modules_postcss_loader_dist_cjs_js_ref_3_oneOf_1_2_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_nuxt_loading_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_nuxt_postcss8_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_nuxt_postcss8_node_modules_postcss_loader_dist_cjs_js_ref_3_oneOf_1_2_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_nuxt_loading_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_nuxt_postcss8_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_nuxt_postcss8_node_modules_postcss_loader_dist_cjs_js_ref_3_oneOf_1_2_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_nuxt_loading_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_nuxt_postcss8_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_nuxt_postcss8_node_modules_postcss_loader_dist_cjs_js_ref_3_oneOf_1_2_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_nuxt_loading_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
 
 
 /***/ }),
-/* 46 */
+/* 36 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // Imports
-var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(13);
-var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(false);
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(5);
+var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.i, ".nuxt-progress{position:fixed;top:0;left:0;right:0;height:2px;width:0;opacity:1;transition:width .1s,opacity .4s;background-color:#000;z-index:999999}.nuxt-progress.nuxt-progress-notransition{transition:none}.nuxt-progress-failed{background-color:red}", ""]);
+___CSS_LOADER_EXPORT___.push([module.i, "/*purgecss start ignore*/\n.nuxt-progress{\n  position:fixed;\n  top:0;\n  left:0;\n  right:0;\n  height:2px;\n  width:0;\n  opacity:1;\n  transition:width .1s,opacity .4s;\n  background-color:#000;\n  z-index:999999\n}\n.nuxt-progress.nuxt-progress-notransition{\n  transition:none\n}\n.nuxt-progress-failed{\n  background-color:red\n}\n\n/*purgecss end ignore*/", ""]);
 // Exports
+___CSS_LOADER_EXPORT___.locals = {};
 module.exports = ___CSS_LOADER_EXPORT___;
 
 
 /***/ }),
-/* 47 */
+/* 37 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(48);
+var content = __webpack_require__(38);
 if(content.__esModule) content = content.default;
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
-__webpack_require__(14).default("0211d3d2", content, true)
+__webpack_require__(6).default("54b08540", content, true)
 
 /***/ }),
-/* 48 */
+/* 38 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // Imports
-var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(13);
-var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(false);
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(5);
+var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.i, "/*! tailwindcss v2.0.3 | MIT License | https://tailwindcss.com*/\n\n/*! modern-normalize v1.0.0 | MIT License | https://github.com/sindresorhus/modern-normalize */:root{-moz-tab-size:4;-o-tab-size:4;tab-size:4}html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,\"Segoe UI\",Helvetica,Arial,\"Apple Color Emoji\",\"Segoe UI Emoji\"}hr{height:0;color:inherit}abbr[title]{-webkit-text-decoration:underline dotted;text-decoration:underline dotted}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace,SFMono-Regular,Consolas,\"Liberation Mono\",Menlo,monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;line-height:1.15;margin:0}button,select{text-transform:none}[type=button],[type=submit],button{-webkit-appearance:button}legend{padding:0}progress{vertical-align:baseline}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}button{background-color:transparent;background-image:none}button:focus{outline:1px dotted;outline:5px auto -webkit-focus-ring-color}fieldset,ol,ul{margin:0;padding:0}ol,ul{list-style:none}html{font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,BlinkMacSystemFont,\"Segoe UI\",\"Helvetica Neue\",Arial,\"Noto Sans\",\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\";line-height:1.5}body{font-family:inherit;line-height:inherit}*,:after,:before{box-sizing:border-box;border:0 solid #e2e8f0}hr{border-top-width:1px}img{border-style:solid}textarea{resize:vertical}input::-moz-placeholder,textarea::-moz-placeholder{opacity:1;color:#94a3b8}input:-ms-input-placeholder,textarea:-ms-input-placeholder{opacity:1;color:#94a3b8}input::placeholder,textarea::placeholder{opacity:1;color:#94a3b8}[role=button],button{cursor:pointer}table{border-collapse:collapse}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}button,input,optgroup,select,textarea{padding:0;line-height:inherit;color:inherit}code,kbd,pre,samp{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,\"Liberation Mono\",\"Courier New\",monospace}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}.container{width:100%}@media (min-width:640px){.container{max-width:640px}}@media (min-width:768px){.container{max-width:768px}}@media (min-width:1024px){.container{max-width:1024px}}@media (min-width:1280px){.container{max-width:1280px}}@media (min-width:1536px){.container{max-width:1536px}}.bg-white{--tw-bg-opacity:1;background-color:rgba(255,255,255,var(--tw-bg-opacity))}.bg-gray-100{--tw-bg-opacity:1;background-color:rgba(241,245,249,var(--tw-bg-opacity))}.bg-gray-300{--tw-bg-opacity:1;background-color:rgba(203,213,225,var(--tw-bg-opacity))}.bg-gray-400{--tw-bg-opacity:1;background-color:rgba(148,163,184,var(--tw-bg-opacity))}.bg-gray-900{--tw-bg-opacity:1;background-color:rgba(15,23,42,var(--tw-bg-opacity))}.bg-blue-100{--tw-bg-opacity:1;background-color:rgba(219,234,254,var(--tw-bg-opacity))}.bg-blue-500{--tw-bg-opacity:1;background-color:rgba(59,130,246,var(--tw-bg-opacity))}.bg-blue-900{--tw-bg-opacity:1;background-color:rgba(30,58,138,var(--tw-bg-opacity))}.hover\\:bg-gray-100:hover{--tw-bg-opacity:1;background-color:rgba(241,245,249,var(--tw-bg-opacity))}.hover\\:bg-blue-100:hover{--tw-bg-opacity:1;background-color:rgba(219,234,254,var(--tw-bg-opacity))}.hover\\:bg-blue-500:hover{--tw-bg-opacity:1;background-color:rgba(59,130,246,var(--tw-bg-opacity))}.focus\\:bg-gray-100:focus{--tw-bg-opacity:1;background-color:rgba(241,245,249,var(--tw-bg-opacity))}.focus\\:bg-blue-100:focus{--tw-bg-opacity:1;background-color:rgba(219,234,254,var(--tw-bg-opacity))}.focus\\:bg-blue-500:focus{--tw-bg-opacity:1;background-color:rgba(59,130,246,var(--tw-bg-opacity))}.dark .dark\\:bg-gray-500{--tw-bg-opacity:1;background-color:rgba(100,116,139,var(--tw-bg-opacity))}.dark .dark\\:bg-gray-600{--tw-bg-opacity:1;background-color:rgba(71,85,105,var(--tw-bg-opacity))}.dark .dark\\:bg-gray-800{--tw-bg-opacity:1;background-color:rgba(30,41,59,var(--tw-bg-opacity))}.dark .dark\\:bg-gray-900{--tw-bg-opacity:1;background-color:rgba(15,23,42,var(--tw-bg-opacity))}.dark .dark\\:bg-cyan-400{--tw-bg-opacity:1;background-color:rgba(34,211,238,var(--tw-bg-opacity))}.dark .dark\\:hover\\:bg-gray-700:hover{--tw-bg-opacity:1;background-color:rgba(51,65,85,var(--tw-bg-opacity))}.dark .dark\\:hover\\:bg-gray-800:hover{--tw-bg-opacity:1;background-color:rgba(30,41,59,var(--tw-bg-opacity))}.dark .dark\\:hover\\:bg-cyan-400:hover{--tw-bg-opacity:1;background-color:rgba(34,211,238,var(--tw-bg-opacity))}.dark .dark\\:focus\\:bg-gray-700:focus{--tw-bg-opacity:1;background-color:rgba(51,65,85,var(--tw-bg-opacity))}.dark .dark\\:focus\\:bg-gray-800:focus{--tw-bg-opacity:1;background-color:rgba(30,41,59,var(--tw-bg-opacity))}.dark .dark\\:focus\\:bg-cyan-400:focus{--tw-bg-opacity:1;background-color:rgba(34,211,238,var(--tw-bg-opacity))}.bg-opacity-50{--tw-bg-opacity:0.5}.bg-opacity-80{--tw-bg-opacity:0.8}.bg-opacity-90{--tw-bg-opacity:0.9}.hover\\:bg-opacity-0:hover{--tw-bg-opacity:0}.focus\\:bg-opacity-20:focus,.hover\\:bg-opacity-20:hover{--tw-bg-opacity:0.2}.dark .dark\\:bg-opacity-50{--tw-bg-opacity:0.5}.dark .dark\\:bg-opacity-80{--tw-bg-opacity:0.8}.dark .dark\\:bg-opacity-90{--tw-bg-opacity:0.9}.dark .dark\\:hover\\:bg-opacity-0:hover{--tw-bg-opacity:0}.dark .dark\\:focus\\:bg-opacity-20:focus,.dark .dark\\:hover\\:bg-opacity-20:hover{--tw-bg-opacity:0.2}.border-gray-300{--tw-border-opacity:1;border-color:rgba(203,213,225,var(--tw-border-opacity))}.border-blue-500,.focus\\:border-blue-500:focus{--tw-border-opacity:1;border-color:rgba(59,130,246,var(--tw-border-opacity))}.dark .dark\\:border-gray-600{--tw-border-opacity:1;border-color:rgba(71,85,105,var(--tw-border-opacity))}.dark .dark\\:border-gray-700{--tw-border-opacity:1;border-color:rgba(51,65,85,var(--tw-border-opacity))}.dark .dark\\:border-cyan-400,.dark .dark\\:focus\\:border-cyan-400:focus{--tw-border-opacity:1;border-color:rgba(34,211,238,var(--tw-border-opacity))}.rounded{border-radius:.25rem}.rounded-md{border-radius:.375rem}.rounded-xl{border-radius:.75rem}.rounded-full{border-radius:9999px}.border-2{border-width:2px}.border{border-width:1px}.border-b-2{border-bottom-width:2px}.border-b{border-bottom-width:1px}.block{display:block}.inline-block{display:inline-block}.flex{display:flex}.table{display:table}.grid{display:grid}.hidden{display:none}.flex-row{flex-direction:row}.flex-row-reverse{flex-direction:row-reverse}.flex-col{flex-direction:column}.flex-wrap{flex-wrap:wrap}.place-items-center{align-items:center;justify-items:center;place-items:center}.items-center{align-items:center}.justify-start{justify-content:flex-start}.justify-end{justify-content:flex-end}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.flex-shrink-0{flex-shrink:0}.font-sourcesans{font-family:\"Source Sans Pro\",sans-serif}.font-sourcecode{font-family:\"Source Code Pro\",monospace}.font-light{font-weight:300}.font-bold{font-weight:700}.h-0{height:0}.h-8{height:2rem}.h-10{height:2.5rem}.h-12{height:3rem}.h-14{height:3.5rem}.h-24{height:6rem}.h-60{height:15rem}.h-72{height:18rem}.h-80{height:20rem}.h-px{height:1px}.h-0\\.5{height:.125rem}.h-2\\/3{height:66.666667%}.h-full{height:100%}.text-sm{font-size:.875rem;line-height:1.25rem}.text-lg{font-size:1.125rem}.text-lg,.text-xl{line-height:1.75rem}.text-xl{font-size:1.25rem}.text-3xl{font-size:1.875rem;line-height:2.25rem}.text-4xl{font-size:2.25rem;line-height:2.5rem}.text-6xl{font-size:3.75rem;line-height:1}.leading-6{line-height:1.5rem}.list-disc{list-style-type:disc}.m-1{margin:.25rem}.my-2{margin-top:.5rem;margin-bottom:.5rem}.mx-auto{margin-left:auto;margin-right:auto}.-my-0{margin-top:0;margin-bottom:0}.-my-0\\.5{margin-top:-.125rem;margin-bottom:-.125rem}.mt-2{margin-top:.5rem}.mb-2{margin-bottom:.5rem}.mt-4{margin-top:1rem}.mb-4{margin-bottom:1rem}.ml-4{margin-left:1rem}.mb-5{margin-bottom:1.25rem}.mt-6{margin-top:1.5rem}.ml-6{margin-left:1.5rem}.mt-8{margin-top:2rem}.mb-8{margin-bottom:2rem}.mb-10{margin-bottom:2.5rem}.ml-auto{margin-left:auto}.max-w-sm{max-width:24rem}.max-w-md{max-width:28rem}.max-w-lg{max-width:32rem}.max-w-3xl{max-width:48rem}.max-w-4xl{max-width:56rem}.max-w-6xl{max-width:72rem}.max-w-max{max-width:-webkit-max-content;max-width:-moz-max-content;max-width:max-content}.min-h-screen{min-height:100vh}.object-contain{-o-object-fit:contain;object-fit:contain}.object-cover{-o-object-fit:cover;object-fit:cover}.opacity-0{opacity:0}.opacity-100{opacity:1}.outline-none{outline:2px solid transparent;outline-offset:2px}.overflow-hidden{overflow:hidden}.overflow-x-auto{overflow-x:auto}.overflow-y-auto{overflow-y:auto}.overflow-x-hidden{overflow-x:hidden}.p-2{padding:.5rem}.p-4{padding:1rem}.p-8{padding:2rem}.py-2{padding-top:.5rem;padding-bottom:.5rem}.px-2{padding-left:.5rem;padding-right:.5rem}.py-3{padding-top:.75rem;padding-bottom:.75rem}.py-4{padding-top:1rem;padding-bottom:1rem}.px-4{padding-left:1rem;padding-right:1rem}.px-6{padding-left:1.5rem;padding-right:1.5rem}.px-8{padding-left:2rem;padding-right:2rem}.pointer-events-none{pointer-events:none}.static{position:static}.fixed{position:fixed}.absolute{position:absolute}.relative{position:relative}.sticky{position:-webkit-sticky;position:sticky}.inset-0{right:0;left:0}.inset-0,.inset-y-0{top:0;bottom:0}.top-0{top:0}.right-0{right:0}.bottom-0{bottom:0}.left-0{left:0}.top-4{top:1rem}.right-8{right:2rem}.left-8{left:2rem}.top-full{top:100%}*{--tw-shadow:0 0 transparent}.shadow-lg{--tw-shadow:0 10px 15px -3px rgba(0,0,0,0.1),0 4px 6px -2px rgba(0,0,0,0.05)}.shadow-lg,.shadow-xl{box-shadow:0 0 transparent,0 0 transparent,var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow,0 0 transparent),var(--tw-ring-shadow,0 0 transparent),var(--tw-shadow)}.shadow-xl{--tw-shadow:0 20px 25px -5px rgba(0,0,0,0.1),0 10px 10px -5px rgba(0,0,0,0.04)}*{--tw-ring-inset:var(--tw-empty,/*!*/ /*!*/);--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,0.5);--tw-ring-offset-shadow:0 0 transparent;--tw-ring-shadow:0 0 transparent}.text-left{text-align:left}.text-center{text-align:center}.text-right{text-align:right}.text-gray-200{--tw-text-opacity:1;color:rgba(226,232,240,var(--tw-text-opacity))}.text-gray-400{--tw-text-opacity:1;color:rgba(148,163,184,var(--tw-text-opacity))}.text-gray-500{--tw-text-opacity:1;color:rgba(100,116,139,var(--tw-text-opacity))}.text-gray-600{--tw-text-opacity:1;color:rgba(71,85,105,var(--tw-text-opacity))}.text-gray-800{--tw-text-opacity:1;color:rgba(30,41,59,var(--tw-text-opacity))}.text-blue-400{--tw-text-opacity:1;color:rgba(96,165,250,var(--tw-text-opacity))}.text-blue-500{--tw-text-opacity:1;color:rgba(59,130,246,var(--tw-text-opacity))}.text-cyan-500{--tw-text-opacity:1;color:rgba(6,182,212,var(--tw-text-opacity))}.focus\\:text-blue-500:focus,.hover\\:text-blue-500:hover{--tw-text-opacity:1;color:rgba(59,130,246,var(--tw-text-opacity))}.dark .dark\\:text-gray-200{--tw-text-opacity:1;color:rgba(226,232,240,var(--tw-text-opacity))}.dark .dark\\:text-gray-400{--tw-text-opacity:1;color:rgba(148,163,184,var(--tw-text-opacity))}.dark .dark\\:focus\\:text-cyan-400:focus,.dark .dark\\:hover\\:text-cyan-400:hover,.dark .dark\\:text-cyan-400{--tw-text-opacity:1;color:rgba(34,211,238,var(--tw-text-opacity))}.underline{text-decoration:underline}.tracking-tight{letter-spacing:-.025em}.tracking-wider{letter-spacing:.05em}.visible{visibility:visible}.invisible{visibility:hidden}.whitespace-nowrap{white-space:nowrap}.w-2{width:.5rem}.w-4{width:1rem}.w-6{width:1.5rem}.w-8{width:2rem}.w-10{width:2.5rem}.w-12{width:3rem}.w-14{width:3.5rem}.w-56{width:14rem}.w-64{width:16rem}.w-px{width:1px}.w-2\\/3{width:66.666667%}.w-full{width:100%}.z-10{z-index:10}.z-20{z-index:20}.z-30{z-index:30}.transform{--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;transform:translateX(var(--tw-translate-x)) translateY(var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.scale-90{--tw-scale-x:.9;--tw-scale-y:.9}.rotate-45{--tw-rotate:45deg}.-rotate-45{--tw-rotate:-45deg}.translate-x-0{--tw-translate-x:0px}.translate-x-56{--tw-translate-x:14rem}.focus\\:-translate-y-1:focus,.hover\\:-translate-y-1:hover{--tw-translate-y:-0.25rem}.transition-all{transition-property:all;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.transition{transition-property:background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.duration-300{transition-duration:.3s}@-webkit-keyframes spin{to{transform:rotate(1turn)}}@keyframes spin{to{transform:rotate(1turn)}}@-webkit-keyframes ping{75%,to{transform:scale(2);opacity:0}}@keyframes ping{75%,to{transform:scale(2);opacity:0}}@-webkit-keyframes pulse{50%{opacity:.5}}@keyframes pulse{50%{opacity:.5}}@-webkit-keyframes bounce{0%,to{transform:translateY(-25%);-webkit-animation-timing-function:cubic-bezier(.8,0,1,1);animation-timing-function:cubic-bezier(.8,0,1,1)}50%{transform:none;-webkit-animation-timing-function:cubic-bezier(0,0,.2,1);animation-timing-function:cubic-bezier(0,0,.2,1)}}@keyframes bounce{0%,to{transform:translateY(-25%);-webkit-animation-timing-function:cubic-bezier(.8,0,1,1);animation-timing-function:cubic-bezier(.8,0,1,1)}50%{transform:none;-webkit-animation-timing-function:cubic-bezier(0,0,.2,1);animation-timing-function:cubic-bezier(0,0,.2,1)}}@media (min-width:768px){.md\\:rounded-xl{border-radius:.75rem}.md\\:border-b-0{border-bottom-width:0}.md\\:border-l-2{border-left-width:2px}.md\\:block{display:block}.md\\:flex{display:flex}.md\\:grid{display:grid}.md\\:hidden{display:none}.md\\:h-80{height:20rem}.md\\:text-base{font-size:1rem;line-height:1.5rem}.md\\:text-2xl{font-size:1.5rem;line-height:2rem}.md\\:text-3xl{font-size:1.875rem;line-height:2.25rem}.md\\:text-4xl{font-size:2.25rem;line-height:2.5rem}.md\\:text-6xl{font-size:3.75rem;line-height:1}.md\\:text-7xl{font-size:4.5rem;line-height:1}.md\\:m-2{margin:.5rem}.md\\:mb-0{margin-bottom:0}.md\\:mt-4{margin-top:1rem}.md\\:mb-4{margin-bottom:1rem}.md\\:mb-10{margin-bottom:2.5rem}.md\\:mb-16{margin-bottom:4rem}.md\\:max-h-96{max-height:24rem}.md\\:overflow-visible{overflow:visible}.md\\:p-6{padding:1.5rem}.md\\:py-0{padding-top:0;padding-bottom:0}.md\\:py-2{padding-top:.5rem;padding-bottom:.5rem}.md\\:px-4{padding-left:1rem;padding-right:1rem}.md\\:py-10{padding-top:2.5rem;padding-bottom:2.5rem}.md\\:px-12{padding-left:3rem;padding-right:3rem}.md\\:px-20{padding-left:5rem;padding-right:5rem}.md\\:pb-8{padding-bottom:2rem}.md\\:bottom-auto{bottom:auto}.md\\:top-1\\/2{top:50%}.md\\:left-1\\/2{left:50%}.md\\:gap-8{grid-gap:2rem;gap:2rem}.md\\:grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}.md\\:transform{--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;transform:translateX(var(--tw-translate-x)) translateY(var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.md\\:-translate-x-1\\/2{--tw-translate-x:-50%}.md\\:-translate-y-1\\/2{--tw-translate-y:-50%}}@media (min-width:1024px){.lg\\:bg-transparent{background-color:transparent}.lg\\:bg-gray-100{--tw-bg-opacity:1;background-color:rgba(241,245,249,var(--tw-bg-opacity))}.dark .lg\\:dark\\:bg-transparent{background-color:transparent}.dark .lg\\:dark\\:bg-gray-800{--tw-bg-opacity:1;background-color:rgba(30,41,59,var(--tw-bg-opacity))}.lg\\:rounded-lg{border-radius:.5rem}.lg\\:block{display:block}.lg\\:flex{display:flex}.lg\\:grid{display:grid}.lg\\:hidden{display:none}.lg\\:items-center{align-items:center}.lg\\:text-8xl{font-size:6rem;line-height:1}.lg\\:mt-0{margin-top:0}.lg\\:mb-10{margin-bottom:2.5rem}.lg\\:-mr-0{margin-right:0}.lg\\:-ml-0{margin-left:0}.lg\\:-mr-12{margin-right:-3rem}.lg\\:-ml-12{margin-left:-3rem}.lg\\:max-w-xl{max-width:36rem}.lg\\:max-w-full{max-width:100%}.lg\\:p-0{padding:0}.lg\\:p-4{padding:1rem}.lg\\:relative{position:relative}.lg\\:shadow-xl{--tw-shadow:0 20px 25px -5px rgba(0,0,0,0.1),0 10px 10px -5px rgba(0,0,0,0.04);box-shadow:0 0 transparent,0 0 transparent,var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow,0 0 transparent),var(--tw-ring-shadow,0 0 transparent),var(--tw-shadow)}.lg\\:text-gray-500{--tw-text-opacity:1;color:rgba(100,116,139,var(--tw-text-opacity))}.lg\\:text-gray-900{--tw-text-opacity:1;color:rgba(15,23,42,var(--tw-text-opacity))}.dark .lg\\:dark\\:text-gray-200{--tw-text-opacity:1;color:rgba(226,232,240,var(--tw-text-opacity))}.dark .lg\\:dark\\:text-gray-400{--tw-text-opacity:1;color:rgba(148,163,184,var(--tw-text-opacity))}.lg\\:w-72{width:18rem}.lg\\:grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}}", ""]);
+___CSS_LOADER_EXPORT___.push([module.i, "/*! tailwindcss v2.2.9 | MIT License | https://tailwindcss.com*/\n\n/*! modern-normalize v1.1.0 | MIT License | https://github.com/sindresorhus/modern-normalize */\n\n/*\nDocument\n========\n*/\n\n/**\nUse a better box model (opinionated).\n*/\n\n*,\n::before,\n::after {\n  box-sizing: border-box;\n}\n\n/**\nUse a more readable tab size (opinionated).\n*/\n\nhtml {\n  -moz-tab-size: 4;\n  -o-tab-size: 4;\n     tab-size: 4;\n}\n\n/**\n1. Correct the line height in all browsers.\n2. Prevent adjustments of font size after orientation changes in iOS.\n*/\n\nhtml {\n  line-height: 1.15; /* 1 */\n  -webkit-text-size-adjust: 100%; /* 2 */\n}\n\n/*\nSections\n========\n*/\n\n/**\nRemove the margin in all browsers.\n*/\n\nbody {\n  margin: 0;\n}\n\n/**\nImprove consistency of default fonts in all browsers. (https://github.com/sindresorhus/modern-normalize/issues/3)\n*/\n\nbody {\n  font-family:\n\t\tsystem-ui,\n\t\t-apple-system, /* Firefox supports this but not yet `system-ui` */\n\t\t'Segoe UI',\n\t\tRoboto,\n\t\tHelvetica,\n\t\tArial,\n\t\tsans-serif,\n\t\t'Apple Color Emoji',\n\t\t'Segoe UI Emoji';\n}\n\n/*\nGrouping content\n================\n*/\n\n/**\n1. Add the correct height in Firefox.\n2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)\n*/\n\nhr {\n  height: 0; /* 1 */\n  color: inherit; /* 2 */\n}\n\n/*\nText-level semantics\n====================\n*/\n\n/**\nAdd the correct text decoration in Chrome, Edge, and Safari.\n*/\n\nabbr[title] {\n  -webkit-text-decoration: underline dotted;\n          text-decoration: underline dotted;\n}\n\n/**\nAdd the correct font weight in Edge and Safari.\n*/\n\nb,\nstrong {\n  font-weight: bolder;\n}\n\n/**\n1. Improve consistency of default fonts in all browsers. (https://github.com/sindresorhus/modern-normalize/issues/3)\n2. Correct the odd 'em' font sizing in all browsers.\n*/\n\ncode,\nkbd,\nsamp,\npre {\n  font-family:\n\t\tui-monospace,\n\t\tSFMono-Regular,\n\t\tConsolas,\n\t\t'Liberation Mono',\n\t\tMenlo,\n\t\tmonospace; /* 1 */\n  font-size: 1em; /* 2 */\n}\n\n/**\nAdd the correct font size in all browsers.\n*/\n\nsmall {\n  font-size: 80%;\n}\n\n/**\nPrevent 'sub' and 'sup' elements from affecting the line height in all browsers.\n*/\n\nsub,\nsup {\n  font-size: 75%;\n  line-height: 0;\n  position: relative;\n  vertical-align: baseline;\n}\n\nsub {\n  bottom: -0.25em;\n}\n\nsup {\n  top: -0.5em;\n}\n\n/*\nTabular data\n============\n*/\n\n/**\n1. Remove text indentation from table contents in Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=999088, https://bugs.webkit.org/show_bug.cgi?id=201297)\n2. Correct table border color inheritance in all Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=935729, https://bugs.webkit.org/show_bug.cgi?id=195016)\n*/\n\ntable {\n  text-indent: 0; /* 1 */\n  border-color: inherit; /* 2 */\n}\n\n/*\nForms\n=====\n*/\n\n/**\n1. Change the font styles in all browsers.\n2. Remove the margin in Firefox and Safari.\n*/\n\nbutton,\ninput,\noptgroup,\nselect,\ntextarea {\n  font-family: inherit; /* 1 */\n  font-size: 100%; /* 1 */\n  line-height: 1.15; /* 1 */\n  margin: 0; /* 2 */\n}\n\n/**\nRemove the inheritance of text transform in Edge and Firefox.\n1. Remove the inheritance of text transform in Firefox.\n*/\n\nbutton,\nselect { /* 1 */\n  text-transform: none;\n}\n\n/**\nCorrect the inability to style clickable types in iOS and Safari.\n*/\n\nbutton,\n[type='button'],\n[type='submit'] {\n  -webkit-appearance: button;\n}\n\n/**\nRemove the inner border and padding in Firefox.\n*/\n\n/**\nRestore the focus styles unset by the previous rule.\n*/\n\n/**\nRemove the additional ':invalid' styles in Firefox.\nSee: https://github.com/mozilla/gecko-dev/blob/2f9eacd9d3d995c937b4251a5557d95d494c9be1/layout/style/res/forms.css#L728-L737\n*/\n\n/**\nRemove the padding so developers are not caught out when they zero out 'fieldset' elements in all browsers.\n*/\n\nlegend {\n  padding: 0;\n}\n\n/**\nAdd the correct vertical alignment in Chrome and Firefox.\n*/\n\nprogress {\n  vertical-align: baseline;\n}\n\n/**\nCorrect the cursor style of increment and decrement buttons in Safari.\n*/\n\n/**\n1. Correct the odd appearance in Chrome and Safari.\n2. Correct the outline style in Safari.\n*/\n\n/**\nRemove the inner padding in Chrome and Safari on macOS.\n*/\n\n/**\n1. Correct the inability to style clickable types in iOS and Safari.\n2. Change font properties to 'inherit' in Safari.\n*/\n\n/*\nInteractive\n===========\n*/\n\n/*\nAdd the correct display in Chrome and Safari.\n*/\n\nsummary {\n  display: list-item;\n}\n\n/**\n * Manually forked from SUIT CSS Base: https://github.com/suitcss/base\n * A thin layer on top of normalize.css that provides a starting point more\n * suitable for web applications.\n */\n\n/**\n * Removes the default spacing and border for appropriate elements.\n */\n\nblockquote,\ndl,\ndd,\nh1,\nh2,\nh3,\nh4,\nh5,\nh6,\nhr,\nfigure,\np,\npre {\n  margin: 0;\n}\n\nbutton {\n  background-color: transparent;\n  background-image: none;\n}\n\nfieldset {\n  margin: 0;\n  padding: 0;\n}\n\nol,\nul {\n  list-style: none;\n  margin: 0;\n  padding: 0;\n}\n\n/**\n * Tailwind custom reset styles\n */\n\n/**\n * 1. Use the user's configured `sans` font-family (with Tailwind's default\n *    sans-serif font stack as a fallback) as a sane default.\n * 2. Use Tailwind's default \"normal\" line-height so the user isn't forced\n *    to override it to ensure consistency even when using the default theme.\n */\n\nhtml {\n  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"; /* 1 */\n  line-height: 1.5; /* 2 */\n}\n\n/**\n * Inherit font-family and line-height from `html` so users can set them as\n * a class directly on the `html` element.\n */\n\nbody {\n  font-family: inherit;\n  line-height: inherit;\n}\n\n/**\n * 1. Prevent padding and border from affecting element width.\n *\n *    We used to set this in the html element and inherit from\n *    the parent element for everything else. This caused issues\n *    in shadow-dom-enhanced elements like <details> where the content\n *    is wrapped by a div with box-sizing set to `content-box`.\n *\n *    https://github.com/mozdevs/cssremedy/issues/4\n *\n *\n * 2. Allow adding a border to an element by just adding a border-width.\n *\n *    By default, the way the browser specifies that an element should have no\n *    border is by setting it's border-style to `none` in the user-agent\n *    stylesheet.\n *\n *    In order to easily add borders to elements by just setting the `border-width`\n *    property, we change the default border-style for all elements to `solid`, and\n *    use border-width to hide them instead. This way our `border` utilities only\n *    need to set the `border-width` property instead of the entire `border`\n *    shorthand, making our border utilities much more straightforward to compose.\n *\n *    https://github.com/tailwindcss/tailwindcss/pull/116\n */\n\n*,\n::before,\n::after {\n  box-sizing: border-box; /* 1 */\n  border-width: 0; /* 2 */\n  border-style: solid; /* 2 */\n  border-color: currentColor; /* 2 */\n}\n\n/*\n * Ensure horizontal rules are visible by default\n */\n\nhr {\n  border-top-width: 1px;\n}\n\n/**\n * Undo the `border-style: none` reset that Normalize applies to images so that\n * our `border-{width}` utilities have the expected effect.\n *\n * The Normalize reset is unnecessary for us since we default the border-width\n * to 0 on all elements.\n *\n * https://github.com/tailwindcss/tailwindcss/issues/362\n */\n\nimg {\n  border-style: solid;\n}\n\ntextarea {\n  resize: vertical;\n}\n\ninput::-moz-placeholder, textarea::-moz-placeholder {\n  opacity: 1;\n  color: #94a3b8;\n}\n\ninput:-ms-input-placeholder, textarea:-ms-input-placeholder {\n  opacity: 1;\n  color: #94a3b8;\n}\n\ninput::placeholder,\ntextarea::placeholder {\n  opacity: 1;\n  color: #94a3b8;\n}\n\nbutton,\n[role=\"button\"] {\n  cursor: pointer;\n}\n\n/**\n * Override legacy focus reset from Normalize with modern Firefox focus styles.\n *\n * This is actually an improvement over the new defaults in Firefox in our testing,\n * as it triggers the better focus styles even for links, which still use a dotted\n * outline in Firefox by default.\n */\n\ntable {\n  border-collapse: collapse;\n}\n\nh1,\nh2,\nh3,\nh4,\nh5,\nh6 {\n  font-size: inherit;\n  font-weight: inherit;\n}\n\n/**\n * Reset links to optimize for opt-in styling instead of\n * opt-out.\n */\n\na {\n  color: inherit;\n  text-decoration: inherit;\n}\n\n/**\n * Reset form element properties that are easy to forget to\n * style explicitly so you don't inadvertently introduce\n * styles that deviate from your design system. These styles\n * supplement a partial reset that is already applied by\n * normalize.css.\n */\n\nbutton,\ninput,\noptgroup,\nselect,\ntextarea {\n  padding: 0;\n  line-height: inherit;\n  color: inherit;\n}\n\n/**\n * Use the configured 'mono' font family for elements that\n * are expected to be rendered with a monospace font, falling\n * back to the system monospace stack if there is no configured\n * 'mono' font family.\n */\n\npre,\ncode,\nkbd,\nsamp {\n  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace;\n}\n\n/**\n * 1. Make replaced elements `display: block` by default as that's\n *    the behavior you want almost all of the time. Inspired by\n *    CSS Remedy, with `svg` added as well.\n *\n *    https://github.com/mozdevs/cssremedy/issues/14\n * \n * 2. Add `vertical-align: middle` to align replaced elements more\n *    sensibly by default when overriding `display` by adding a\n *    utility like `inline`.\n *\n *    This can trigger a poorly considered linting error in some\n *    tools but is included by design.\n * \n *    https://github.com/jensimmons/cssremedy/issues/14#issuecomment-634934210\n */\n\nimg,\nsvg,\nvideo,\ncanvas,\naudio,\niframe,\nembed,\nobject {\n  display: block; /* 1 */\n  vertical-align: middle; /* 2 */\n}\n\n/**\n * Constrain images and videos to the parent width and preserve\n * their intrinsic aspect ratio.\n *\n * https://github.com/mozdevs/cssremedy/issues/14\n */\n\nimg,\nvideo {\n  max-width: 100%;\n  height: auto;\n}\n\n/**\n * Ensure the default browser behavior of the `hidden` attribute.\n */\n\n[hidden] {\n  display: none;\n}\n\n*, ::before, ::after{\n  --tw-border-opacity:1;\n  border-color:rgba(226, 232, 240, var(--tw-border-opacity));\n}\n\n.container{\n  width:100%;\n}\n\n@media (min-width: 640px){\n  .container{\n    max-width:640px;\n  }\n}\n\n@media (min-width: 768px){\n  .container{\n    max-width:768px;\n  }\n}\n\n@media (min-width: 1024px){\n  .container{\n    max-width:1024px;\n  }\n}\n\n@media (min-width: 1280px){\n  .container{\n    max-width:1280px;\n  }\n}\n\n@media (min-width: 1536px){\n  .container{\n    max-width:1536px;\n  }\n}\n\n.pointer-events-none{\n  pointer-events:none;\n}\n\n.visible{\n  visibility:visible;\n}\n\n.invisible{\n  visibility:hidden;\n}\n\n.static{\n  position:static;\n}\n\n.fixed{\n  position:fixed;\n}\n\n.absolute{\n  position:absolute;\n}\n\n.relative{\n  position:relative;\n}\n\n.sticky{\n  position:sticky;\n}\n\n.inset-0{\n  top:0px;\n  right:0px;\n  bottom:0px;\n  left:0px;\n}\n\n.inset-y-0{\n  top:0px;\n  bottom:0px;\n}\n\n.top-0{\n  top:0px;\n}\n\n.top-4{\n  top:1rem;\n}\n\n.top-full{\n  top:100%;\n}\n\n.right-0{\n  right:0px;\n}\n\n.right-8{\n  right:2rem;\n}\n\n.bottom-0{\n  bottom:0px;\n}\n\n.left-0{\n  left:0px;\n}\n\n.left-8{\n  left:2rem;\n}\n\n.z-10{\n  z-index:10;\n}\n\n.z-20{\n  z-index:20;\n}\n\n.z-30{\n  z-index:30;\n}\n\n.m-1{\n  margin:0.25rem;\n}\n\n.mx-auto{\n  margin-left:auto;\n  margin-right:auto;\n}\n\n.my-2{\n  margin-top:0.5rem;\n  margin-bottom:0.5rem;\n}\n\n.-my-0{\n  margin-top:0px;\n  margin-bottom:0px;\n}\n\n.-my-0\\.5{\n  margin-top:-0.125rem;\n  margin-bottom:-0.125rem;\n}\n\n.mt-2{\n  margin-top:0.5rem;\n}\n\n.mt-4{\n  margin-top:1rem;\n}\n\n.mt-6{\n  margin-top:1.5rem;\n}\n\n.mt-8{\n  margin-top:2rem;\n}\n\n.mb-2{\n  margin-bottom:0.5rem;\n}\n\n.mb-4{\n  margin-bottom:1rem;\n}\n\n.mb-5{\n  margin-bottom:1.25rem;\n}\n\n.mb-8{\n  margin-bottom:2rem;\n}\n\n.mb-10{\n  margin-bottom:2.5rem;\n}\n\n.ml-4{\n  margin-left:1rem;\n}\n\n.ml-6{\n  margin-left:1.5rem;\n}\n\n.ml-auto{\n  margin-left:auto;\n}\n\n.block{\n  display:block;\n}\n\n.inline-block{\n  display:inline-block;\n}\n\n.flex{\n  display:flex;\n}\n\n.table{\n  display:table;\n}\n\n.grid{\n  display:grid;\n}\n\n.hidden{\n  display:none;\n}\n\n.h-0{\n  height:0px;\n}\n\n.h-8{\n  height:2rem;\n}\n\n.h-10{\n  height:2.5rem;\n}\n\n.h-12{\n  height:3rem;\n}\n\n.h-14{\n  height:3.5rem;\n}\n\n.h-24{\n  height:6rem;\n}\n\n.h-60{\n  height:15rem;\n}\n\n.h-72{\n  height:18rem;\n}\n\n.h-80{\n  height:20rem;\n}\n\n.h-px{\n  height:1px;\n}\n\n.h-0\\.5{\n  height:0.125rem;\n}\n\n.h-2\\/3{\n  height:66.666667%;\n}\n\n.h-full{\n  height:100%;\n}\n\n.min-h-screen{\n  min-height:100vh;\n}\n\n.w-2{\n  width:0.5rem;\n}\n\n.w-4{\n  width:1rem;\n}\n\n.w-6{\n  width:1.5rem;\n}\n\n.w-8{\n  width:2rem;\n}\n\n.w-10{\n  width:2.5rem;\n}\n\n.w-12{\n  width:3rem;\n}\n\n.w-14{\n  width:3.5rem;\n}\n\n.w-56{\n  width:14rem;\n}\n\n.w-64{\n  width:16rem;\n}\n\n.w-px{\n  width:1px;\n}\n\n.w-2\\/3{\n  width:66.666667%;\n}\n\n.w-full{\n  width:100%;\n}\n\n.max-w-sm{\n  max-width:24rem;\n}\n\n.max-w-md{\n  max-width:28rem;\n}\n\n.max-w-lg{\n  max-width:32rem;\n}\n\n.max-w-3xl{\n  max-width:48rem;\n}\n\n.max-w-4xl{\n  max-width:56rem;\n}\n\n.max-w-6xl{\n  max-width:72rem;\n}\n\n.max-w-max{\n  max-width:-webkit-max-content;\n  max-width:-moz-max-content;\n  max-width:max-content;\n}\n\n.flex-shrink-0{\n  flex-shrink:0;\n}\n\n.transform{\n  --tw-translate-x:0;\n  --tw-translate-y:0;\n  --tw-rotate:0;\n  --tw-skew-x:0;\n  --tw-skew-y:0;\n  --tw-scale-x:1;\n  --tw-scale-y:1;\n  transform:translateX(var(--tw-translate-x)) translateY(var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n}\n\n.translate-x-0{\n  --tw-translate-x:0px;\n}\n\n.translate-x-56{\n  --tw-translate-x:14rem;\n}\n\n.hover\\:-translate-y-1:hover{\n  --tw-translate-y:-0.25rem;\n}\n\n.focus\\:-translate-y-1:focus{\n  --tw-translate-y:-0.25rem;\n}\n\n.rotate-45{\n  --tw-rotate:45deg;\n}\n\n.-rotate-45{\n  --tw-rotate:-45deg;\n}\n\n.scale-90{\n  --tw-scale-x:.9;\n  --tw-scale-y:.9;\n}\n\n@-webkit-keyframes spin{\n  to{\n    transform:rotate(360deg);\n  }\n}\n\n@keyframes spin{\n  to{\n    transform:rotate(360deg);\n  }\n}\n\n@-webkit-keyframes ping{\n  75%, 100%{\n    transform:scale(2);\n    opacity:0;\n  }\n}\n\n@keyframes ping{\n  75%, 100%{\n    transform:scale(2);\n    opacity:0;\n  }\n}\n\n@-webkit-keyframes pulse{\n  50%{\n    opacity:.5;\n  }\n}\n\n@keyframes pulse{\n  50%{\n    opacity:.5;\n  }\n}\n\n@-webkit-keyframes bounce{\n  0%, 100%{\n    transform:translateY(-25%);\n    -webkit-animation-timing-function:cubic-bezier(0.8,0,1,1);\n            animation-timing-function:cubic-bezier(0.8,0,1,1);\n  }\n\n  50%{\n    transform:none;\n    -webkit-animation-timing-function:cubic-bezier(0,0,0.2,1);\n            animation-timing-function:cubic-bezier(0,0,0.2,1);\n  }\n}\n\n@keyframes bounce{\n  0%, 100%{\n    transform:translateY(-25%);\n    -webkit-animation-timing-function:cubic-bezier(0.8,0,1,1);\n            animation-timing-function:cubic-bezier(0.8,0,1,1);\n  }\n\n  50%{\n    transform:none;\n    -webkit-animation-timing-function:cubic-bezier(0,0,0.2,1);\n            animation-timing-function:cubic-bezier(0,0,0.2,1);\n  }\n}\n\n.list-disc{\n  list-style-type:disc;\n}\n\n.flex-row{\n  flex-direction:row;\n}\n\n.flex-row-reverse{\n  flex-direction:row-reverse;\n}\n\n.flex-col{\n  flex-direction:column;\n}\n\n.flex-wrap{\n  flex-wrap:wrap;\n}\n\n.place-items-center{\n  place-items:center;\n}\n\n.items-center{\n  align-items:center;\n}\n\n.justify-start{\n  justify-content:flex-start;\n}\n\n.justify-end{\n  justify-content:flex-end;\n}\n\n.justify-center{\n  justify-content:center;\n}\n\n.justify-between{\n  justify-content:space-between;\n}\n\n.overflow-hidden{\n  overflow:hidden;\n}\n\n.overflow-x-auto{\n  overflow-x:auto;\n}\n\n.overflow-y-auto{\n  overflow-y:auto;\n}\n\n.overflow-x-hidden{\n  overflow-x:hidden;\n}\n\n.whitespace-nowrap{\n  white-space:nowrap;\n}\n\n.rounded{\n  border-radius:0.25rem;\n}\n\n.rounded-md{\n  border-radius:0.375rem;\n}\n\n.rounded-xl{\n  border-radius:0.75rem;\n}\n\n.rounded-full{\n  border-radius:9999px;\n}\n\n.border-2{\n  border-width:2px;\n}\n\n.border{\n  border-width:1px;\n}\n\n.border-b-2{\n  border-bottom-width:2px;\n}\n\n.border-b{\n  border-bottom-width:1px;\n}\n\n.border-gray-300{\n  --tw-border-opacity:1;\n  border-color:rgba(203, 213, 225, var(--tw-border-opacity));\n}\n\n.border-blue-500{\n  --tw-border-opacity:1;\n  border-color:rgba(59, 130, 246, var(--tw-border-opacity));\n}\n\n.focus\\:border-blue-500:focus{\n  --tw-border-opacity:1;\n  border-color:rgba(59, 130, 246, var(--tw-border-opacity));\n}\n\n.dark .dark\\:border-gray-600{\n  --tw-border-opacity:1;\n  border-color:rgba(71, 85, 105, var(--tw-border-opacity));\n}\n\n.dark .dark\\:border-gray-700{\n  --tw-border-opacity:1;\n  border-color:rgba(51, 65, 85, var(--tw-border-opacity));\n}\n\n.dark .dark\\:border-cyan-400{\n  --tw-border-opacity:1;\n  border-color:rgba(34, 211, 238, var(--tw-border-opacity));\n}\n\n.dark .dark\\:focus\\:border-cyan-400:focus{\n  --tw-border-opacity:1;\n  border-color:rgba(34, 211, 238, var(--tw-border-opacity));\n}\n\n.bg-white{\n  --tw-bg-opacity:1;\n  background-color:rgba(255, 255, 255, var(--tw-bg-opacity));\n}\n\n.bg-gray-100{\n  --tw-bg-opacity:1;\n  background-color:rgba(241, 245, 249, var(--tw-bg-opacity));\n}\n\n.bg-gray-300{\n  --tw-bg-opacity:1;\n  background-color:rgba(203, 213, 225, var(--tw-bg-opacity));\n}\n\n.bg-gray-400{\n  --tw-bg-opacity:1;\n  background-color:rgba(148, 163, 184, var(--tw-bg-opacity));\n}\n\n.bg-gray-900{\n  --tw-bg-opacity:1;\n  background-color:rgba(15, 23, 42, var(--tw-bg-opacity));\n}\n\n.bg-blue-100{\n  --tw-bg-opacity:1;\n  background-color:rgba(219, 234, 254, var(--tw-bg-opacity));\n}\n\n.bg-blue-500{\n  --tw-bg-opacity:1;\n  background-color:rgba(59, 130, 246, var(--tw-bg-opacity));\n}\n\n.bg-blue-900{\n  --tw-bg-opacity:1;\n  background-color:rgba(30, 58, 138, var(--tw-bg-opacity));\n}\n\n.hover\\:bg-gray-100:hover{\n  --tw-bg-opacity:1;\n  background-color:rgba(241, 245, 249, var(--tw-bg-opacity));\n}\n\n.hover\\:bg-blue-100:hover{\n  --tw-bg-opacity:1;\n  background-color:rgba(219, 234, 254, var(--tw-bg-opacity));\n}\n\n.hover\\:bg-blue-500:hover{\n  --tw-bg-opacity:1;\n  background-color:rgba(59, 130, 246, var(--tw-bg-opacity));\n}\n\n.focus\\:bg-gray-100:focus{\n  --tw-bg-opacity:1;\n  background-color:rgba(241, 245, 249, var(--tw-bg-opacity));\n}\n\n.focus\\:bg-blue-100:focus{\n  --tw-bg-opacity:1;\n  background-color:rgba(219, 234, 254, var(--tw-bg-opacity));\n}\n\n.focus\\:bg-blue-500:focus{\n  --tw-bg-opacity:1;\n  background-color:rgba(59, 130, 246, var(--tw-bg-opacity));\n}\n\n.dark .dark\\:bg-gray-500{\n  --tw-bg-opacity:1;\n  background-color:rgba(100, 116, 139, var(--tw-bg-opacity));\n}\n\n.dark .dark\\:bg-gray-600{\n  --tw-bg-opacity:1;\n  background-color:rgba(71, 85, 105, var(--tw-bg-opacity));\n}\n\n.dark .dark\\:bg-gray-800{\n  --tw-bg-opacity:1;\n  background-color:rgba(30, 41, 59, var(--tw-bg-opacity));\n}\n\n.dark .dark\\:bg-gray-900{\n  --tw-bg-opacity:1;\n  background-color:rgba(15, 23, 42, var(--tw-bg-opacity));\n}\n\n.dark .dark\\:bg-cyan-400{\n  --tw-bg-opacity:1;\n  background-color:rgba(34, 211, 238, var(--tw-bg-opacity));\n}\n\n.dark .dark\\:hover\\:bg-gray-700:hover{\n  --tw-bg-opacity:1;\n  background-color:rgba(51, 65, 85, var(--tw-bg-opacity));\n}\n\n.dark .dark\\:hover\\:bg-gray-800:hover{\n  --tw-bg-opacity:1;\n  background-color:rgba(30, 41, 59, var(--tw-bg-opacity));\n}\n\n.dark .dark\\:hover\\:bg-cyan-400:hover{\n  --tw-bg-opacity:1;\n  background-color:rgba(34, 211, 238, var(--tw-bg-opacity));\n}\n\n.dark .dark\\:focus\\:bg-gray-700:focus{\n  --tw-bg-opacity:1;\n  background-color:rgba(51, 65, 85, var(--tw-bg-opacity));\n}\n\n.dark .dark\\:focus\\:bg-gray-800:focus{\n  --tw-bg-opacity:1;\n  background-color:rgba(30, 41, 59, var(--tw-bg-opacity));\n}\n\n.dark .dark\\:focus\\:bg-cyan-400:focus{\n  --tw-bg-opacity:1;\n  background-color:rgba(34, 211, 238, var(--tw-bg-opacity));\n}\n\n.bg-opacity-50{\n  --tw-bg-opacity:0.5;\n}\n\n.bg-opacity-80{\n  --tw-bg-opacity:0.8;\n}\n\n.bg-opacity-90{\n  --tw-bg-opacity:0.9;\n}\n\n.hover\\:bg-opacity-0:hover{\n  --tw-bg-opacity:0;\n}\n\n.hover\\:bg-opacity-20:hover{\n  --tw-bg-opacity:0.2;\n}\n\n.focus\\:bg-opacity-20:focus{\n  --tw-bg-opacity:0.2;\n}\n\n.dark .dark\\:bg-opacity-50{\n  --tw-bg-opacity:0.5;\n}\n\n.dark .dark\\:bg-opacity-80{\n  --tw-bg-opacity:0.8;\n}\n\n.dark .dark\\:bg-opacity-90{\n  --tw-bg-opacity:0.9;\n}\n\n.dark .dark\\:hover\\:bg-opacity-0:hover{\n  --tw-bg-opacity:0;\n}\n\n.dark .dark\\:hover\\:bg-opacity-20:hover{\n  --tw-bg-opacity:0.2;\n}\n\n.dark .dark\\:focus\\:bg-opacity-20:focus{\n  --tw-bg-opacity:0.2;\n}\n\n.object-contain{\n  -o-object-fit:contain;\n     object-fit:contain;\n}\n\n.object-cover{\n  -o-object-fit:cover;\n     object-fit:cover;\n}\n\n.p-2{\n  padding:0.5rem;\n}\n\n.p-4{\n  padding:1rem;\n}\n\n.p-8{\n  padding:2rem;\n}\n\n.px-2{\n  padding-left:0.5rem;\n  padding-right:0.5rem;\n}\n\n.px-4{\n  padding-left:1rem;\n  padding-right:1rem;\n}\n\n.px-6{\n  padding-left:1.5rem;\n  padding-right:1.5rem;\n}\n\n.px-8{\n  padding-left:2rem;\n  padding-right:2rem;\n}\n\n.py-2{\n  padding-top:0.5rem;\n  padding-bottom:0.5rem;\n}\n\n.py-3{\n  padding-top:0.75rem;\n  padding-bottom:0.75rem;\n}\n\n.py-4{\n  padding-top:1rem;\n  padding-bottom:1rem;\n}\n\n.text-left{\n  text-align:left;\n}\n\n.text-center{\n  text-align:center;\n}\n\n.text-right{\n  text-align:right;\n}\n\n.font-sourcesans{\n  font-family:\"Source Sans Pro\", sans-serif;\n}\n\n.font-sourcecode{\n  font-family:\"Source Code Pro\", monospace;\n}\n\n.text-sm{\n  font-size:0.875rem;\n  line-height:1.25rem;\n}\n\n.text-lg{\n  font-size:1.125rem;\n  line-height:1.75rem;\n}\n\n.text-xl{\n  font-size:1.25rem;\n  line-height:1.75rem;\n}\n\n.text-3xl{\n  font-size:1.875rem;\n  line-height:2.25rem;\n}\n\n.text-4xl{\n  font-size:2.25rem;\n  line-height:2.5rem;\n}\n\n.text-6xl{\n  font-size:3.75rem;\n  line-height:1;\n}\n\n.font-light{\n  font-weight:300;\n}\n\n.font-bold{\n  font-weight:700;\n}\n\n.leading-6{\n  line-height:1.5rem;\n}\n\n.tracking-tight{\n  letter-spacing:-0.025em;\n}\n\n.tracking-wider{\n  letter-spacing:0.05em;\n}\n\n.text-gray-200{\n  --tw-text-opacity:1;\n  color:rgba(226, 232, 240, var(--tw-text-opacity));\n}\n\n.text-gray-400{\n  --tw-text-opacity:1;\n  color:rgba(148, 163, 184, var(--tw-text-opacity));\n}\n\n.text-gray-500{\n  --tw-text-opacity:1;\n  color:rgba(100, 116, 139, var(--tw-text-opacity));\n}\n\n.text-gray-600{\n  --tw-text-opacity:1;\n  color:rgba(71, 85, 105, var(--tw-text-opacity));\n}\n\n.text-gray-800{\n  --tw-text-opacity:1;\n  color:rgba(30, 41, 59, var(--tw-text-opacity));\n}\n\n.text-blue-400{\n  --tw-text-opacity:1;\n  color:rgba(96, 165, 250, var(--tw-text-opacity));\n}\n\n.text-blue-500{\n  --tw-text-opacity:1;\n  color:rgba(59, 130, 246, var(--tw-text-opacity));\n}\n\n.text-cyan-500{\n  --tw-text-opacity:1;\n  color:rgba(6, 182, 212, var(--tw-text-opacity));\n}\n\n.hover\\:text-blue-500:hover{\n  --tw-text-opacity:1;\n  color:rgba(59, 130, 246, var(--tw-text-opacity));\n}\n\n.focus\\:text-blue-500:focus{\n  --tw-text-opacity:1;\n  color:rgba(59, 130, 246, var(--tw-text-opacity));\n}\n\n.dark .dark\\:text-gray-200{\n  --tw-text-opacity:1;\n  color:rgba(226, 232, 240, var(--tw-text-opacity));\n}\n\n.dark .dark\\:text-gray-400{\n  --tw-text-opacity:1;\n  color:rgba(148, 163, 184, var(--tw-text-opacity));\n}\n\n.dark .dark\\:text-cyan-400{\n  --tw-text-opacity:1;\n  color:rgba(34, 211, 238, var(--tw-text-opacity));\n}\n\n.dark .dark\\:hover\\:text-cyan-400:hover{\n  --tw-text-opacity:1;\n  color:rgba(34, 211, 238, var(--tw-text-opacity));\n}\n\n.dark .dark\\:focus\\:text-cyan-400:focus{\n  --tw-text-opacity:1;\n  color:rgba(34, 211, 238, var(--tw-text-opacity));\n}\n\n.underline{\n  text-decoration:underline;\n}\n\n.opacity-0{\n  opacity:0;\n}\n\n.opacity-100{\n  opacity:1;\n}\n\n*, ::before, ::after{\n  --tw-shadow:0 0 #0000;\n}\n\n.shadow-lg{\n  --tw-shadow:0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);\n  box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);\n}\n\n.shadow-xl{\n  --tw-shadow:0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);\n  box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);\n}\n\n.outline-none{\n  outline:2px solid transparent;\n  outline-offset:2px;\n}\n\n*, ::before, ::after{\n  --tw-ring-inset:var(--tw-empty,/*!*/ /*!*/);\n  --tw-ring-offset-width:0px;\n  --tw-ring-offset-color:#fff;\n  --tw-ring-color:rgba(59, 130, 246, 0.5);\n  --tw-ring-offset-shadow:0 0 #0000;\n  --tw-ring-shadow:0 0 #0000;\n}\n\n.transition-all{\n  transition-property:all;\n  transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);\n  transition-duration:150ms;\n}\n\n.transition{\n  transition-property:background-color, border-color, color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;\n  transition-property:background-color, border-color, color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;\n  transition-property:background-color, border-color, color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;\n  transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);\n  transition-duration:150ms;\n}\n\n.duration-300{\n  transition-duration:300ms;\n}\n\n@media (min-width: 640px){\n}\n\n@media (min-width: 768px){\n  .md\\:top-1\\/2{\n    top:50%;\n  }\n\n  .md\\:bottom-auto{\n    bottom:auto;\n  }\n\n  .md\\:left-1\\/2{\n    left:50%;\n  }\n\n  .md\\:m-2{\n    margin:0.5rem;\n  }\n\n  .md\\:mt-4{\n    margin-top:1rem;\n  }\n\n  .md\\:mb-0{\n    margin-bottom:0px;\n  }\n\n  .md\\:mb-4{\n    margin-bottom:1rem;\n  }\n\n  .md\\:mb-10{\n    margin-bottom:2.5rem;\n  }\n\n  .md\\:mb-16{\n    margin-bottom:4rem;\n  }\n\n  .md\\:block{\n    display:block;\n  }\n\n  .md\\:flex{\n    display:flex;\n  }\n\n  .md\\:grid{\n    display:grid;\n  }\n\n  .md\\:hidden{\n    display:none;\n  }\n\n  .md\\:h-80{\n    height:20rem;\n  }\n\n  .md\\:max-h-96{\n    max-height:24rem;\n  }\n\n  .md\\:transform{\n    --tw-translate-x:0;\n    --tw-translate-y:0;\n    --tw-rotate:0;\n    --tw-skew-x:0;\n    --tw-skew-y:0;\n    --tw-scale-x:1;\n    --tw-scale-y:1;\n    transform:translateX(var(--tw-translate-x)) translateY(var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n  }\n\n  .md\\:-translate-x-1\\/2{\n    --tw-translate-x:-50%;\n  }\n\n  .md\\:-translate-y-1\\/2{\n    --tw-translate-y:-50%;\n  }\n\n  .md\\:grid-cols-2{\n    grid-template-columns:repeat(2, minmax(0, 1fr));\n  }\n\n  .md\\:gap-8{\n    gap:2rem;\n  }\n\n  .md\\:overflow-visible{\n    overflow:visible;\n  }\n\n  .md\\:rounded-xl{\n    border-radius:0.75rem;\n  }\n\n  .md\\:border-b-0{\n    border-bottom-width:0px;\n  }\n\n  .md\\:border-l-2{\n    border-left-width:2px;\n  }\n\n  .md\\:p-6{\n    padding:1.5rem;\n  }\n\n  .md\\:px-4{\n    padding-left:1rem;\n    padding-right:1rem;\n  }\n\n  .md\\:px-12{\n    padding-left:3rem;\n    padding-right:3rem;\n  }\n\n  .md\\:px-20{\n    padding-left:5rem;\n    padding-right:5rem;\n  }\n\n  .md\\:py-0{\n    padding-top:0px;\n    padding-bottom:0px;\n  }\n\n  .md\\:py-2{\n    padding-top:0.5rem;\n    padding-bottom:0.5rem;\n  }\n\n  .md\\:py-10{\n    padding-top:2.5rem;\n    padding-bottom:2.5rem;\n  }\n\n  .md\\:pb-8{\n    padding-bottom:2rem;\n  }\n\n  .md\\:text-base{\n    font-size:1rem;\n    line-height:1.5rem;\n  }\n\n  .md\\:text-2xl{\n    font-size:1.5rem;\n    line-height:2rem;\n  }\n\n  .md\\:text-3xl{\n    font-size:1.875rem;\n    line-height:2.25rem;\n  }\n\n  .md\\:text-4xl{\n    font-size:2.25rem;\n    line-height:2.5rem;\n  }\n\n  .md\\:text-6xl{\n    font-size:3.75rem;\n    line-height:1;\n  }\n\n  .md\\:text-7xl{\n    font-size:4.5rem;\n    line-height:1;\n  }\n}\n\n@media (min-width: 1024px){\n  .lg\\:relative{\n    position:relative;\n  }\n\n  .lg\\:mt-0{\n    margin-top:0px;\n  }\n\n  .lg\\:-mr-0{\n    margin-right:0px;\n  }\n\n  .lg\\:-mr-12{\n    margin-right:-3rem;\n  }\n\n  .lg\\:mb-10{\n    margin-bottom:2.5rem;\n  }\n\n  .lg\\:-ml-0{\n    margin-left:0px;\n  }\n\n  .lg\\:-ml-12{\n    margin-left:-3rem;\n  }\n\n  .lg\\:block{\n    display:block;\n  }\n\n  .lg\\:flex{\n    display:flex;\n  }\n\n  .lg\\:grid{\n    display:grid;\n  }\n\n  .lg\\:hidden{\n    display:none;\n  }\n\n  .lg\\:w-72{\n    width:18rem;\n  }\n\n  .lg\\:max-w-xl{\n    max-width:36rem;\n  }\n\n  .lg\\:max-w-full{\n    max-width:100%;\n  }\n\n  .lg\\:grid-cols-2{\n    grid-template-columns:repeat(2, minmax(0, 1fr));\n  }\n\n  .lg\\:items-center{\n    align-items:center;\n  }\n\n  .lg\\:rounded-lg{\n    border-radius:0.5rem;\n  }\n\n  .lg\\:bg-transparent{\n    background-color:transparent;\n  }\n\n  .lg\\:bg-gray-100{\n    --tw-bg-opacity:1;\n    background-color:rgba(241, 245, 249, var(--tw-bg-opacity));\n  }\n\n  .dark .lg\\:dark\\:bg-transparent{\n    background-color:transparent;\n  }\n\n  .dark .lg\\:dark\\:bg-gray-800{\n    --tw-bg-opacity:1;\n    background-color:rgba(30, 41, 59, var(--tw-bg-opacity));\n  }\n\n  .lg\\:p-0{\n    padding:0px;\n  }\n\n  .lg\\:p-4{\n    padding:1rem;\n  }\n\n  .lg\\:text-8xl{\n    font-size:6rem;\n    line-height:1;\n  }\n\n  .lg\\:text-gray-500{\n    --tw-text-opacity:1;\n    color:rgba(100, 116, 139, var(--tw-text-opacity));\n  }\n\n  .lg\\:text-gray-900{\n    --tw-text-opacity:1;\n    color:rgba(15, 23, 42, var(--tw-text-opacity));\n  }\n\n  .dark .lg\\:dark\\:text-gray-200{\n    --tw-text-opacity:1;\n    color:rgba(226, 232, 240, var(--tw-text-opacity));\n  }\n\n  .dark .lg\\:dark\\:text-gray-400{\n    --tw-text-opacity:1;\n    color:rgba(148, 163, 184, var(--tw-text-opacity));\n  }\n\n  .lg\\:shadow-xl{\n    --tw-shadow:0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);\n    box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);\n  }\n}\n\n@media (min-width: 1280px){\n}\n\n@media (min-width: 1536px){\n}", ""]);
 // Exports
+___CSS_LOADER_EXPORT___.locals = {};
 module.exports = ___CSS_LOADER_EXPORT___;
 
 
 /***/ }),
-/* 49 */
+/* 39 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(50);
+var content = __webpack_require__(40);
 if(content.__esModule) content = content.default;
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
-__webpack_require__(14).default("e622d370", content, true)
+__webpack_require__(6).default("6f04248c", content, true)
 
 /***/ }),
-/* 50 */
+/* 40 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // Imports
-var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(13);
-var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(false);
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(5);
+var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.i, "/*! tailwindcss v2.0.3 | MIT License | https://tailwindcss.com*/\n\n/*! modern-normalize v1.0.0 | MIT License | https://github.com/sindresorhus/modern-normalize */:root{-moz-tab-size:4;-o-tab-size:4;tab-size:4}html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,\"Segoe UI\",Helvetica,Arial,\"Apple Color Emoji\",\"Segoe UI Emoji\"}hr{height:0;color:inherit}abbr[title]{-webkit-text-decoration:underline dotted;text-decoration:underline dotted}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace,SFMono-Regular,Consolas,\"Liberation Mono\",Menlo,monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;line-height:1.15;margin:0}button,select{text-transform:none}[type=button],[type=submit],button{-webkit-appearance:button}legend{padding:0}progress{vertical-align:baseline}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}button{background-color:transparent;background-image:none}button:focus{outline:1px dotted;outline:5px auto -webkit-focus-ring-color}fieldset,ol,ul{margin:0;padding:0}ol,ul{list-style:none}html{font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,BlinkMacSystemFont,\"Segoe UI\",\"Helvetica Neue\",Arial,\"Noto Sans\",\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\";line-height:1.5}body{font-family:inherit;line-height:inherit}*,:after,:before{box-sizing:border-box;border:0 solid #e2e8f0}hr{border-top-width:1px}img{border-style:solid}textarea{resize:vertical}input::-moz-placeholder,textarea::-moz-placeholder{opacity:1;color:#94a3b8}input:-ms-input-placeholder,textarea:-ms-input-placeholder{opacity:1;color:#94a3b8}input::placeholder,textarea::placeholder{opacity:1;color:#94a3b8}[role=button],button{cursor:pointer}table{border-collapse:collapse}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}button,input,optgroup,select,textarea{padding:0;line-height:inherit;color:inherit}code,kbd,pre,samp{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,\"Liberation Mono\",\"Courier New\",monospace}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}.container{width:100%}@media (min-width:640px){.container{max-width:640px}}@media (min-width:768px){.container{max-width:768px}}@media (min-width:1024px){.container{max-width:1024px}}@media (min-width:1280px){.container{max-width:1280px}}@media (min-width:1536px){.container{max-width:1536px}}.bg-white{--tw-bg-opacity:1;background-color:rgba(255,255,255,var(--tw-bg-opacity))}.bg-gray-100{--tw-bg-opacity:1;background-color:rgba(241,245,249,var(--tw-bg-opacity))}.bg-gray-300{--tw-bg-opacity:1;background-color:rgba(203,213,225,var(--tw-bg-opacity))}.bg-gray-400{--tw-bg-opacity:1;background-color:rgba(148,163,184,var(--tw-bg-opacity))}.bg-gray-900{--tw-bg-opacity:1;background-color:rgba(15,23,42,var(--tw-bg-opacity))}.bg-blue-100{--tw-bg-opacity:1;background-color:rgba(219,234,254,var(--tw-bg-opacity))}.bg-blue-500{--tw-bg-opacity:1;background-color:rgba(59,130,246,var(--tw-bg-opacity))}.bg-blue-900{--tw-bg-opacity:1;background-color:rgba(30,58,138,var(--tw-bg-opacity))}.hover\\:bg-gray-100:hover{--tw-bg-opacity:1;background-color:rgba(241,245,249,var(--tw-bg-opacity))}.hover\\:bg-blue-100:hover{--tw-bg-opacity:1;background-color:rgba(219,234,254,var(--tw-bg-opacity))}.hover\\:bg-blue-500:hover{--tw-bg-opacity:1;background-color:rgba(59,130,246,var(--tw-bg-opacity))}.focus\\:bg-gray-100:focus{--tw-bg-opacity:1;background-color:rgba(241,245,249,var(--tw-bg-opacity))}.focus\\:bg-blue-100:focus{--tw-bg-opacity:1;background-color:rgba(219,234,254,var(--tw-bg-opacity))}.focus\\:bg-blue-500:focus{--tw-bg-opacity:1;background-color:rgba(59,130,246,var(--tw-bg-opacity))}.dark .dark\\:bg-gray-500{--tw-bg-opacity:1;background-color:rgba(100,116,139,var(--tw-bg-opacity))}.dark .dark\\:bg-gray-600{--tw-bg-opacity:1;background-color:rgba(71,85,105,var(--tw-bg-opacity))}.dark .dark\\:bg-gray-800{--tw-bg-opacity:1;background-color:rgba(30,41,59,var(--tw-bg-opacity))}.dark .dark\\:bg-gray-900{--tw-bg-opacity:1;background-color:rgba(15,23,42,var(--tw-bg-opacity))}.dark .dark\\:bg-cyan-400{--tw-bg-opacity:1;background-color:rgba(34,211,238,var(--tw-bg-opacity))}.dark .dark\\:hover\\:bg-gray-700:hover{--tw-bg-opacity:1;background-color:rgba(51,65,85,var(--tw-bg-opacity))}.dark .dark\\:hover\\:bg-gray-800:hover{--tw-bg-opacity:1;background-color:rgba(30,41,59,var(--tw-bg-opacity))}.dark .dark\\:hover\\:bg-cyan-400:hover{--tw-bg-opacity:1;background-color:rgba(34,211,238,var(--tw-bg-opacity))}.dark .dark\\:focus\\:bg-gray-700:focus{--tw-bg-opacity:1;background-color:rgba(51,65,85,var(--tw-bg-opacity))}.dark .dark\\:focus\\:bg-gray-800:focus{--tw-bg-opacity:1;background-color:rgba(30,41,59,var(--tw-bg-opacity))}.dark .dark\\:focus\\:bg-cyan-400:focus{--tw-bg-opacity:1;background-color:rgba(34,211,238,var(--tw-bg-opacity))}.bg-opacity-50{--tw-bg-opacity:0.5}.bg-opacity-80{--tw-bg-opacity:0.8}.bg-opacity-90{--tw-bg-opacity:0.9}.hover\\:bg-opacity-0:hover{--tw-bg-opacity:0}.focus\\:bg-opacity-20:focus,.hover\\:bg-opacity-20:hover{--tw-bg-opacity:0.2}.dark .dark\\:bg-opacity-50{--tw-bg-opacity:0.5}.dark .dark\\:bg-opacity-80{--tw-bg-opacity:0.8}.dark .dark\\:bg-opacity-90{--tw-bg-opacity:0.9}.dark .dark\\:hover\\:bg-opacity-0:hover{--tw-bg-opacity:0}.dark .dark\\:focus\\:bg-opacity-20:focus,.dark .dark\\:hover\\:bg-opacity-20:hover{--tw-bg-opacity:0.2}.border-gray-300{--tw-border-opacity:1;border-color:rgba(203,213,225,var(--tw-border-opacity))}.border-blue-500,.focus\\:border-blue-500:focus{--tw-border-opacity:1;border-color:rgba(59,130,246,var(--tw-border-opacity))}.dark .dark\\:border-gray-600{--tw-border-opacity:1;border-color:rgba(71,85,105,var(--tw-border-opacity))}.dark .dark\\:border-gray-700{--tw-border-opacity:1;border-color:rgba(51,65,85,var(--tw-border-opacity))}.dark .dark\\:border-cyan-400,.dark .dark\\:focus\\:border-cyan-400:focus{--tw-border-opacity:1;border-color:rgba(34,211,238,var(--tw-border-opacity))}.rounded{border-radius:.25rem}.rounded-md{border-radius:.375rem}.rounded-xl{border-radius:.75rem}.rounded-full{border-radius:9999px}.border-2{border-width:2px}.border{border-width:1px}.border-b-2{border-bottom-width:2px}.border-b{border-bottom-width:1px}.block{display:block}.inline-block{display:inline-block}.flex{display:flex}.table{display:table}.grid{display:grid}.hidden{display:none}.flex-row{flex-direction:row}.flex-row-reverse{flex-direction:row-reverse}.flex-col{flex-direction:column}.flex-wrap{flex-wrap:wrap}.place-items-center{align-items:center;justify-items:center;place-items:center}.items-center{align-items:center}.justify-start{justify-content:flex-start}.justify-end{justify-content:flex-end}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.flex-shrink-0{flex-shrink:0}.font-sourcesans{font-family:\"Source Sans Pro\",sans-serif}.font-sourcecode{font-family:\"Source Code Pro\",monospace}.font-light{font-weight:300}.font-bold{font-weight:700}.h-0{height:0}.h-8{height:2rem}.h-10{height:2.5rem}.h-12{height:3rem}.h-14{height:3.5rem}.h-24{height:6rem}.h-60{height:15rem}.h-72{height:18rem}.h-80{height:20rem}.h-px{height:1px}.h-0\\.5{height:.125rem}.h-2\\/3{height:66.666667%}.h-full{height:100%}.text-sm{font-size:.875rem;line-height:1.25rem}.text-lg{font-size:1.125rem}.text-lg,.text-xl{line-height:1.75rem}.text-xl{font-size:1.25rem}.text-3xl{font-size:1.875rem;line-height:2.25rem}.text-4xl{font-size:2.25rem;line-height:2.5rem}.text-6xl{font-size:3.75rem;line-height:1}.leading-6{line-height:1.5rem}.list-disc{list-style-type:disc}.m-1{margin:.25rem}.my-2{margin-top:.5rem;margin-bottom:.5rem}.mx-auto{margin-left:auto;margin-right:auto}.-my-0{margin-top:0;margin-bottom:0}.-my-0\\.5{margin-top:-.125rem;margin-bottom:-.125rem}.mt-2{margin-top:.5rem}.mb-2{margin-bottom:.5rem}.mt-4{margin-top:1rem}.mb-4{margin-bottom:1rem}.ml-4{margin-left:1rem}.mb-5{margin-bottom:1.25rem}.mt-6{margin-top:1.5rem}.ml-6{margin-left:1.5rem}.mt-8{margin-top:2rem}.mb-8{margin-bottom:2rem}.mb-10{margin-bottom:2.5rem}.ml-auto{margin-left:auto}.max-w-sm{max-width:24rem}.max-w-md{max-width:28rem}.max-w-lg{max-width:32rem}.max-w-3xl{max-width:48rem}.max-w-4xl{max-width:56rem}.max-w-6xl{max-width:72rem}.max-w-max{max-width:-webkit-max-content;max-width:-moz-max-content;max-width:max-content}.min-h-screen{min-height:100vh}.object-contain{-o-object-fit:contain;object-fit:contain}.object-cover{-o-object-fit:cover;object-fit:cover}.opacity-0{opacity:0}.opacity-100{opacity:1}.outline-none{outline:2px solid transparent;outline-offset:2px}.overflow-hidden{overflow:hidden}.overflow-x-auto{overflow-x:auto}.overflow-y-auto{overflow-y:auto}.overflow-x-hidden{overflow-x:hidden}.p-2{padding:.5rem}.p-4{padding:1rem}.p-8{padding:2rem}.py-2{padding-top:.5rem;padding-bottom:.5rem}.px-2{padding-left:.5rem;padding-right:.5rem}.py-3{padding-top:.75rem;padding-bottom:.75rem}.py-4{padding-top:1rem;padding-bottom:1rem}.px-4{padding-left:1rem;padding-right:1rem}.px-6{padding-left:1.5rem;padding-right:1.5rem}.px-8{padding-left:2rem;padding-right:2rem}.pointer-events-none{pointer-events:none}.static{position:static}.fixed{position:fixed}.absolute{position:absolute}.relative{position:relative}.sticky{position:-webkit-sticky;position:sticky}.inset-0{right:0;left:0}.inset-0,.inset-y-0{top:0;bottom:0}.top-0{top:0}.right-0{right:0}.bottom-0{bottom:0}.left-0{left:0}.top-4{top:1rem}.right-8{right:2rem}.left-8{left:2rem}.top-full{top:100%}*{--tw-shadow:0 0 transparent}.shadow-lg{--tw-shadow:0 10px 15px -3px rgba(0,0,0,0.1),0 4px 6px -2px rgba(0,0,0,0.05)}.shadow-lg,.shadow-xl{box-shadow:0 0 transparent,0 0 transparent,var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow,0 0 transparent),var(--tw-ring-shadow,0 0 transparent),var(--tw-shadow)}.shadow-xl{--tw-shadow:0 20px 25px -5px rgba(0,0,0,0.1),0 10px 10px -5px rgba(0,0,0,0.04)}*{--tw-ring-inset:var(--tw-empty,/*!*/ /*!*/);--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,0.5);--tw-ring-offset-shadow:0 0 transparent;--tw-ring-shadow:0 0 transparent}.text-left{text-align:left}.text-center{text-align:center}.text-right{text-align:right}.text-gray-200{--tw-text-opacity:1;color:rgba(226,232,240,var(--tw-text-opacity))}.text-gray-400{--tw-text-opacity:1;color:rgba(148,163,184,var(--tw-text-opacity))}.text-gray-500{--tw-text-opacity:1;color:rgba(100,116,139,var(--tw-text-opacity))}.text-gray-600{--tw-text-opacity:1;color:rgba(71,85,105,var(--tw-text-opacity))}.text-gray-800{--tw-text-opacity:1;color:rgba(30,41,59,var(--tw-text-opacity))}.text-blue-400{--tw-text-opacity:1;color:rgba(96,165,250,var(--tw-text-opacity))}.text-blue-500{--tw-text-opacity:1;color:rgba(59,130,246,var(--tw-text-opacity))}.text-cyan-500{--tw-text-opacity:1;color:rgba(6,182,212,var(--tw-text-opacity))}.focus\\:text-blue-500:focus,.hover\\:text-blue-500:hover{--tw-text-opacity:1;color:rgba(59,130,246,var(--tw-text-opacity))}.dark .dark\\:text-gray-200{--tw-text-opacity:1;color:rgba(226,232,240,var(--tw-text-opacity))}.dark .dark\\:text-gray-400{--tw-text-opacity:1;color:rgba(148,163,184,var(--tw-text-opacity))}.dark .dark\\:focus\\:text-cyan-400:focus,.dark .dark\\:hover\\:text-cyan-400:hover,.dark .dark\\:text-cyan-400{--tw-text-opacity:1;color:rgba(34,211,238,var(--tw-text-opacity))}.underline{text-decoration:underline}.tracking-tight{letter-spacing:-.025em}.tracking-wider{letter-spacing:.05em}.visible{visibility:visible}.invisible{visibility:hidden}.whitespace-nowrap{white-space:nowrap}.w-2{width:.5rem}.w-4{width:1rem}.w-6{width:1.5rem}.w-8{width:2rem}.w-10{width:2.5rem}.w-12{width:3rem}.w-14{width:3.5rem}.w-56{width:14rem}.w-64{width:16rem}.w-px{width:1px}.w-2\\/3{width:66.666667%}.w-full{width:100%}.z-10{z-index:10}.z-20{z-index:20}.z-30{z-index:30}.transform{--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;transform:translateX(var(--tw-translate-x)) translateY(var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.scale-90{--tw-scale-x:.9;--tw-scale-y:.9}.rotate-45{--tw-rotate:45deg}.-rotate-45{--tw-rotate:-45deg}.translate-x-0{--tw-translate-x:0px}.translate-x-56{--tw-translate-x:14rem}.focus\\:-translate-y-1:focus,.hover\\:-translate-y-1:hover{--tw-translate-y:-0.25rem}.transition-all{transition-property:all;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.transition{transition-property:background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.duration-300{transition-duration:.3s}@-webkit-keyframes spin{to{transform:rotate(1turn)}}@keyframes spin{to{transform:rotate(1turn)}}@-webkit-keyframes ping{75%,to{transform:scale(2);opacity:0}}@keyframes ping{75%,to{transform:scale(2);opacity:0}}@-webkit-keyframes pulse{50%{opacity:.5}}@keyframes pulse{50%{opacity:.5}}@-webkit-keyframes bounce{0%,to{transform:translateY(-25%);-webkit-animation-timing-function:cubic-bezier(.8,0,1,1);animation-timing-function:cubic-bezier(.8,0,1,1)}50%{transform:none;-webkit-animation-timing-function:cubic-bezier(0,0,.2,1);animation-timing-function:cubic-bezier(0,0,.2,1)}}@keyframes bounce{0%,to{transform:translateY(-25%);-webkit-animation-timing-function:cubic-bezier(.8,0,1,1);animation-timing-function:cubic-bezier(.8,0,1,1)}50%{transform:none;-webkit-animation-timing-function:cubic-bezier(0,0,.2,1);animation-timing-function:cubic-bezier(0,0,.2,1)}}.bg-blur{-webkit-backdrop-filter:blur(4px);backdrop-filter:blur(4px)}.writing-v-lr{-ms-writing-mode:tb-lr;writing-mode:vertical-lr}html{scroll-behavior:smooth}@media (min-width:768px){.md\\:rounded-xl{border-radius:.75rem}.md\\:border-b-0{border-bottom-width:0}.md\\:border-l-2{border-left-width:2px}.md\\:block{display:block}.md\\:flex{display:flex}.md\\:grid{display:grid}.md\\:hidden{display:none}.md\\:h-80{height:20rem}.md\\:text-base{font-size:1rem;line-height:1.5rem}.md\\:text-2xl{font-size:1.5rem;line-height:2rem}.md\\:text-3xl{font-size:1.875rem;line-height:2.25rem}.md\\:text-4xl{font-size:2.25rem;line-height:2.5rem}.md\\:text-6xl{font-size:3.75rem;line-height:1}.md\\:text-7xl{font-size:4.5rem;line-height:1}.md\\:m-2{margin:.5rem}.md\\:mb-0{margin-bottom:0}.md\\:mt-4{margin-top:1rem}.md\\:mb-4{margin-bottom:1rem}.md\\:mb-10{margin-bottom:2.5rem}.md\\:mb-16{margin-bottom:4rem}.md\\:max-h-96{max-height:24rem}.md\\:overflow-visible{overflow:visible}.md\\:p-6{padding:1.5rem}.md\\:py-0{padding-top:0;padding-bottom:0}.md\\:py-2{padding-top:.5rem;padding-bottom:.5rem}.md\\:px-4{padding-left:1rem;padding-right:1rem}.md\\:py-10{padding-top:2.5rem;padding-bottom:2.5rem}.md\\:px-12{padding-left:3rem;padding-right:3rem}.md\\:px-20{padding-left:5rem;padding-right:5rem}.md\\:pb-8{padding-bottom:2rem}.md\\:bottom-auto{bottom:auto}.md\\:top-1\\/2{top:50%}.md\\:left-1\\/2{left:50%}.md\\:gap-8{grid-gap:2rem;gap:2rem}.md\\:grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}.md\\:transform{--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;transform:translateX(var(--tw-translate-x)) translateY(var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.md\\:-translate-x-1\\/2{--tw-translate-x:-50%}.md\\:-translate-y-1\\/2{--tw-translate-y:-50%}}@media (min-width:1024px){.lg\\:bg-transparent{background-color:transparent}.lg\\:bg-gray-100{--tw-bg-opacity:1;background-color:rgba(241,245,249,var(--tw-bg-opacity))}.dark .lg\\:dark\\:bg-transparent{background-color:transparent}.dark .lg\\:dark\\:bg-gray-800{--tw-bg-opacity:1;background-color:rgba(30,41,59,var(--tw-bg-opacity))}.lg\\:rounded-lg{border-radius:.5rem}.lg\\:block{display:block}.lg\\:flex{display:flex}.lg\\:grid{display:grid}.lg\\:hidden{display:none}.lg\\:items-center{align-items:center}.lg\\:text-8xl{font-size:6rem;line-height:1}.lg\\:mt-0{margin-top:0}.lg\\:mb-10{margin-bottom:2.5rem}.lg\\:-mr-0{margin-right:0}.lg\\:-ml-0{margin-left:0}.lg\\:-mr-12{margin-right:-3rem}.lg\\:-ml-12{margin-left:-3rem}.lg\\:max-w-xl{max-width:36rem}.lg\\:max-w-full{max-width:100%}.lg\\:p-0{padding:0}.lg\\:p-4{padding:1rem}.lg\\:relative{position:relative}.lg\\:shadow-xl{--tw-shadow:0 20px 25px -5px rgba(0,0,0,0.1),0 10px 10px -5px rgba(0,0,0,0.04);box-shadow:0 0 transparent,0 0 transparent,var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow,0 0 transparent),var(--tw-ring-shadow,0 0 transparent),var(--tw-shadow)}.lg\\:text-gray-500{--tw-text-opacity:1;color:rgba(100,116,139,var(--tw-text-opacity))}.lg\\:text-gray-900{--tw-text-opacity:1;color:rgba(15,23,42,var(--tw-text-opacity))}.dark .lg\\:dark\\:text-gray-200{--tw-text-opacity:1;color:rgba(226,232,240,var(--tw-text-opacity))}.dark .lg\\:dark\\:text-gray-400{--tw-text-opacity:1;color:rgba(148,163,184,var(--tw-text-opacity))}.lg\\:w-72{width:18rem}.lg\\:grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}}", ""]);
+___CSS_LOADER_EXPORT___.push([module.i, "/*! tailwindcss v2.2.9 | MIT License | https://tailwindcss.com*/\n\n/*! modern-normalize v1.1.0 | MIT License | https://github.com/sindresorhus/modern-normalize */\n\n/*\nDocument\n========\n*/\n\n/**\nUse a better box model (opinionated).\n*/\n\n*,\n::before,\n::after {\n  box-sizing: border-box;\n}\n\n/**\nUse a more readable tab size (opinionated).\n*/\n\nhtml {\n  -moz-tab-size: 4;\n  -o-tab-size: 4;\n     tab-size: 4;\n}\n\n/**\n1. Correct the line height in all browsers.\n2. Prevent adjustments of font size after orientation changes in iOS.\n*/\n\nhtml {\n  line-height: 1.15; /* 1 */\n  -webkit-text-size-adjust: 100%; /* 2 */\n}\n\n/*\nSections\n========\n*/\n\n/**\nRemove the margin in all browsers.\n*/\n\nbody {\n  margin: 0;\n}\n\n/**\nImprove consistency of default fonts in all browsers. (https://github.com/sindresorhus/modern-normalize/issues/3)\n*/\n\nbody {\n  font-family:\n\t\tsystem-ui,\n\t\t-apple-system, /* Firefox supports this but not yet `system-ui` */\n\t\t'Segoe UI',\n\t\tRoboto,\n\t\tHelvetica,\n\t\tArial,\n\t\tsans-serif,\n\t\t'Apple Color Emoji',\n\t\t'Segoe UI Emoji';\n}\n\n/*\nGrouping content\n================\n*/\n\n/**\n1. Add the correct height in Firefox.\n2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)\n*/\n\nhr {\n  height: 0; /* 1 */\n  color: inherit; /* 2 */\n}\n\n/*\nText-level semantics\n====================\n*/\n\n/**\nAdd the correct text decoration in Chrome, Edge, and Safari.\n*/\n\nabbr[title] {\n  -webkit-text-decoration: underline dotted;\n          text-decoration: underline dotted;\n}\n\n/**\nAdd the correct font weight in Edge and Safari.\n*/\n\nb,\nstrong {\n  font-weight: bolder;\n}\n\n/**\n1. Improve consistency of default fonts in all browsers. (https://github.com/sindresorhus/modern-normalize/issues/3)\n2. Correct the odd 'em' font sizing in all browsers.\n*/\n\ncode,\nkbd,\nsamp,\npre {\n  font-family:\n\t\tui-monospace,\n\t\tSFMono-Regular,\n\t\tConsolas,\n\t\t'Liberation Mono',\n\t\tMenlo,\n\t\tmonospace; /* 1 */\n  font-size: 1em; /* 2 */\n}\n\n/**\nAdd the correct font size in all browsers.\n*/\n\nsmall {\n  font-size: 80%;\n}\n\n/**\nPrevent 'sub' and 'sup' elements from affecting the line height in all browsers.\n*/\n\nsub,\nsup {\n  font-size: 75%;\n  line-height: 0;\n  position: relative;\n  vertical-align: baseline;\n}\n\nsub {\n  bottom: -0.25em;\n}\n\nsup {\n  top: -0.5em;\n}\n\n/*\nTabular data\n============\n*/\n\n/**\n1. Remove text indentation from table contents in Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=999088, https://bugs.webkit.org/show_bug.cgi?id=201297)\n2. Correct table border color inheritance in all Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=935729, https://bugs.webkit.org/show_bug.cgi?id=195016)\n*/\n\ntable {\n  text-indent: 0; /* 1 */\n  border-color: inherit; /* 2 */\n}\n\n/*\nForms\n=====\n*/\n\n/**\n1. Change the font styles in all browsers.\n2. Remove the margin in Firefox and Safari.\n*/\n\nbutton,\ninput,\noptgroup,\nselect,\ntextarea {\n  font-family: inherit; /* 1 */\n  font-size: 100%; /* 1 */\n  line-height: 1.15; /* 1 */\n  margin: 0; /* 2 */\n}\n\n/**\nRemove the inheritance of text transform in Edge and Firefox.\n1. Remove the inheritance of text transform in Firefox.\n*/\n\nbutton,\nselect { /* 1 */\n  text-transform: none;\n}\n\n/**\nCorrect the inability to style clickable types in iOS and Safari.\n*/\n\nbutton,\n[type='button'],\n[type='submit'] {\n  -webkit-appearance: button;\n}\n\n/**\nRemove the inner border and padding in Firefox.\n*/\n\n/**\nRestore the focus styles unset by the previous rule.\n*/\n\n/**\nRemove the additional ':invalid' styles in Firefox.\nSee: https://github.com/mozilla/gecko-dev/blob/2f9eacd9d3d995c937b4251a5557d95d494c9be1/layout/style/res/forms.css#L728-L737\n*/\n\n/**\nRemove the padding so developers are not caught out when they zero out 'fieldset' elements in all browsers.\n*/\n\nlegend {\n  padding: 0;\n}\n\n/**\nAdd the correct vertical alignment in Chrome and Firefox.\n*/\n\nprogress {\n  vertical-align: baseline;\n}\n\n/**\nCorrect the cursor style of increment and decrement buttons in Safari.\n*/\n\n/**\n1. Correct the odd appearance in Chrome and Safari.\n2. Correct the outline style in Safari.\n*/\n\n/**\nRemove the inner padding in Chrome and Safari on macOS.\n*/\n\n/**\n1. Correct the inability to style clickable types in iOS and Safari.\n2. Change font properties to 'inherit' in Safari.\n*/\n\n/*\nInteractive\n===========\n*/\n\n/*\nAdd the correct display in Chrome and Safari.\n*/\n\nsummary {\n  display: list-item;\n}\n\n/**\n * Manually forked from SUIT CSS Base: https://github.com/suitcss/base\n * A thin layer on top of normalize.css that provides a starting point more\n * suitable for web applications.\n */\n\n/**\n * Removes the default spacing and border for appropriate elements.\n */\n\nblockquote,\ndl,\ndd,\nh1,\nh2,\nh3,\nh4,\nh5,\nh6,\nhr,\nfigure,\np,\npre {\n  margin: 0;\n}\n\nbutton {\n  background-color: transparent;\n  background-image: none;\n}\n\nfieldset {\n  margin: 0;\n  padding: 0;\n}\n\nol,\nul {\n  list-style: none;\n  margin: 0;\n  padding: 0;\n}\n\n/**\n * Tailwind custom reset styles\n */\n\n/**\n * 1. Use the user's configured `sans` font-family (with Tailwind's default\n *    sans-serif font stack as a fallback) as a sane default.\n * 2. Use Tailwind's default \"normal\" line-height so the user isn't forced\n *    to override it to ensure consistency even when using the default theme.\n */\n\nhtml {\n  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"; /* 1 */\n  line-height: 1.5; /* 2 */\n}\n\n/**\n * Inherit font-family and line-height from `html` so users can set them as\n * a class directly on the `html` element.\n */\n\nbody {\n  font-family: inherit;\n  line-height: inherit;\n}\n\n/**\n * 1. Prevent padding and border from affecting element width.\n *\n *    We used to set this in the html element and inherit from\n *    the parent element for everything else. This caused issues\n *    in shadow-dom-enhanced elements like <details> where the content\n *    is wrapped by a div with box-sizing set to `content-box`.\n *\n *    https://github.com/mozdevs/cssremedy/issues/4\n *\n *\n * 2. Allow adding a border to an element by just adding a border-width.\n *\n *    By default, the way the browser specifies that an element should have no\n *    border is by setting it's border-style to `none` in the user-agent\n *    stylesheet.\n *\n *    In order to easily add borders to elements by just setting the `border-width`\n *    property, we change the default border-style for all elements to `solid`, and\n *    use border-width to hide them instead. This way our `border` utilities only\n *    need to set the `border-width` property instead of the entire `border`\n *    shorthand, making our border utilities much more straightforward to compose.\n *\n *    https://github.com/tailwindcss/tailwindcss/pull/116\n */\n\n*,\n::before,\n::after {\n  box-sizing: border-box; /* 1 */\n  border-width: 0; /* 2 */\n  border-style: solid; /* 2 */\n  border-color: currentColor; /* 2 */\n}\n\n/*\n * Ensure horizontal rules are visible by default\n */\n\nhr {\n  border-top-width: 1px;\n}\n\n/**\n * Undo the `border-style: none` reset that Normalize applies to images so that\n * our `border-{width}` utilities have the expected effect.\n *\n * The Normalize reset is unnecessary for us since we default the border-width\n * to 0 on all elements.\n *\n * https://github.com/tailwindcss/tailwindcss/issues/362\n */\n\nimg {\n  border-style: solid;\n}\n\ntextarea {\n  resize: vertical;\n}\n\ninput::-moz-placeholder, textarea::-moz-placeholder {\n  opacity: 1;\n  color: #94a3b8;\n}\n\ninput:-ms-input-placeholder, textarea:-ms-input-placeholder {\n  opacity: 1;\n  color: #94a3b8;\n}\n\ninput::placeholder,\ntextarea::placeholder {\n  opacity: 1;\n  color: #94a3b8;\n}\n\nbutton,\n[role=\"button\"] {\n  cursor: pointer;\n}\n\n/**\n * Override legacy focus reset from Normalize with modern Firefox focus styles.\n *\n * This is actually an improvement over the new defaults in Firefox in our testing,\n * as it triggers the better focus styles even for links, which still use a dotted\n * outline in Firefox by default.\n */\n\ntable {\n  border-collapse: collapse;\n}\n\nh1,\nh2,\nh3,\nh4,\nh5,\nh6 {\n  font-size: inherit;\n  font-weight: inherit;\n}\n\n/**\n * Reset links to optimize for opt-in styling instead of\n * opt-out.\n */\n\na {\n  color: inherit;\n  text-decoration: inherit;\n}\n\n/**\n * Reset form element properties that are easy to forget to\n * style explicitly so you don't inadvertently introduce\n * styles that deviate from your design system. These styles\n * supplement a partial reset that is already applied by\n * normalize.css.\n */\n\nbutton,\ninput,\noptgroup,\nselect,\ntextarea {\n  padding: 0;\n  line-height: inherit;\n  color: inherit;\n}\n\n/**\n * Use the configured 'mono' font family for elements that\n * are expected to be rendered with a monospace font, falling\n * back to the system monospace stack if there is no configured\n * 'mono' font family.\n */\n\npre,\ncode,\nkbd,\nsamp {\n  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace;\n}\n\n/**\n * 1. Make replaced elements `display: block` by default as that's\n *    the behavior you want almost all of the time. Inspired by\n *    CSS Remedy, with `svg` added as well.\n *\n *    https://github.com/mozdevs/cssremedy/issues/14\n * \n * 2. Add `vertical-align: middle` to align replaced elements more\n *    sensibly by default when overriding `display` by adding a\n *    utility like `inline`.\n *\n *    This can trigger a poorly considered linting error in some\n *    tools but is included by design.\n * \n *    https://github.com/jensimmons/cssremedy/issues/14#issuecomment-634934210\n */\n\nimg,\nsvg,\nvideo,\ncanvas,\naudio,\niframe,\nembed,\nobject {\n  display: block; /* 1 */\n  vertical-align: middle; /* 2 */\n}\n\n/**\n * Constrain images and videos to the parent width and preserve\n * their intrinsic aspect ratio.\n *\n * https://github.com/mozdevs/cssremedy/issues/14\n */\n\nimg,\nvideo {\n  max-width: 100%;\n  height: auto;\n}\n\n/**\n * Ensure the default browser behavior of the `hidden` attribute.\n */\n\n[hidden] {\n  display: none;\n}\n\n*, ::before, ::after{\n  --tw-border-opacity:1;\n  border-color:rgba(226, 232, 240, var(--tw-border-opacity));\n}\n\n.container{\n  width:100%;\n}\n\n@media (min-width: 640px){\n  .container{\n    max-width:640px;\n  }\n}\n\n@media (min-width: 768px){\n  .container{\n    max-width:768px;\n  }\n}\n\n@media (min-width: 1024px){\n  .container{\n    max-width:1024px;\n  }\n}\n\n@media (min-width: 1280px){\n  .container{\n    max-width:1280px;\n  }\n}\n\n@media (min-width: 1536px){\n  .container{\n    max-width:1536px;\n  }\n}\n\n.pointer-events-none{\n  pointer-events:none;\n}\n\n.visible{\n  visibility:visible;\n}\n\n.invisible{\n  visibility:hidden;\n}\n\n.static{\n  position:static;\n}\n\n.fixed{\n  position:fixed;\n}\n\n.absolute{\n  position:absolute;\n}\n\n.relative{\n  position:relative;\n}\n\n.sticky{\n  position:sticky;\n}\n\n.inset-0{\n  top:0px;\n  right:0px;\n  bottom:0px;\n  left:0px;\n}\n\n.inset-y-0{\n  top:0px;\n  bottom:0px;\n}\n\n.top-0{\n  top:0px;\n}\n\n.top-4{\n  top:1rem;\n}\n\n.top-full{\n  top:100%;\n}\n\n.right-0{\n  right:0px;\n}\n\n.right-8{\n  right:2rem;\n}\n\n.bottom-0{\n  bottom:0px;\n}\n\n.left-0{\n  left:0px;\n}\n\n.left-8{\n  left:2rem;\n}\n\n.z-10{\n  z-index:10;\n}\n\n.z-20{\n  z-index:20;\n}\n\n.z-30{\n  z-index:30;\n}\n\n.m-1{\n  margin:0.25rem;\n}\n\n.mx-auto{\n  margin-left:auto;\n  margin-right:auto;\n}\n\n.my-2{\n  margin-top:0.5rem;\n  margin-bottom:0.5rem;\n}\n\n.-my-0{\n  margin-top:0px;\n  margin-bottom:0px;\n}\n\n.-my-0\\.5{\n  margin-top:-0.125rem;\n  margin-bottom:-0.125rem;\n}\n\n.mt-2{\n  margin-top:0.5rem;\n}\n\n.mt-4{\n  margin-top:1rem;\n}\n\n.mt-6{\n  margin-top:1.5rem;\n}\n\n.mt-8{\n  margin-top:2rem;\n}\n\n.mb-2{\n  margin-bottom:0.5rem;\n}\n\n.mb-4{\n  margin-bottom:1rem;\n}\n\n.mb-5{\n  margin-bottom:1.25rem;\n}\n\n.mb-8{\n  margin-bottom:2rem;\n}\n\n.mb-10{\n  margin-bottom:2.5rem;\n}\n\n.ml-4{\n  margin-left:1rem;\n}\n\n.ml-6{\n  margin-left:1.5rem;\n}\n\n.ml-auto{\n  margin-left:auto;\n}\n\n.block{\n  display:block;\n}\n\n.inline-block{\n  display:inline-block;\n}\n\n.flex{\n  display:flex;\n}\n\n.table{\n  display:table;\n}\n\n.grid{\n  display:grid;\n}\n\n.hidden{\n  display:none;\n}\n\n.h-0{\n  height:0px;\n}\n\n.h-8{\n  height:2rem;\n}\n\n.h-10{\n  height:2.5rem;\n}\n\n.h-12{\n  height:3rem;\n}\n\n.h-14{\n  height:3.5rem;\n}\n\n.h-24{\n  height:6rem;\n}\n\n.h-60{\n  height:15rem;\n}\n\n.h-72{\n  height:18rem;\n}\n\n.h-80{\n  height:20rem;\n}\n\n.h-px{\n  height:1px;\n}\n\n.h-0\\.5{\n  height:0.125rem;\n}\n\n.h-2\\/3{\n  height:66.666667%;\n}\n\n.h-full{\n  height:100%;\n}\n\n.min-h-screen{\n  min-height:100vh;\n}\n\n.w-2{\n  width:0.5rem;\n}\n\n.w-4{\n  width:1rem;\n}\n\n.w-6{\n  width:1.5rem;\n}\n\n.w-8{\n  width:2rem;\n}\n\n.w-10{\n  width:2.5rem;\n}\n\n.w-12{\n  width:3rem;\n}\n\n.w-14{\n  width:3.5rem;\n}\n\n.w-56{\n  width:14rem;\n}\n\n.w-64{\n  width:16rem;\n}\n\n.w-px{\n  width:1px;\n}\n\n.w-2\\/3{\n  width:66.666667%;\n}\n\n.w-full{\n  width:100%;\n}\n\n.max-w-sm{\n  max-width:24rem;\n}\n\n.max-w-md{\n  max-width:28rem;\n}\n\n.max-w-lg{\n  max-width:32rem;\n}\n\n.max-w-3xl{\n  max-width:48rem;\n}\n\n.max-w-4xl{\n  max-width:56rem;\n}\n\n.max-w-6xl{\n  max-width:72rem;\n}\n\n.max-w-max{\n  max-width:-webkit-max-content;\n  max-width:-moz-max-content;\n  max-width:max-content;\n}\n\n.flex-shrink-0{\n  flex-shrink:0;\n}\n\n.transform{\n  --tw-translate-x:0;\n  --tw-translate-y:0;\n  --tw-rotate:0;\n  --tw-skew-x:0;\n  --tw-skew-y:0;\n  --tw-scale-x:1;\n  --tw-scale-y:1;\n  transform:translateX(var(--tw-translate-x)) translateY(var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n}\n\n.translate-x-0{\n  --tw-translate-x:0px;\n}\n\n.translate-x-56{\n  --tw-translate-x:14rem;\n}\n\n.hover\\:-translate-y-1:hover{\n  --tw-translate-y:-0.25rem;\n}\n\n.focus\\:-translate-y-1:focus{\n  --tw-translate-y:-0.25rem;\n}\n\n.rotate-45{\n  --tw-rotate:45deg;\n}\n\n.-rotate-45{\n  --tw-rotate:-45deg;\n}\n\n.scale-90{\n  --tw-scale-x:.9;\n  --tw-scale-y:.9;\n}\n\n@-webkit-keyframes spin{\n  to{\n    transform:rotate(360deg);\n  }\n}\n\n@keyframes spin{\n  to{\n    transform:rotate(360deg);\n  }\n}\n\n@-webkit-keyframes ping{\n  75%, 100%{\n    transform:scale(2);\n    opacity:0;\n  }\n}\n\n@keyframes ping{\n  75%, 100%{\n    transform:scale(2);\n    opacity:0;\n  }\n}\n\n@-webkit-keyframes pulse{\n  50%{\n    opacity:.5;\n  }\n}\n\n@keyframes pulse{\n  50%{\n    opacity:.5;\n  }\n}\n\n@-webkit-keyframes bounce{\n  0%, 100%{\n    transform:translateY(-25%);\n    -webkit-animation-timing-function:cubic-bezier(0.8,0,1,1);\n            animation-timing-function:cubic-bezier(0.8,0,1,1);\n  }\n\n  50%{\n    transform:none;\n    -webkit-animation-timing-function:cubic-bezier(0,0,0.2,1);\n            animation-timing-function:cubic-bezier(0,0,0.2,1);\n  }\n}\n\n@keyframes bounce{\n  0%, 100%{\n    transform:translateY(-25%);\n    -webkit-animation-timing-function:cubic-bezier(0.8,0,1,1);\n            animation-timing-function:cubic-bezier(0.8,0,1,1);\n  }\n\n  50%{\n    transform:none;\n    -webkit-animation-timing-function:cubic-bezier(0,0,0.2,1);\n            animation-timing-function:cubic-bezier(0,0,0.2,1);\n  }\n}\n\n.list-disc{\n  list-style-type:disc;\n}\n\n.flex-row{\n  flex-direction:row;\n}\n\n.flex-row-reverse{\n  flex-direction:row-reverse;\n}\n\n.flex-col{\n  flex-direction:column;\n}\n\n.flex-wrap{\n  flex-wrap:wrap;\n}\n\n.place-items-center{\n  place-items:center;\n}\n\n.items-center{\n  align-items:center;\n}\n\n.justify-start{\n  justify-content:flex-start;\n}\n\n.justify-end{\n  justify-content:flex-end;\n}\n\n.justify-center{\n  justify-content:center;\n}\n\n.justify-between{\n  justify-content:space-between;\n}\n\n.overflow-hidden{\n  overflow:hidden;\n}\n\n.overflow-x-auto{\n  overflow-x:auto;\n}\n\n.overflow-y-auto{\n  overflow-y:auto;\n}\n\n.overflow-x-hidden{\n  overflow-x:hidden;\n}\n\n.whitespace-nowrap{\n  white-space:nowrap;\n}\n\n.rounded{\n  border-radius:0.25rem;\n}\n\n.rounded-md{\n  border-radius:0.375rem;\n}\n\n.rounded-xl{\n  border-radius:0.75rem;\n}\n\n.rounded-full{\n  border-radius:9999px;\n}\n\n.border-2{\n  border-width:2px;\n}\n\n.border{\n  border-width:1px;\n}\n\n.border-b-2{\n  border-bottom-width:2px;\n}\n\n.border-b{\n  border-bottom-width:1px;\n}\n\n.border-gray-300{\n  --tw-border-opacity:1;\n  border-color:rgba(203, 213, 225, var(--tw-border-opacity));\n}\n\n.border-blue-500{\n  --tw-border-opacity:1;\n  border-color:rgba(59, 130, 246, var(--tw-border-opacity));\n}\n\n.focus\\:border-blue-500:focus{\n  --tw-border-opacity:1;\n  border-color:rgba(59, 130, 246, var(--tw-border-opacity));\n}\n\n.dark .dark\\:border-gray-600{\n  --tw-border-opacity:1;\n  border-color:rgba(71, 85, 105, var(--tw-border-opacity));\n}\n\n.dark .dark\\:border-gray-700{\n  --tw-border-opacity:1;\n  border-color:rgba(51, 65, 85, var(--tw-border-opacity));\n}\n\n.dark .dark\\:border-cyan-400{\n  --tw-border-opacity:1;\n  border-color:rgba(34, 211, 238, var(--tw-border-opacity));\n}\n\n.dark .dark\\:focus\\:border-cyan-400:focus{\n  --tw-border-opacity:1;\n  border-color:rgba(34, 211, 238, var(--tw-border-opacity));\n}\n\n.bg-white{\n  --tw-bg-opacity:1;\n  background-color:rgba(255, 255, 255, var(--tw-bg-opacity));\n}\n\n.bg-gray-100{\n  --tw-bg-opacity:1;\n  background-color:rgba(241, 245, 249, var(--tw-bg-opacity));\n}\n\n.bg-gray-300{\n  --tw-bg-opacity:1;\n  background-color:rgba(203, 213, 225, var(--tw-bg-opacity));\n}\n\n.bg-gray-400{\n  --tw-bg-opacity:1;\n  background-color:rgba(148, 163, 184, var(--tw-bg-opacity));\n}\n\n.bg-gray-900{\n  --tw-bg-opacity:1;\n  background-color:rgba(15, 23, 42, var(--tw-bg-opacity));\n}\n\n.bg-blue-100{\n  --tw-bg-opacity:1;\n  background-color:rgba(219, 234, 254, var(--tw-bg-opacity));\n}\n\n.bg-blue-500{\n  --tw-bg-opacity:1;\n  background-color:rgba(59, 130, 246, var(--tw-bg-opacity));\n}\n\n.bg-blue-900{\n  --tw-bg-opacity:1;\n  background-color:rgba(30, 58, 138, var(--tw-bg-opacity));\n}\n\n.hover\\:bg-gray-100:hover{\n  --tw-bg-opacity:1;\n  background-color:rgba(241, 245, 249, var(--tw-bg-opacity));\n}\n\n.hover\\:bg-blue-100:hover{\n  --tw-bg-opacity:1;\n  background-color:rgba(219, 234, 254, var(--tw-bg-opacity));\n}\n\n.hover\\:bg-blue-500:hover{\n  --tw-bg-opacity:1;\n  background-color:rgba(59, 130, 246, var(--tw-bg-opacity));\n}\n\n.focus\\:bg-gray-100:focus{\n  --tw-bg-opacity:1;\n  background-color:rgba(241, 245, 249, var(--tw-bg-opacity));\n}\n\n.focus\\:bg-blue-100:focus{\n  --tw-bg-opacity:1;\n  background-color:rgba(219, 234, 254, var(--tw-bg-opacity));\n}\n\n.focus\\:bg-blue-500:focus{\n  --tw-bg-opacity:1;\n  background-color:rgba(59, 130, 246, var(--tw-bg-opacity));\n}\n\n.dark .dark\\:bg-gray-500{\n  --tw-bg-opacity:1;\n  background-color:rgba(100, 116, 139, var(--tw-bg-opacity));\n}\n\n.dark .dark\\:bg-gray-600{\n  --tw-bg-opacity:1;\n  background-color:rgba(71, 85, 105, var(--tw-bg-opacity));\n}\n\n.dark .dark\\:bg-gray-800{\n  --tw-bg-opacity:1;\n  background-color:rgba(30, 41, 59, var(--tw-bg-opacity));\n}\n\n.dark .dark\\:bg-gray-900{\n  --tw-bg-opacity:1;\n  background-color:rgba(15, 23, 42, var(--tw-bg-opacity));\n}\n\n.dark .dark\\:bg-cyan-400{\n  --tw-bg-opacity:1;\n  background-color:rgba(34, 211, 238, var(--tw-bg-opacity));\n}\n\n.dark .dark\\:hover\\:bg-gray-700:hover{\n  --tw-bg-opacity:1;\n  background-color:rgba(51, 65, 85, var(--tw-bg-opacity));\n}\n\n.dark .dark\\:hover\\:bg-gray-800:hover{\n  --tw-bg-opacity:1;\n  background-color:rgba(30, 41, 59, var(--tw-bg-opacity));\n}\n\n.dark .dark\\:hover\\:bg-cyan-400:hover{\n  --tw-bg-opacity:1;\n  background-color:rgba(34, 211, 238, var(--tw-bg-opacity));\n}\n\n.dark .dark\\:focus\\:bg-gray-700:focus{\n  --tw-bg-opacity:1;\n  background-color:rgba(51, 65, 85, var(--tw-bg-opacity));\n}\n\n.dark .dark\\:focus\\:bg-gray-800:focus{\n  --tw-bg-opacity:1;\n  background-color:rgba(30, 41, 59, var(--tw-bg-opacity));\n}\n\n.dark .dark\\:focus\\:bg-cyan-400:focus{\n  --tw-bg-opacity:1;\n  background-color:rgba(34, 211, 238, var(--tw-bg-opacity));\n}\n\n.bg-opacity-50{\n  --tw-bg-opacity:0.5;\n}\n\n.bg-opacity-80{\n  --tw-bg-opacity:0.8;\n}\n\n.bg-opacity-90{\n  --tw-bg-opacity:0.9;\n}\n\n.hover\\:bg-opacity-0:hover{\n  --tw-bg-opacity:0;\n}\n\n.hover\\:bg-opacity-20:hover{\n  --tw-bg-opacity:0.2;\n}\n\n.focus\\:bg-opacity-20:focus{\n  --tw-bg-opacity:0.2;\n}\n\n.dark .dark\\:bg-opacity-50{\n  --tw-bg-opacity:0.5;\n}\n\n.dark .dark\\:bg-opacity-80{\n  --tw-bg-opacity:0.8;\n}\n\n.dark .dark\\:bg-opacity-90{\n  --tw-bg-opacity:0.9;\n}\n\n.dark .dark\\:hover\\:bg-opacity-0:hover{\n  --tw-bg-opacity:0;\n}\n\n.dark .dark\\:hover\\:bg-opacity-20:hover{\n  --tw-bg-opacity:0.2;\n}\n\n.dark .dark\\:focus\\:bg-opacity-20:focus{\n  --tw-bg-opacity:0.2;\n}\n\n.object-contain{\n  -o-object-fit:contain;\n     object-fit:contain;\n}\n\n.object-cover{\n  -o-object-fit:cover;\n     object-fit:cover;\n}\n\n.p-2{\n  padding:0.5rem;\n}\n\n.p-4{\n  padding:1rem;\n}\n\n.p-8{\n  padding:2rem;\n}\n\n.px-2{\n  padding-left:0.5rem;\n  padding-right:0.5rem;\n}\n\n.px-4{\n  padding-left:1rem;\n  padding-right:1rem;\n}\n\n.px-6{\n  padding-left:1.5rem;\n  padding-right:1.5rem;\n}\n\n.px-8{\n  padding-left:2rem;\n  padding-right:2rem;\n}\n\n.py-2{\n  padding-top:0.5rem;\n  padding-bottom:0.5rem;\n}\n\n.py-3{\n  padding-top:0.75rem;\n  padding-bottom:0.75rem;\n}\n\n.py-4{\n  padding-top:1rem;\n  padding-bottom:1rem;\n}\n\n.text-left{\n  text-align:left;\n}\n\n.text-center{\n  text-align:center;\n}\n\n.text-right{\n  text-align:right;\n}\n\n.font-sourcesans{\n  font-family:\"Source Sans Pro\", sans-serif;\n}\n\n.font-sourcecode{\n  font-family:\"Source Code Pro\", monospace;\n}\n\n.text-sm{\n  font-size:0.875rem;\n  line-height:1.25rem;\n}\n\n.text-lg{\n  font-size:1.125rem;\n  line-height:1.75rem;\n}\n\n.text-xl{\n  font-size:1.25rem;\n  line-height:1.75rem;\n}\n\n.text-3xl{\n  font-size:1.875rem;\n  line-height:2.25rem;\n}\n\n.text-4xl{\n  font-size:2.25rem;\n  line-height:2.5rem;\n}\n\n.text-6xl{\n  font-size:3.75rem;\n  line-height:1;\n}\n\n.font-light{\n  font-weight:300;\n}\n\n.font-bold{\n  font-weight:700;\n}\n\n.leading-6{\n  line-height:1.5rem;\n}\n\n.tracking-tight{\n  letter-spacing:-0.025em;\n}\n\n.tracking-wider{\n  letter-spacing:0.05em;\n}\n\n.text-gray-200{\n  --tw-text-opacity:1;\n  color:rgba(226, 232, 240, var(--tw-text-opacity));\n}\n\n.text-gray-400{\n  --tw-text-opacity:1;\n  color:rgba(148, 163, 184, var(--tw-text-opacity));\n}\n\n.text-gray-500{\n  --tw-text-opacity:1;\n  color:rgba(100, 116, 139, var(--tw-text-opacity));\n}\n\n.text-gray-600{\n  --tw-text-opacity:1;\n  color:rgba(71, 85, 105, var(--tw-text-opacity));\n}\n\n.text-gray-800{\n  --tw-text-opacity:1;\n  color:rgba(30, 41, 59, var(--tw-text-opacity));\n}\n\n.text-blue-400{\n  --tw-text-opacity:1;\n  color:rgba(96, 165, 250, var(--tw-text-opacity));\n}\n\n.text-blue-500{\n  --tw-text-opacity:1;\n  color:rgba(59, 130, 246, var(--tw-text-opacity));\n}\n\n.text-cyan-500{\n  --tw-text-opacity:1;\n  color:rgba(6, 182, 212, var(--tw-text-opacity));\n}\n\n.hover\\:text-blue-500:hover{\n  --tw-text-opacity:1;\n  color:rgba(59, 130, 246, var(--tw-text-opacity));\n}\n\n.focus\\:text-blue-500:focus{\n  --tw-text-opacity:1;\n  color:rgba(59, 130, 246, var(--tw-text-opacity));\n}\n\n.dark .dark\\:text-gray-200{\n  --tw-text-opacity:1;\n  color:rgba(226, 232, 240, var(--tw-text-opacity));\n}\n\n.dark .dark\\:text-gray-400{\n  --tw-text-opacity:1;\n  color:rgba(148, 163, 184, var(--tw-text-opacity));\n}\n\n.dark .dark\\:text-cyan-400{\n  --tw-text-opacity:1;\n  color:rgba(34, 211, 238, var(--tw-text-opacity));\n}\n\n.dark .dark\\:hover\\:text-cyan-400:hover{\n  --tw-text-opacity:1;\n  color:rgba(34, 211, 238, var(--tw-text-opacity));\n}\n\n.dark .dark\\:focus\\:text-cyan-400:focus{\n  --tw-text-opacity:1;\n  color:rgba(34, 211, 238, var(--tw-text-opacity));\n}\n\n.underline{\n  text-decoration:underline;\n}\n\n.opacity-0{\n  opacity:0;\n}\n\n.opacity-100{\n  opacity:1;\n}\n\n*, ::before, ::after{\n  --tw-shadow:0 0 #0000;\n}\n\n.shadow-lg{\n  --tw-shadow:0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);\n  box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);\n}\n\n.shadow-xl{\n  --tw-shadow:0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);\n  box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);\n}\n\n.outline-none{\n  outline:2px solid transparent;\n  outline-offset:2px;\n}\n\n*, ::before, ::after{\n  --tw-ring-inset:var(--tw-empty,/*!*/ /*!*/);\n  --tw-ring-offset-width:0px;\n  --tw-ring-offset-color:#fff;\n  --tw-ring-color:rgba(59, 130, 246, 0.5);\n  --tw-ring-offset-shadow:0 0 #0000;\n  --tw-ring-shadow:0 0 #0000;\n}\n\n.transition-all{\n  transition-property:all;\n  transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);\n  transition-duration:150ms;\n}\n\n.transition{\n  transition-property:background-color, border-color, color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;\n  transition-property:background-color, border-color, color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;\n  transition-property:background-color, border-color, color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;\n  transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);\n  transition-duration:150ms;\n}\n\n.duration-300{\n  transition-duration:300ms;\n}\n\n.bg-blur{\n  -webkit-backdrop-filter:blur(4px);\n          backdrop-filter:blur(4px)\n}\n\n.writing-v-lr{\n  -ms-writing-mode:tb-lr;\n      writing-mode:vertical-lr\n}\n\nhtml{\n  scroll-behavior:smooth\n}\n\n@media (min-width: 640px){\n}\n\n@media (min-width: 768px){\n  .md\\:top-1\\/2{\n    top:50%;\n  }\n\n  .md\\:bottom-auto{\n    bottom:auto;\n  }\n\n  .md\\:left-1\\/2{\n    left:50%;\n  }\n\n  .md\\:m-2{\n    margin:0.5rem;\n  }\n\n  .md\\:mt-4{\n    margin-top:1rem;\n  }\n\n  .md\\:mb-0{\n    margin-bottom:0px;\n  }\n\n  .md\\:mb-4{\n    margin-bottom:1rem;\n  }\n\n  .md\\:mb-10{\n    margin-bottom:2.5rem;\n  }\n\n  .md\\:mb-16{\n    margin-bottom:4rem;\n  }\n\n  .md\\:block{\n    display:block;\n  }\n\n  .md\\:flex{\n    display:flex;\n  }\n\n  .md\\:grid{\n    display:grid;\n  }\n\n  .md\\:hidden{\n    display:none;\n  }\n\n  .md\\:h-80{\n    height:20rem;\n  }\n\n  .md\\:max-h-96{\n    max-height:24rem;\n  }\n\n  .md\\:transform{\n    --tw-translate-x:0;\n    --tw-translate-y:0;\n    --tw-rotate:0;\n    --tw-skew-x:0;\n    --tw-skew-y:0;\n    --tw-scale-x:1;\n    --tw-scale-y:1;\n    transform:translateX(var(--tw-translate-x)) translateY(var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n  }\n\n  .md\\:-translate-x-1\\/2{\n    --tw-translate-x:-50%;\n  }\n\n  .md\\:-translate-y-1\\/2{\n    --tw-translate-y:-50%;\n  }\n\n  .md\\:grid-cols-2{\n    grid-template-columns:repeat(2, minmax(0, 1fr));\n  }\n\n  .md\\:gap-8{\n    gap:2rem;\n  }\n\n  .md\\:overflow-visible{\n    overflow:visible;\n  }\n\n  .md\\:rounded-xl{\n    border-radius:0.75rem;\n  }\n\n  .md\\:border-b-0{\n    border-bottom-width:0px;\n  }\n\n  .md\\:border-l-2{\n    border-left-width:2px;\n  }\n\n  .md\\:p-6{\n    padding:1.5rem;\n  }\n\n  .md\\:px-4{\n    padding-left:1rem;\n    padding-right:1rem;\n  }\n\n  .md\\:px-12{\n    padding-left:3rem;\n    padding-right:3rem;\n  }\n\n  .md\\:px-20{\n    padding-left:5rem;\n    padding-right:5rem;\n  }\n\n  .md\\:py-0{\n    padding-top:0px;\n    padding-bottom:0px;\n  }\n\n  .md\\:py-2{\n    padding-top:0.5rem;\n    padding-bottom:0.5rem;\n  }\n\n  .md\\:py-10{\n    padding-top:2.5rem;\n    padding-bottom:2.5rem;\n  }\n\n  .md\\:pb-8{\n    padding-bottom:2rem;\n  }\n\n  .md\\:text-base{\n    font-size:1rem;\n    line-height:1.5rem;\n  }\n\n  .md\\:text-2xl{\n    font-size:1.5rem;\n    line-height:2rem;\n  }\n\n  .md\\:text-3xl{\n    font-size:1.875rem;\n    line-height:2.25rem;\n  }\n\n  .md\\:text-4xl{\n    font-size:2.25rem;\n    line-height:2.5rem;\n  }\n\n  .md\\:text-6xl{\n    font-size:3.75rem;\n    line-height:1;\n  }\n\n  .md\\:text-7xl{\n    font-size:4.5rem;\n    line-height:1;\n  }\n}\n\n@media (min-width: 1024px){\n  .lg\\:relative{\n    position:relative;\n  }\n\n  .lg\\:mt-0{\n    margin-top:0px;\n  }\n\n  .lg\\:-mr-0{\n    margin-right:0px;\n  }\n\n  .lg\\:-mr-12{\n    margin-right:-3rem;\n  }\n\n  .lg\\:mb-10{\n    margin-bottom:2.5rem;\n  }\n\n  .lg\\:-ml-0{\n    margin-left:0px;\n  }\n\n  .lg\\:-ml-12{\n    margin-left:-3rem;\n  }\n\n  .lg\\:block{\n    display:block;\n  }\n\n  .lg\\:flex{\n    display:flex;\n  }\n\n  .lg\\:grid{\n    display:grid;\n  }\n\n  .lg\\:hidden{\n    display:none;\n  }\n\n  .lg\\:w-72{\n    width:18rem;\n  }\n\n  .lg\\:max-w-xl{\n    max-width:36rem;\n  }\n\n  .lg\\:max-w-full{\n    max-width:100%;\n  }\n\n  .lg\\:grid-cols-2{\n    grid-template-columns:repeat(2, minmax(0, 1fr));\n  }\n\n  .lg\\:items-center{\n    align-items:center;\n  }\n\n  .lg\\:rounded-lg{\n    border-radius:0.5rem;\n  }\n\n  .lg\\:bg-transparent{\n    background-color:transparent;\n  }\n\n  .lg\\:bg-gray-100{\n    --tw-bg-opacity:1;\n    background-color:rgba(241, 245, 249, var(--tw-bg-opacity));\n  }\n\n  .dark .lg\\:dark\\:bg-transparent{\n    background-color:transparent;\n  }\n\n  .dark .lg\\:dark\\:bg-gray-800{\n    --tw-bg-opacity:1;\n    background-color:rgba(30, 41, 59, var(--tw-bg-opacity));\n  }\n\n  .lg\\:p-0{\n    padding:0px;\n  }\n\n  .lg\\:p-4{\n    padding:1rem;\n  }\n\n  .lg\\:text-8xl{\n    font-size:6rem;\n    line-height:1;\n  }\n\n  .lg\\:text-gray-500{\n    --tw-text-opacity:1;\n    color:rgba(100, 116, 139, var(--tw-text-opacity));\n  }\n\n  .lg\\:text-gray-900{\n    --tw-text-opacity:1;\n    color:rgba(15, 23, 42, var(--tw-text-opacity));\n  }\n\n  .dark .lg\\:dark\\:text-gray-200{\n    --tw-text-opacity:1;\n    color:rgba(226, 232, 240, var(--tw-text-opacity));\n  }\n\n  .dark .lg\\:dark\\:text-gray-400{\n    --tw-text-opacity:1;\n    color:rgba(148, 163, 184, var(--tw-text-opacity));\n  }\n\n  .lg\\:shadow-xl{\n    --tw-shadow:0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);\n    box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);\n  }\n}\n\n@media (min-width: 1280px){\n}\n\n@media (min-width: 1536px){\n}", ""]);
 // Exports
+___CSS_LOADER_EXPORT___.locals = {};
 module.exports = ___CSS_LOADER_EXPORT___;
 
 
 /***/ }),
-/* 51 */
+/* 41 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(52);
+var content = __webpack_require__(42);
 if(content.__esModule) content = content.default;
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
-__webpack_require__(14).default("517a8dd7", content, true)
+__webpack_require__(6).default("0d8b0c4d", content, true)
 
 /***/ }),
-/* 52 */
+/* 42 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // Imports
-var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(13);
-var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(false);
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(5);
+var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.i, "code[class*=language-],pre[class*=language-]{color:#000;background:none;text-shadow:0 1px #fff;font-family:Consolas,Monaco,\"Andale Mono\",\"Ubuntu Mono\",monospace;font-size:1em;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-hyphens:none;-ms-hyphens:none;hyphens:none}code[class*=language-]::-moz-selection,code[class*=language-] ::-moz-selection,pre[class*=language-]::-moz-selection,pre[class*=language-] ::-moz-selection{text-shadow:none;background:#b3d4fc}code[class*=language-]::selection,code[class*=language-] ::selection,pre[class*=language-]::selection,pre[class*=language-] ::selection{text-shadow:none;background:#b3d4fc}@media print{code[class*=language-],pre[class*=language-]{text-shadow:none}}pre[class*=language-]{padding:1em;margin:.5em 0;overflow:auto}:not(pre)>code[class*=language-],pre[class*=language-]{background:#f5f2f0}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal}.token.cdata,.token.comment,.token.doctype,.token.prolog{color:#708090}.token.punctuation{color:#999}.token.namespace{opacity:.7}.token.boolean,.token.constant,.token.deleted,.token.number,.token.property,.token.symbol,.token.tag{color:#905}.token.attr-name,.token.builtin,.token.char,.token.inserted,.token.selector,.token.string{color:#690}.language-css .token.string,.style .token.string,.token.entity,.token.operator,.token.url{color:#9a6e3a;background:hsla(0,0%,100%,.5)}.token.atrule,.token.attr-value,.token.keyword{color:#07a}.token.class-name,.token.function{color:#dd4a68}.token.important,.token.regex,.token.variable{color:#e90}.token.bold,.token.important{font-weight:700}.token.italic{font-style:italic}.token.entity{cursor:help}", ""]);
+___CSS_LOADER_EXPORT___.push([module.i, "/*purgecss start ignore*/\n\ncode[class*=language-],pre[class*=language-]{\n  color:#000;\n  background:none;\n  text-shadow:0 1px #fff;\n  font-family:Consolas,Monaco,\"Andale Mono\",\"Ubuntu Mono\",monospace;\n  font-size:1em;\n  text-align:left;\n  white-space:pre;\n  word-spacing:normal;\n  word-break:normal;\n  word-wrap:normal;\n  line-height:1.5;\n  -moz-tab-size:4;\n  -o-tab-size:4;\n  tab-size:4;\n  -webkit-hyphens:none;\n  -ms-hyphens:none;\n  hyphens:none\n}\n\ncode[class*=language-]::-moz-selection,code[class*=language-] ::-moz-selection,pre[class*=language-]::-moz-selection,pre[class*=language-] ::-moz-selection{\n  text-shadow:none;\n  background:#b3d4fc\n}\n\ncode[class*=language-]::-moz-selection, code[class*=language-] ::-moz-selection, pre[class*=language-]::-moz-selection, pre[class*=language-] ::-moz-selection{\n  text-shadow:none;\n  background:#b3d4fc\n}\n\ncode[class*=language-]::selection,code[class*=language-] ::selection,pre[class*=language-]::selection,pre[class*=language-] ::selection{\n  text-shadow:none;\n  background:#b3d4fc\n}\n\n@media print{\n  code[class*=language-],pre[class*=language-]{\n    text-shadow:none\n  }\n}\n\npre[class*=language-]{\n  padding:1em;\n  margin:.5em 0;\n  overflow:auto\n}\n\n:not(pre)>code[class*=language-],pre[class*=language-]{\n  background:#f5f2f0\n}\n\n:not(pre)>code[class*=language-]{\n  padding:.1em;\n  border-radius:.3em;\n  white-space:normal\n}\n\n.token.cdata,.token.comment,.token.doctype,.token.prolog{\n  color:#708090\n}\n\n.token.punctuation{\n  color:#999\n}\n\n.token.namespace{\n  opacity:.7\n}\n\n.token.boolean,.token.constant,.token.deleted,.token.number,.token.property,.token.symbol,.token.tag{\n  color:#905\n}\n\n.token.attr-name,.token.builtin,.token.char,.token.inserted,.token.selector,.token.string{\n  color:#690\n}\n\n.language-css .token.string,.style .token.string,.token.entity,.token.operator,.token.url{\n  color:#9a6e3a;\n  background:hsla(0,0%,100%,.5)\n}\n\n.token.atrule,.token.attr-value,.token.keyword{\n  color:#07a\n}\n\n.token.class-name,.token.function{\n  color:#dd4a68\n}\n\n.token.important,.token.regex,.token.variable{\n  color:#e90\n}\n\n.token.bold,.token.important{\n  font-weight:700\n}\n\n.token.italic{\n  font-style:italic\n}\n\n.token.entity{\n  cursor:help\n}\n\n/*purgecss end ignore*/", ""]);
 // Exports
+___CSS_LOADER_EXPORT___.locals = {};
 module.exports = ___CSS_LOADER_EXPORT___;
 
 
 /***/ }),
-/* 53 */
+/* 43 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -3381,28 +2233,53 @@ const actions = {
 };
 
 /***/ }),
-/* 54 */
-/***/ (function(module, exports) {
-
-module.exports = require("url");
-
-/***/ }),
-/* 55 */
+/* 44 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
+// NAMESPACE OBJECT: ./.nuxt/components/index.js
+var components_namespaceObject = {};
+__webpack_require__.r(components_namespaceObject);
+__webpack_require__.d(components_namespaceObject, "ControlsMenuToggle", function() { return ControlsMenuToggle; });
+__webpack_require__.d(components_namespaceObject, "ControlsThemeToggle", function() { return ControlsThemeToggle; });
+__webpack_require__.d(components_namespaceObject, "IconsDark", function() { return IconsDark; });
+__webpack_require__.d(components_namespaceObject, "IconsEnvelope", function() { return IconsEnvelope; });
+__webpack_require__.d(components_namespaceObject, "IconsExternalLink", function() { return IconsExternalLink; });
+__webpack_require__.d(components_namespaceObject, "IconsFacebook", function() { return IconsFacebook; });
+__webpack_require__.d(components_namespaceObject, "IconsGitHub", function() { return IconsGitHub; });
+__webpack_require__.d(components_namespaceObject, "IconsLight", function() { return IconsLight; });
+__webpack_require__.d(components_namespaceObject, "IconsLinkedIn", function() { return IconsLinkedIn; });
+__webpack_require__.d(components_namespaceObject, "IconsLogo", function() { return IconsLogo; });
+__webpack_require__.d(components_namespaceObject, "IconsMedium", function() { return IconsMedium; });
+__webpack_require__.d(components_namespaceObject, "IconsTimes", function() { return IconsTimes; });
+__webpack_require__.d(components_namespaceObject, "IconsTwitter", function() { return IconsTwitter; });
+__webpack_require__.d(components_namespaceObject, "IconsYouTube", function() { return IconsYouTube; });
+__webpack_require__.d(components_namespaceObject, "NavigationEmailHandle", function() { return NavigationEmailHandle; });
+__webpack_require__.d(components_namespaceObject, "NavigationMobileMenu", function() { return NavigationMobileMenu; });
+__webpack_require__.d(components_namespaceObject, "NavigationNavMenu", function() { return NavigationNavMenu; });
+__webpack_require__.d(components_namespaceObject, "NavigationNavbar", function() { return NavigationNavbar; });
+__webpack_require__.d(components_namespaceObject, "NavigationSocialHandles", function() { return NavigationSocialHandles; });
+__webpack_require__.d(components_namespaceObject, "SectionsAbout", function() { return SectionsAbout; });
+__webpack_require__.d(components_namespaceObject, "SectionsContact", function() { return SectionsContact; });
+__webpack_require__.d(components_namespaceObject, "SectionsExperience", function() { return SectionsExperience; });
+__webpack_require__.d(components_namespaceObject, "SectionsFooter", function() { return SectionsFooter; });
+__webpack_require__.d(components_namespaceObject, "SectionsHeader", function() { return SectionsHeader; });
+__webpack_require__.d(components_namespaceObject, "SectionsProject", function() { return SectionsProject; });
+__webpack_require__.d(components_namespaceObject, "SectionsSkill", function() { return SectionsSkill; });
+__webpack_require__.d(components_namespaceObject, "WidgetsModal", function() { return WidgetsModal; });
+
 // EXTERNAL MODULE: external "vue"
-var external_vue_ = __webpack_require__(1);
+var external_vue_ = __webpack_require__(0);
 var external_vue_default = /*#__PURE__*/__webpack_require__.n(external_vue_);
 
 // EXTERNAL MODULE: external "ufo"
 var external_ufo_ = __webpack_require__(2);
 
 // EXTERNAL MODULE: external "node-fetch"
-var external_node_fetch_ = __webpack_require__(40);
+var external_node_fetch_ = __webpack_require__(20);
 var external_node_fetch_default = /*#__PURE__*/__webpack_require__.n(external_node_fetch_);
 
 // CONCATENATED MODULE: ./.nuxt/middleware.js
@@ -4086,19 +2963,19 @@ var external_vuex_ = __webpack_require__(3);
 var external_vuex_default = /*#__PURE__*/__webpack_require__.n(external_vuex_);
 
 // EXTERNAL MODULE: external "vue-meta"
-var external_vue_meta_ = __webpack_require__(41);
+var external_vue_meta_ = __webpack_require__(21);
 var external_vue_meta_default = /*#__PURE__*/__webpack_require__.n(external_vue_meta_);
 
 // EXTERNAL MODULE: external "vue-client-only"
-var external_vue_client_only_ = __webpack_require__(29);
+var external_vue_client_only_ = __webpack_require__(16);
 var external_vue_client_only_default = /*#__PURE__*/__webpack_require__.n(external_vue_client_only_);
 
 // EXTERNAL MODULE: external "vue-no-ssr"
-var external_vue_no_ssr_ = __webpack_require__(27);
+var external_vue_no_ssr_ = __webpack_require__(14);
 var external_vue_no_ssr_default = /*#__PURE__*/__webpack_require__.n(external_vue_no_ssr_);
 
 // EXTERNAL MODULE: external "vue-router"
-var external_vue_router_ = __webpack_require__(30);
+var external_vue_router_ = __webpack_require__(17);
 var external_vue_router_default = /*#__PURE__*/__webpack_require__.n(external_vue_router_);
 
 // CONCATENATED MODULE: ./.nuxt/router.scrollBehavior.js
@@ -4138,8 +3015,7 @@ function shouldScrollToTop(route) {
   const nuxt = window.$nuxt;
 
   if ( // Initial load (vuejs/vue-router#3199)
-  !isRouteChanged || // Route hash changes
-  to.path === from.path && to.hash !== from.hash) {
+  !isRouteChanged || to.path === from.path && to.hash !== from.hash) {
     nuxt.$nextTick(() => nuxt.$emit('triggerScroll'));
   }
 
@@ -4178,7 +3054,7 @@ function shouldScrollToTop(route) {
 
 
 
-const _89578f12 = () => interopDefault(__webpack_require__.e(/* import() | pages/index */ 1).then(__webpack_require__.bind(null, 56)));
+const _89578f12 = () => interopDefault(__webpack_require__.e(/* import() | pages/index */ 10).then(__webpack_require__.bind(null, 56)));
 
 const emptyFn = () => {};
 
@@ -4362,7 +3238,7 @@ var staticRenderFns = []
 // CONCATENATED MODULE: ./layouts/error.vue?vue&type=script&lang=js&
  /* harmony default export */ var layouts_errorvue_type_script_lang_js_ = (errorvue_type_script_lang_js_); 
 // EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
-var componentNormalizer = __webpack_require__(0);
+var componentNormalizer = __webpack_require__(1);
 
 // CONCATENATED MODULE: ./layouts/error.vue
 
@@ -4669,7 +3545,7 @@ var nuxt_loading_render, nuxt_loading_staticRenderFns
 
 function injectStyles (context) {
   
-  var style0 = __webpack_require__(45)
+  var style0 = __webpack_require__(35)
 if (style0.__inject__) style0.__inject__(context)
 
 }
@@ -4688,14 +3564,14 @@ var nuxt_loading_component = Object(componentNormalizer["a" /* default */])(
 )
 
 /* harmony default export */ var nuxt_loading = (nuxt_loading_component.exports);
-// EXTERNAL MODULE: ./node_modules/@nuxtjs/tailwindcss/lib/files/tailwind.css
-var tailwind = __webpack_require__(47);
+// EXTERNAL MODULE: ./node_modules/@nuxtjs/tailwindcss/dist/runtime/tailwind.css
+var tailwind = __webpack_require__(37);
 
 // EXTERNAL MODULE: ./assets/css/style.css
-var style = __webpack_require__(49);
+var style = __webpack_require__(39);
 
 // EXTERNAL MODULE: ./node_modules/prismjs/themes/prism.css
-var prism = __webpack_require__(51);
+var prism = __webpack_require__(41);
 
 // CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./layouts/default.vue?vue&type=template&id=2c571a94&
 var defaultvue_type_template_id_2c571a94_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"font-sourcesans text-gray-800 bg-white dark:text-gray-200 dark:bg-gray-900 leading-6 transition-all"},[_c('navbar'),_vm._ssrNode(" "),_c('mobile-menu'),_vm._ssrNode(" "),_c('social-handles'),_vm._ssrNode(" "),_c('email-handle'),_vm._ssrNode(" "),_c('Nuxt'),_vm._ssrNode(" "),_c('Footer')],2)}
@@ -4705,19 +3581,19 @@ var defaultvue_type_template_id_2c571a94_staticRenderFns = []
 // CONCATENATED MODULE: ./layouts/default.vue?vue&type=template&id=2c571a94&
 
 // EXTERNAL MODULE: ./components/Navigation/Navbar.vue + 4 modules
-var Navbar = __webpack_require__(16);
+var Navbar = __webpack_require__(23);
 
 // EXTERNAL MODULE: ./components/Navigation/MobileMenu.vue + 4 modules
-var MobileMenu = __webpack_require__(21);
+var MobileMenu = __webpack_require__(28);
 
 // EXTERNAL MODULE: ./components/Navigation/SocialHandles.vue + 4 modules
-var SocialHandles = __webpack_require__(22);
+var SocialHandles = __webpack_require__(29);
 
 // EXTERNAL MODULE: ./components/Navigation/EmailHandle.vue + 4 modules
-var EmailHandle = __webpack_require__(23);
+var EmailHandle = __webpack_require__(30);
 
 // EXTERNAL MODULE: ./components/Sections/Footer.vue + 4 modules
-var Footer = __webpack_require__(24);
+var Footer = __webpack_require__(31);
 
 // CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./layouts/default.vue?vue&type=script&lang=js&
 //
@@ -5029,7 +3905,7 @@ external_vue_default.a.use(external_vuex_default.a);
 let store_store = {};
 
 (function updateModules() {
-  store_store = normalizeRoot(__webpack_require__(53), 'store/index.js'); // If store is an exported method = classic mode (deprecated)
+  store_store = normalizeRoot(__webpack_require__(43), 'store/index.js'); // If store is an exported method = classic mode (deprecated)
   // Enforce store modules
 
   store_store.modules = store_store.modules || {}; // If the environment supports hot reloading...
@@ -5069,127 +3945,34 @@ function normalizeModule(moduleData, filePath) {
 
   return moduleData;
 }
-// EXTERNAL MODULE: ./components/Controls/MenuToggle.vue + 4 modules
-var MenuToggle = __webpack_require__(5);
-
-// EXTERNAL MODULE: ./components/Controls/ThemeToggle.vue + 4 modules
-var ThemeToggle = __webpack_require__(6);
-
-// EXTERNAL MODULE: ./components/Icons/Dark.vue + 4 modules
-var Dark = __webpack_require__(19);
-
-// EXTERNAL MODULE: ./components/Icons/Envelope.vue + 4 modules
-var Envelope = __webpack_require__(25);
-
-// EXTERNAL MODULE: ./components/Icons/ExternalLink.vue + 4 modules
-var ExternalLink = __webpack_require__(12);
-
-// EXTERNAL MODULE: ./components/Icons/Facebook.vue + 4 modules
-var Facebook = __webpack_require__(7);
-
-// EXTERNAL MODULE: ./components/Icons/GitHub.vue + 4 modules
-var GitHub = __webpack_require__(4);
-
-// EXTERNAL MODULE: ./components/Icons/Light.vue + 4 modules
-var Light = __webpack_require__(20);
-
-// EXTERNAL MODULE: ./components/Icons/LinkedIn.vue + 4 modules
-var LinkedIn = __webpack_require__(8);
-
-// EXTERNAL MODULE: ./components/Icons/Logo.vue + 4 modules
-var Logo = __webpack_require__(17);
-
-// EXTERNAL MODULE: ./components/Icons/Medium.vue + 4 modules
-var Medium = __webpack_require__(9);
-
-// EXTERNAL MODULE: ./components/Icons/Times.vue + 4 modules
-var Times = __webpack_require__(26);
-
-// EXTERNAL MODULE: ./components/Icons/Twitter.vue + 4 modules
-var Twitter = __webpack_require__(10);
-
-// EXTERNAL MODULE: ./components/Icons/YouTube.vue + 4 modules
-var YouTube = __webpack_require__(11);
-
-// EXTERNAL MODULE: ./components/Navigation/NavMenu.vue + 4 modules
-var NavMenu = __webpack_require__(18);
-
-// EXTERNAL MODULE: ./components/Sections/About.vue + 4 modules
-var About = __webpack_require__(32);
-
-// EXTERNAL MODULE: ./components/Sections/Contact.vue + 3 modules
-var Contact = __webpack_require__(38);
-
-// EXTERNAL MODULE: ./components/Sections/Experience.vue + 4 modules
-var Experience = __webpack_require__(33);
-
-// EXTERNAL MODULE: ./components/Sections/Header.vue + 4 modules
-var Header = __webpack_require__(34);
-
-// EXTERNAL MODULE: ./components/Sections/Project.vue + 4 modules
-var Project = __webpack_require__(35);
-
-// EXTERNAL MODULE: ./components/Sections/Skill.vue + 4 modules
-var Skill = __webpack_require__(36);
-
-// EXTERNAL MODULE: ./components/Widgets/Modal.vue + 4 modules
-var Modal = __webpack_require__(37);
-
 // CONCATENATED MODULE: ./.nuxt/components/index.js
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-const LazyControlsMenuToggle = Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 5)).then(c => wrapFunctional(c.default || c));
-const LazyControlsThemeToggle = Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 6)).then(c => wrapFunctional(c.default || c));
-const LazyIconsDark = Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 19)).then(c => wrapFunctional(c.default || c));
-const LazyIconsEnvelope = Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 25)).then(c => wrapFunctional(c.default || c));
-const LazyIconsExternalLink = Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 12)).then(c => wrapFunctional(c.default || c));
-const LazyIconsFacebook = Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 7)).then(c => wrapFunctional(c.default || c));
-const LazyIconsGitHub = Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 4)).then(c => wrapFunctional(c.default || c));
-const LazyIconsLight = Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 20)).then(c => wrapFunctional(c.default || c));
-const LazyIconsLinkedIn = Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 8)).then(c => wrapFunctional(c.default || c));
-const LazyIconsLogo = Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 17)).then(c => wrapFunctional(c.default || c));
-const LazyIconsMedium = Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 9)).then(c => wrapFunctional(c.default || c));
-const LazyIconsTimes = Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 26)).then(c => wrapFunctional(c.default || c));
-const LazyIconsTwitter = Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 10)).then(c => wrapFunctional(c.default || c));
-const LazyIconsYouTube = Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 11)).then(c => wrapFunctional(c.default || c));
-const LazyNavigationEmailHandle = Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 23)).then(c => wrapFunctional(c.default || c));
-const LazyNavigationMobileMenu = Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 21)).then(c => wrapFunctional(c.default || c));
-const LazyNavigationNavMenu = Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 18)).then(c => wrapFunctional(c.default || c));
-const LazyNavigationNavbar = Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 16)).then(c => wrapFunctional(c.default || c));
-const LazyNavigationSocialHandles = Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 22)).then(c => wrapFunctional(c.default || c));
-const LazySectionsAbout = Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 32)).then(c => wrapFunctional(c.default || c));
-const LazySectionsContact = Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 38)).then(c => wrapFunctional(c.default || c));
-const LazySectionsExperience = Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 33)).then(c => wrapFunctional(c.default || c));
-const LazySectionsFooter = Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 24)).then(c => wrapFunctional(c.default || c));
-const LazySectionsHeader = Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 34)).then(c => wrapFunctional(c.default || c));
-const LazySectionsProject = Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 35)).then(c => wrapFunctional(c.default || c));
-const LazySectionsSkill = Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 36)).then(c => wrapFunctional(c.default || c));
-const LazyWidgetsModal = Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 37)).then(c => wrapFunctional(c.default || c)); // nuxt/nuxt.js#8607
+const ControlsMenuToggle = () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 7)).then(c => wrapFunctional(c.default || c));
+const ControlsThemeToggle = () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 8)).then(c => wrapFunctional(c.default || c));
+const IconsDark = () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 26)).then(c => wrapFunctional(c.default || c));
+const IconsEnvelope = () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 32)).then(c => wrapFunctional(c.default || c));
+const IconsExternalLink = () => __webpack_require__.e(/* import() | components/icons-external-link */ 1).then(__webpack_require__.bind(null, 47)).then(c => wrapFunctional(c.default || c));
+const IconsFacebook = () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 9)).then(c => wrapFunctional(c.default || c));
+const IconsGitHub = () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 4)).then(c => wrapFunctional(c.default || c));
+const IconsLight = () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 27)).then(c => wrapFunctional(c.default || c));
+const IconsLinkedIn = () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 10)).then(c => wrapFunctional(c.default || c));
+const IconsLogo = () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 24)).then(c => wrapFunctional(c.default || c));
+const IconsMedium = () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 11)).then(c => wrapFunctional(c.default || c));
+const IconsTimes = () => __webpack_require__.e(/* import() | components/icons-times */ 2).then(__webpack_require__.bind(null, 48)).then(c => wrapFunctional(c.default || c));
+const IconsTwitter = () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 12)).then(c => wrapFunctional(c.default || c));
+const IconsYouTube = () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 13)).then(c => wrapFunctional(c.default || c));
+const NavigationEmailHandle = () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 30)).then(c => wrapFunctional(c.default || c));
+const NavigationMobileMenu = () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 28)).then(c => wrapFunctional(c.default || c));
+const NavigationNavMenu = () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 25)).then(c => wrapFunctional(c.default || c));
+const NavigationNavbar = () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 23)).then(c => wrapFunctional(c.default || c));
+const NavigationSocialHandles = () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 29)).then(c => wrapFunctional(c.default || c));
+const SectionsAbout = () => __webpack_require__.e(/* import() | components/sections-about */ 3).then(__webpack_require__.bind(null, 50)).then(c => wrapFunctional(c.default || c));
+const SectionsContact = () => __webpack_require__.e(/* import() | components/sections-contact */ 4).then(__webpack_require__.bind(null, 55)).then(c => wrapFunctional(c.default || c));
+const SectionsExperience = () => __webpack_require__.e(/* import() | components/sections-experience */ 5).then(__webpack_require__.bind(null, 52)).then(c => wrapFunctional(c.default || c));
+const SectionsFooter = () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 31)).then(c => wrapFunctional(c.default || c));
+const SectionsHeader = () => __webpack_require__.e(/* import() | components/sections-header */ 6).then(__webpack_require__.bind(null, 49)).then(c => wrapFunctional(c.default || c));
+const SectionsProject = () => __webpack_require__.e(/* import() | components/sections-project */ 7).then(__webpack_require__.bind(null, 54)).then(c => wrapFunctional(c.default || c));
+const SectionsSkill = () => __webpack_require__.e(/* import() | components/sections-skill */ 8).then(__webpack_require__.bind(null, 51)).then(c => wrapFunctional(c.default || c));
+const WidgetsModal = () => __webpack_require__.e(/* import() | components/widgets-modal */ 9).then(__webpack_require__.bind(null, 53)).then(c => wrapFunctional(c.default || c)); // nuxt/nuxt.js#8607
 
 function wrapFunctional(options) {
   if (!options || !options.functional) {
@@ -5223,45 +4006,16 @@ function wrapFunctional(options) {
 // CONCATENATED MODULE: ./.nuxt/components/plugin.js
 
 
-const components = {
-  ControlsMenuToggle: () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 5)).then(c => wrapFunctional(c.default || c)),
-  ControlsThemeToggle: () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 6)).then(c => wrapFunctional(c.default || c)),
-  IconsDark: () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 19)).then(c => wrapFunctional(c.default || c)),
-  IconsEnvelope: () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 25)).then(c => wrapFunctional(c.default || c)),
-  IconsExternalLink: () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 12)).then(c => wrapFunctional(c.default || c)),
-  IconsFacebook: () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 7)).then(c => wrapFunctional(c.default || c)),
-  IconsGitHub: () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 4)).then(c => wrapFunctional(c.default || c)),
-  IconsLight: () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 20)).then(c => wrapFunctional(c.default || c)),
-  IconsLinkedIn: () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 8)).then(c => wrapFunctional(c.default || c)),
-  IconsLogo: () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 17)).then(c => wrapFunctional(c.default || c)),
-  IconsMedium: () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 9)).then(c => wrapFunctional(c.default || c)),
-  IconsTimes: () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 26)).then(c => wrapFunctional(c.default || c)),
-  IconsTwitter: () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 10)).then(c => wrapFunctional(c.default || c)),
-  IconsYouTube: () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 11)).then(c => wrapFunctional(c.default || c)),
-  NavigationEmailHandle: () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 23)).then(c => wrapFunctional(c.default || c)),
-  NavigationMobileMenu: () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 21)).then(c => wrapFunctional(c.default || c)),
-  NavigationNavMenu: () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 18)).then(c => wrapFunctional(c.default || c)),
-  NavigationNavbar: () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 16)).then(c => wrapFunctional(c.default || c)),
-  NavigationSocialHandles: () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 22)).then(c => wrapFunctional(c.default || c)),
-  SectionsAbout: () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 32)).then(c => wrapFunctional(c.default || c)),
-  SectionsContact: () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 38)).then(c => wrapFunctional(c.default || c)),
-  SectionsExperience: () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 33)).then(c => wrapFunctional(c.default || c)),
-  SectionsFooter: () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 24)).then(c => wrapFunctional(c.default || c)),
-  SectionsHeader: () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 34)).then(c => wrapFunctional(c.default || c)),
-  SectionsProject: () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 35)).then(c => wrapFunctional(c.default || c)),
-  SectionsSkill: () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 36)).then(c => wrapFunctional(c.default || c)),
-  WidgetsModal: () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 37)).then(c => wrapFunctional(c.default || c))
-};
 
-for (const name in components) {
-  external_vue_default.a.component(name, components[name]);
-  external_vue_default.a.component('Lazy' + name, components[name]);
+for (const name in components_namespaceObject) {
+  external_vue_default.a.component(name, components_namespaceObject[name]);
+  external_vue_default.a.component('Lazy' + name, components_namespaceObject[name]);
 }
 // EXTERNAL MODULE: ./.nuxt/empty.js
-var _nuxt_empty = __webpack_require__(28);
+var _nuxt_empty = __webpack_require__(15);
 
 // EXTERNAL MODULE: external "property-information"
-var external_property_information_ = __webpack_require__(31);
+var external_property_information_ = __webpack_require__(18);
 var external_property_information_default = /*#__PURE__*/__webpack_require__.n(external_property_information_);
 
 // CONCATENATED MODULE: ./.nuxt/content/nuxt-content.js
@@ -5494,7 +4248,7 @@ function hasMeta(arr, key, val) {
   return arr.find(obj => val ? obj[key] === val : obj[key]);
 }
 // EXTERNAL MODULE: ./.nuxt/pwa/meta.json
-var meta = __webpack_require__(42);
+var meta = __webpack_require__(22);
 
 // CONCATENATED MODULE: ./.nuxt/pwa/meta.plugin.js
 
@@ -5804,7 +4558,10 @@ async function createApp(ssrContext, config = {}) {
 
 
   await new Promise((resolve, reject) => {
-    router.push(app.context.route.fullPath, resolve, err => {
+    // Ignore 404s rather than blindly replacing URL in browser
+    if (false) {}
+
+    router.replace(app.context.route.fullPath, resolve, err => {
       // https://github.com/vuejs/vue-router/blob/v3.4.3/src/util/errors.js
       if (!err._isRouter) return reject(err);
       if (err.type !== 2
@@ -6197,6 +4954,12 @@ const createNext = ssrContext => opts => {
   await beforeRender();
   return _app;
 });
+
+/***/ }),
+/* 45 */
+/***/ (function(module, exports) {
+
+module.exports = require("url");
 
 /***/ })
 /******/ ]);

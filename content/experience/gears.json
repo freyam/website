@@ -1,15 +1,15 @@
 {
-    "company": "Gears Robotics Club",
-    "company_website": "https://adisuae.com/clubs/gears-robotic-club/",
-    "role": "Vice President",
-    "contract": {
-        "location": "Abu Dhabi Indian School",
-        "live": false
-    },
-    "duration": "April 2019 - April 2020",
-    "description": "Gears is a Robotics club that inspires young people to be science and technology leaders, by engaging them in exciting mentor-based programs that build science, engineering and technology skills, that inspire innovation, and that foster well-rounded life capabilities including self-confidence, communication, and leadership.",
-    "tasks": [
-        "Managed our various robotics teams and served as a technical advisor on robot design and programming. My Team participated in Robo Soccer Cup organized by RIT University, Dubai and performed well.",
-        "Acted as a liaison with faculty and other clubs, and held fun interactive workshops to teach new skills to members that were interested in Robotics."
-    ]
+  "company": "Gears Robotics Club",
+  "company_website": "https://adisuae.com/clubs/gears-robotic-club/",
+  "role": "Vice President",
+  "contract": {
+    "location": "Abu Dhabi Indian School",
+    "live": false
+  },
+  "duration": "April 2019 - April 2020",
+  "description": "Gears is a Robotics club that inspires young people to be science and technology leaders, by engaging them in exciting mentor-based programs that build science, engineering and technology skills, that inspire innovation, and that foster well-rounded life capabilities including self-confidence, communication, and leadership.",
+  "tasks": [
+    "Managed our various robotics teams and served as a technical advisor on robot design and programming. My Team participated in Robo Soccer Cup organized by RIT University, Dubai and performed well.",
+    "Acted as a liaison with faculty and other clubs, and held fun interactive workshops to teach new skills to members that were interested in Robotics."
+  ]
 }

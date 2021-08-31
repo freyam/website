@@ -1,16 +1,16 @@
 {
-    "company": "GirlScript Summer of Code",
-    "company_website": "https://gssoc.girlscript.tech/",
-    "role": "Student Developer",
-    "contract": {
-        "location": "Remote",
-        "live": false
-    },
-    "duration": "February 2021 - May 2021",
-    "description": "GirlScript Summer of Code is the 3 month long Open Source program during summers conducted by GirlScript Foundation, started in 2018, with an aim to help beginners get started with Open Source Development while encouraging diversity. Throughout the program, participants contribute to different projects under guidance of experienced mentors.",
-    "tasks": [
-        "Actively contributed to several projects built with Python and JavaScript.",
-        "Collaborated with like-minded students from across India on team projects.",
-        "Spent time discussing new ideas with Open Source Pioneers of India."
-    ]
+  "company": "GirlScript Summer of Code",
+  "company_website": "https://gssoc.girlscript.tech/",
+  "role": "Student Contributor",
+  "contract": {
+    "location": "Remote",
+    "live": false
+  },
+  "duration": "February 2021 - May 2021",
+  "description": "GirlScript Summer of Code is the 3 month long Open Source program during summers conducted by GirlScript Foundation, started in 2018, with an aim to help beginners get started with Open Source Development while encouraging diversity. Throughout the program, participants contribute to different projects under guidance of experienced mentors.",
+  "tasks": [
+    "Actively contributed to several projects built with Python and JavaScript.",
+    "Collaborated with like-minded students from across India on team projects.",
+    "Spent time discussing new ideas with Open Source Pioneers of India."
+  ]
 }

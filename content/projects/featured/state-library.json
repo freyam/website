@@ -1,11 +1,8 @@
 {
-    "name": "State Library Manager",
-    "cover_image": "/images/projects/state-library.png",
-    "description": "A C++ Project implementing critical functions (add, search, modify, display, delete, payment, issue & return) that are required in a library by using an optimised database of books and customers.",
-    "languages": [
-        "C",
-        "C++"
-    ],
-    "github_link": "https://github.com/freyam/state-library",
-    "live_link": "https://github.com/freyam/state-library"
+  "name": "State Library Manager",
+  "cover_image": "/images/projects/state-library.png",
+  "description": "A C++ Project implementing critical functions (add, search, modify, display, delete, payment, issue & return) that are required in a library by using an optimised database of books and customers.",
+  "languages": ["C", "C++"],
+  "github_link": "https://github.com/freyam/state-library",
+  "live_link": "https://github.com/freyam/state-library"
 }
