@@ -1,0 +1,8 @@
+{
+  "name": "GIF Your Sorrows Away",
+  "cover_image": "/images/projects/gif-your-sorrows-away.png",
+  "description": "GYSA (GIF your sorrows away) is a browser extension that displays adorable GIFs of cute animals on your screen at random.",
+  "languages": ["HTML", "CSS", "JavaScript", "Tenor", "API"],
+  "github_link": "https://github.com/freyam/gif-your-sorrows-away",
+  "live_link": "https://github.com/freyam/gif-your-sorrows-away"
+}

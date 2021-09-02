@@ -1,0 +1,8 @@
+{
+  "name": "Pikachu Objectifier",
+  "cover_image": "/images/projects/pikachu-objectifier.png",
+  "description": "Pikachu Objectifier is a Deep Learning Classifier trained using YOLO (You Only Live Once) and the OpenCV framework for the fine-tuning of the dataset model. I shamelessly objectifiy Pikachus in this project.",
+  "languages": ["Python", "YOLO", "OpenCV"],
+  "github_link": "https://github.com/freyam/pikachu-objectifier",
+  "live_link": "https://github.com/freyam/pikachu-objectifier"
+}

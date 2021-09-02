@@ -1,0 +1,8 @@
+{
+  "name": "GoodBoy - A Discord Bot",
+  "cover_image": "/images/projects/goodboy.png",
+  "description": "A Discord bot that contextually reacts to the emotions depicted in the messages by using a RoBERTa-based NLP Model, a multi-class emotion analyzer, trained on 58 million tweets that analyses the messages in real time.",
+  "languages": ["Python", "Discord", "Transformers", "SciPy", "BERT"],
+  "github_link": "https://github.com/freyam/goodboy",
+  "live_link": "https://github.com/freyam/goodboy"
+}

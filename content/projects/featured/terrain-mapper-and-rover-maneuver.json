@@ -1,0 +1,8 @@
+{
+  "name": "Terrain Mapper and Rover Maneuver",
+  "cover_image": "/images/projects/terrain-mapper-and-rover-maneuver.png",
+  "description": "A cross-platform Unity AR mobile application that maps terrain in real time using a camera utility. It also hosts a real time free movement AR Rover which can be maneuvered by touch. Deep applications - Mars Rovers can be simulated using the 3D mapped terrains.",
+  "languages": ["C#", "Unity", "Android", "iOS", "Windows", "Linux"],
+  "github_link": "https://github.com/freyam/TerrainManeuver",
+  "live_link": "https://github.com/freyam/TerrainManeuver"
+}
