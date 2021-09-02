@@ -1,7 +1,23 @@
 <template>
   <nav
     ref="navbar"
-    class="px-8 py-4 flex items-center justify-between fixed top-0 w-full bg-blur bg-white dark:bg-gray-900 bg-opacity-80 dark:bg-opacity-80 transition-all duration-300 z-20"
+    class="
+      px-8
+      py-4
+      flex
+      items-center
+      justify-between
+      fixed
+      top-0
+      w-full
+      bg-blur bg-white
+      dark:bg-gray-900
+      bg-opacity-80
+      dark:bg-opacity-80
+      transition-all
+      duration-300
+      z-20
+    "
   >
     <logo />
     <nav-menu />

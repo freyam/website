@@ -1,14 +1,16 @@
 {
   "company": "Entrepreneurship Cell",
   "company_website": "https://ecell.iiit.ac.in/",
-  "role": "Graphic Designer",
+  "role": "Full Stack Developer and Graphic Designer",
   "contract": {
     "location": "IIIT Hyderabad",
     "live": true
   },
-  "duration": "December 2020 - June 2021",
-  "description": "Entrepreneurship Cell, IIIT Hyderabad is a non-profit organization run by students, and has been established with the objective of creating, manifesting and guiding the entrepreneurial spirit in the student community and to encourage them to be successful entrepreneurs. We want to build an ecosystem where networking and knowledge sharing can happen. To this end, we conduct several events, seminars and workshops both for students of and beyond our college for the purpose of cultivating this entrepreneurial spirit.",
+  "duration": "December 2020 - Present",
+  "description": "Entrepreneurship Cell, IIIT Hyderabad is a non-profit organization run by students, and has been established with the objective of creating, manifesting and guiding the entrepreneurial spirit in the student community and to encourage them to be successful entrepreneurs.",
   "tasks": [
+    "I am responsible for fulfilling various tech-related tasks to promote and bolster the Entrepreneurship community at the International Institute of Information Technology, Hyderabad.",
+    "Work includes developing the website, creating bots, and organizing events.",
     "Working with an experienced team of graphic and web designers and creating holistic visual solutions for marketing events and bolster branding.",
     "Communicating with multi-disciplinary teams such as marketing, coordination, tech, and clients on a daily basis.",
     "Learning how to work in an excellent professional team environment with seniors and alumni of the club."

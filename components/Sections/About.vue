@@ -19,11 +19,19 @@
         </div>
         <div class="mt-6 lg:mt-0">
           <div
-            class="mx-auto relative h-72 w-full max-w-md lg:w-72 lg:max-w-full rounded-xl shadow-xl overflow-hidden"
+            class="
+              mx-auto
+              relative
+              h-72
+              w-full
+              max-w-md
+              lg:w-72 lg:max-w-full
+              rounded-xl
+              shadow-xl
+              overflow-hidden
+            "
           >
-            <div
-              class="absolute inset-0 bg-blue-500 dark:bg-cyan-400 bg-opacity-50 dark:bg-opacity-50 transition duration-300 hover:bg-opacity-0 dark:hover:bg-opacity-0"
-            ></div>
+            <div class="absolute inset-0"></div>
             <img
               :src="`/images/profile/${about.image}`"
               :alt="about.name"

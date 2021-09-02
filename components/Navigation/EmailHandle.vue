@@ -5,7 +5,22 @@
         href="mailto:frey77mehta@gmail.com"
         target="_blank"
         rel="noreferrer"
-        class="mb-4 writing-v-lr text-sm font-sourcecode tracking-wider transform transition duration-300 hover:text-blue-500 dark:hover:text-cyan-400 hover:-translate-y-1 focus:text-blue-500 dark:focus:text-cyan-400 focus:-translate-y-1"
+        class="
+          mb-4
+          writing-v-lr
+          text-sm
+          font-sourcecode
+          tracking-wider
+          transform
+          transition
+          duration-300
+          hover:text-blue-500
+          dark:hover:text-cyan-400
+          hover:-translate-y-1
+          focus:text-blue-500
+          dark:focus:text-cyan-400
+          focus:-translate-y-1
+        "
       >
         frey77mehta@gmail.com
       </a>

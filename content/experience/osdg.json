@@ -1,0 +1,15 @@
+{
+  "company": "Open Source Developers Group",
+  "company_website": "https://www.facebook.com/groups/osdg.iiit.h/",
+  "role": "Student Contributor and Core Tech Team",
+  "contract": {
+    "location": "IIIT Hyderabad",
+    "live": true
+  },
+  "duration": "August 2021 - Present",
+  "description": "OSDG organises various hackathons, talks and knowledge sessions along with giving resources like blogs, handbooks, cheatsheets etc. to help the student community of IIIT Hyderbad get the spirit of open source appreciate its values, and work towards it.",
+  "tasks": [
+    "I am responsible for fulfilling various tech-related tasks to promote and bolster the Open Source community at the International Institute of Information Technology, Hyderabad.",
+    "Work includes developing the website, creating bots, and contributing to community projects."
+  ]
+}

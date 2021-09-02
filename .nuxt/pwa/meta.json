@@ -23,7 +23,7 @@
     {
       "hid": "description",
       "name": "description",
-      "content": "A highly passionate Student Developer studying Computer Science at IIIT Hyderabad."
+      "content": "A passionate Student Developer studying Computer Science at IIIT Hyderabad."
     },
     {
       "hid": "theme-color",
@@ -52,7 +52,7 @@
       "hid": "og:description",
       "name": "og:description",
       "property": "og:description",
-      "content": "A highly passionate Student Developer studying Computer Science at IIIT Hyderabad."
+      "content": "A passionate Student Developer studying Computer Science at IIIT Hyderabad."
     }
   ],
   "link": [
@@ -69,7 +69,7 @@
     },
     {
       "rel": "manifest",
-      "href": "/_nuxt/manifest.c38410ed.json",
+      "href": "/_nuxt/manifest.a344ef77.json",
       "hid": "manifest"
     }
   ],

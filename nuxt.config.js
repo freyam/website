@@ -10,7 +10,7 @@ export default {
         hid: 'description',
         name: 'description',
         content:
-          'A highly passionate Student Developer studying Computer Science at IIIT Hyderabad.'
+          'A passionate Student Developer studying Computer Science at IIIT Hyderabad.'
       },
       {
         hid: 'msapplication-TileColor',
@@ -28,13 +28,11 @@ export default {
       { rel: 'preconnect', href: 'https://fonts.gstatic.com' },
       {
         rel: 'stylesheet',
-        href:
-          'https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap'
+        href: 'https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap'
       },
       {
         rel: 'stylesheet',
-        href:
-          'https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap'
+        href: 'https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap'
       },
       { rel: 'shortcut icon', href: '/favicon.ico' },
       {
@@ -72,7 +70,7 @@ export default {
       theme_color: '#406bc7',
       background_color: '#406bc7',
       description:
-        'A highly passionate Student Developer studying Computer Science at IIIT Hyderabad.',
+        'A passionate Student Developer studying Computer Science at IIIT Hyderabad.',
       icons: [
         {
           src: '/icons/android-chrome-192x192.png',

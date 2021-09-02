@@ -6,7 +6,6 @@
     <experience />
     <modal />
     <project />
-    <contact />
   </div>
 </template>
 
@@ -18,7 +17,6 @@ import Skill from '@/components/Sections/Skill.vue';
 import Experience from '@/components/Sections/Experience.vue';
 import Modal from '@/components/Widgets/Modal.vue';
 import Project from '@/components/Sections/Project.vue';
-import Contact from '@/components/Sections/Contact.vue';
 
 export default {
   components: {
@@ -27,8 +25,7 @@ export default {
     Skill,
     Experience,
     Modal,
-    Project,
-    Contact
+    Project
   },
   mounted() {
     this.closeMenu();

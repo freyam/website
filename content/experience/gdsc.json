@@ -1,0 +1,15 @@
+{
+  "company": "Google Developer Student Club",
+  "company_website": "https://gdsc.community.dev/international-institute-of-information-technology-iiit-hyderabad/",
+  "role": "Web Developer",
+  "contract": {
+    "location": "IIIT Hyderabad",
+    "live": false
+  },
+  "duration": "April 2019 - April 2020",
+  "description": "GDSC IIIT Hyderabad is a non-profit developer group powered by Google Developers to learn, share, connect and develop skills. By joining the GDSC, students grow their knowledge in a peer-to-peer learning environment and build solutions for local businesses and their communities",
+  "tasks": [
+    "Overseeing and guiding the analyzing, writing, building, and deployment of software to promote the Google Developer spirit amongst the institute.",
+    "Managing the complete software development process from conception to deployment"
+  ]
+}

@@ -1,7 +1,15 @@
 <template>
   <article class="min-h-screen grid place-items-center">
     <div
-      class="container mx-auto px-8 py-4 md:px-12 md:py-10 text-center max-w-4xl"
+      class="
+        container
+        mx-auto
+        px-8
+        py-4
+        md:px-12 md:py-10
+        text-center
+        max-w-4xl
+      "
     >
       <div v-if="error.statusCode === 404" class="mx-auto max-w-max">
         <h1 class="mb-2 text-4xl md:text-6xl whitespace-nowrap font-light">
@@ -27,7 +35,22 @@
       </div>
       <nuxt-link
         to="/"
-        class="mt-8 px-6 py-3 text-blue-500 dark:text-cyan-400 inline-block border-2 border-blue-500 dark:border-cyan-400 rounded-md transition hover:bg-blue-500 dark:hover:bg-cyan-400 hover:bg-opacity-20 dark:hover:bg-opacity-20"
+        class="
+          mt-8
+          px-6
+          py-3
+          text-blue-500
+          dark:text-cyan-400
+          inline-block
+          border-2 border-blue-500
+          dark:border-cyan-400
+          rounded-md
+          transition
+          hover:bg-blue-500
+          dark:hover:bg-cyan-400
+          hover:bg-opacity-20
+          dark:hover:bg-opacity-20
+        "
       >
         Go Home
       </nuxt-link>
