@@ -8,7 +8,6 @@ yarn-error.log
 
 # other
 .nuxt
-dist
 .vscode
 .idea
 newrelic_agent.log
