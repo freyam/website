@@ -1,0 +1,14 @@
+{
+  "company": "Google Summer of Code",
+  "company_website": "https://summerofcode.withgoogle.com/programs/2022/projects/XJwp022t",
+  "role": "Open Source Mentor - Joomla!",
+  "contract": {
+    "location": "Remote",
+    "live": true
+  },
+  "duration": "April 2022 - Present",
+  "description": "Specific workflows are required in Joomla! to complete certain activities. If users are new to the platform and wish to learn how to accomplish certain tasks, they must currently read the documentation. In Joomla!, this project should offer a guided tour feature. A tour is a click-through path that a user can take to complete specific tasks, such as writing an article.",
+  "tasks": [
+    "Mentoring a student to accomplish the project within a defined timeline."
+  ]
+}

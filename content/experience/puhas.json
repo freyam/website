@@ -1,0 +1,18 @@
+{
+  "company": "PUHAS",
+  "company_website": "http://www.puhas.in/",
+  "role": "Associate Product Manager",
+  "contract": {
+    "location": "Hyderabad, Telangana, India",
+    "live": true
+  },
+  "duration": "May 2022 - Present",
+  "description": "Puhas is a farm-to-fork firm that evolved from a social enterprise to solve difficulties in the AgTech area and supply fresh fruit to merchants and customers. Puhas plans to be a B2B2C enterprise with a unique strategy for developing bottom-up and efficient supply chains to directly deliver the freshest vegetables and fruits to retail grocery shops and customers. Puhas is part of a strategic alliance that has created two 'Kisan Pathshalas' (Farmer Schools) outside Ranchi, Jharkhand.",
+  "tasks": [
+    "Directing the startup's technical team, and designing the solutions for adaptability, scalability, and robustness.",
+    "Ensuring that the company's technology resources satisfy its short and long-term needs.",
+    "Monitoring system infrastructure for functionality and efficiency.",
+    "Creating protocols for quality assurance and data protection.",
+    "Establishing timelines for the development and deployment of all technological services."
+  ]
+}

@@ -1,16 +1,16 @@
 {
   "company": "Google Code-in",
-  "company_website": "https://g.co/codein",
-  "role": "Contributor - OpenMRS, LibreHealth, and RTEMS",
+  "company_website": "https://codein.withgoogle.com/archive/",
+  "role": "Open Source Developer - OpenMRS, LibreHealth, RTEMS and CCExtractorOpen",
   "contract": {
     "location": "Remote",
     "live": false
   },
-  "duration": "October 2018 - January 2019",
-  "description": "Google Code-in (GCI) was an international annual programming competition hosted by Google LLC that allowed pre-university students to complete tasks specified by various, partnering open source organizations.",
+  "duration": "October 2018 - January 2020",
+  "description": "Google Code-in (GCI) was an international annual programming competition hosted by Google LLC that allowed pre-university students to complete tasks specified by various partnering open source organizations.",
   "tasks": [
-    "Contributed to organizations like OpenMRS, LibreHealth, RTEMS and CCExtractor and improved their codebases.",
+    "Contributed to OpenMRS, LibreHealth, RTEMS, JBoss/WildFly, and CCExtractor.",
     "Collaborated with a team of student designers to spearhead a new brand and design system for established Open Source Organizations.",
-    "Through working closely with my mentors, I learned many invaluable skills ranging from documentation to research, training, design, outreach, quality assurance, and coding."
+    "Learned invaluable skills ranging from documentation to research, training, design, outreach, quality assurance, and coding by working closely with my mentors."
   ]
 }

@@ -1,0 +1,18 @@
+{
+  "company": "Temperate Technologies",
+  "company_website": "https://temperate.tech/",
+  "role": "Product Engineer Intern",
+  "contract": {
+    "location": "Hyderabad, Telangana, India",
+    "live": false
+  },
+  "duration": "January 2022 - April 2022",
+  "description": "More than 50,000 crores worth of fruits and vegetables are wasted every year in India due to the lack of proper cold storage facilities. Temperate has installed solar-powered village-level pack houses or small cold rooms that can help in solving these problems.",
+  "tasks": [
+    "Led the product team and presented the deliverables on time.",
+    "Solidified the user experience on the existing website platform.",
+    "Simplified the data extraction and backup processes to and from the AWS database.",
+    "Developed the accompanying Android App from the ground up to replicate the website's UI.",
+    "Documented the platform's user stories to aid the stakeholders."
+  ]
+}
