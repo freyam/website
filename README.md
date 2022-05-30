@@ -18,3 +18,11 @@ Designed by [Brittiany Chang](https://brittanychiang.com/) and [Norman Nuthu](ht
 By tweaking around the source code, I learnt a lot about JavaScript, Gatsby, CSS3, TailWindCSS, TypeScript, VueJS, NuxtJS, NodeJS and many other frameworks.
 
 </div>
+
+<!--
+
+`yarn` to install all the dependencies
+`yarn dev` to run the development server (with hot reloading)
+`yarn generate` to generate the static site before deploying on netlify
+
+-->
