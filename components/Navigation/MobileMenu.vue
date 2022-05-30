@@ -119,25 +119,6 @@
           >Projects</nuxt-link
         >
       </li>
-      <li>
-        <nuxt-link
-          to="/#contact"
-          class="
-            mb-8
-            px-4
-            py-2
-            text-center
-            block
-            w-full
-            transition
-            hover:text-blue-500
-            dark:hover:text-cyan-400
-            focus:text-blue-500
-            dark:focus:text-cyan-400
-          "
-          >Contact</nuxt-link
-        >
-      </li>
     </ul>
   </div>
 </template>

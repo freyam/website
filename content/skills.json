@@ -29,8 +29,36 @@
       "icon": "vue-js.svg"
     },
     {
+      "name": "AWS",
+      "icon": "aws.svg"
+    },
+    {
+      "name": "Google Cloud Platform",
+      "icon": "gcp.svg"
+    },
+    {
+      "name": "OpenGL",
+      "icon": "opengl.svg"
+    },
+    {
+      "name": "WebGL",
+      "icon": "webgl.svg"
+    },
+    {
+      "name": "Go",
+      "icon": "go.svg"
+    },
+    {
+      "name": "Rust",
+      "icon": "rust.svg"
+    },
+    {
       "name": "Python",
       "icon": "python.svg"
+    },
+    {
+      "name": "Kubernetes",
+      "icon": "kubernetes.svg"
     },
     {
       "name": "Tensorflow",

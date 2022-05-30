@@ -10,7 +10,7 @@ export default {
         hid: 'description',
         name: 'description',
         content:
-          'A passionate Student Developer studying Computer Science at IIIT Hyderabad.'
+          'A pre-final year undergraduate at IIIT Hyderabad, majoring in Computer Science and Engineering.'
       },
       {
         hid: 'msapplication-TileColor',
@@ -70,7 +70,7 @@ export default {
       theme_color: '#406bc7',
       background_color: '#406bc7',
       description:
-        'A passionate Student Developer studying Computer Science at IIIT Hyderabad.',
+        'A pre-final year undergraduate at IIIT Hyderabad, majoring in Computer Science and Engineering.',
       icons: [
         {
           src: '/icons/android-chrome-192x192.png',

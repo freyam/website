@@ -29,35 +29,9 @@
         >
           {{ about.title }}
         </h2>
-        <p class="mt-4 max-w-lg text-gray-500 dark:text-gray-400 leading-1">
+        <p class="mt-4 max-w-2xl text-gray-500 dark:text-gray-400 leading-1">
           {{ about.bio }}
         </p>
-        <nuxt-link
-          to="/#contact"
-          class="
-            mt-8
-            px-6
-            py-3
-            font-sourcecode
-            text-blue-500
-            dark:text-cyan-400
-            inline-block
-            border-2 border-blue-500
-            dark:border-cyan-400
-            rounded-md
-            transition
-            hover:bg-blue-500
-            dark:hover:bg-cyan-400
-            hover:bg-opacity-20
-            dark:hover:bg-opacity-20
-            focus:bg-blue-500
-            dark:focus:bg-cyan-400
-            focus:bg-opacity-20
-            dark:focus:bg-opacity-20
-          "
-        >
-          Get In Touch
-        </nuxt-link>
       </main>
     </div>
   </header>
