@@ -7,8 +7,11 @@
     "live": true
   },
   "duration": "April 2022 - Present",
-  "description": "Specific workflows are required in Joomla! to complete certain activities. If users are new to the platform and wish to learn how to accomplish certain tasks, they must currently read the documentation. In Joomla!, this project should offer a guided tour feature. A tour is a click-through path that a user can take to complete specific tasks, such as writing an article.",
+  "description": "Joomla is an award-winning Open Source CMS built and maintained by a strong community of volunteers who strive to produce robust, secure, easy to use software. As part of the Google Summer of Code 2022, I am mentoring the project, Guided Tours, that aims to integrate and enhance the existing tours into Joomla 4.0 release.",
   "tasks": [
-    "Mentoring a student to accomplish the project within a defined timeline."
+    "Mentoring a student to accomplish the project within a defined timeline.",
+    "Evaluating the organization's needs and bolstering the communications across the various verticals.",
+    "Helping the mentee contribute and become part of the open source community.",
+    "Establishing realistic work objectives and timeline expectations for the project."
   ]
 }

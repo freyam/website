@@ -7,7 +7,7 @@
     "live": false
   },
   "duration": "May 2021 - September 2021",
-  "description": "Dask's primary job is building task graphs and optimising them before decorating the functions to operate lazily.",
+  "description": "Dask is a python library that makes it easy to scale the Python libraries that you know and love like NumPy, pandas, and scikit-learn. As part of the Google Summer of Code 2022, I developed a project, Visualizing the Performance Characteristics of Computations, that aimed to enhance the distributed systems' visualizations by improving the task graphs.",
   "tasks": [
     "Redeveloped the computational task graph visualisations by enhancing the visuals while being mentored by Genevieve Buckley (Scientist, Monash University) and Martin Durant (Senior Software and Data Engineer, Anaconda).",
     "Expanded the visual output from 11% to 40% without compromising the performance factor.",

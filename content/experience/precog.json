@@ -1,0 +1,12 @@
+{
+  "company": "Precog",
+  "company_website": "https://precog.iiit.ac.in/",
+  "role": "Undergraduate Researcher",
+  "contract": {
+    "location": "Hyderabad, Telangana, India",
+    "live": true
+  },
+  "duration": "May 2022 - Present",
+  "description": "Precog is a research organisation that studies, analyses, and builds many elements of social networks (for example, social web systems like Twitter and Facebook), including their security and privacy.",
+  "tasks": ["Analysing the effectiveness of COVID vaccines rollout in India."]
+}

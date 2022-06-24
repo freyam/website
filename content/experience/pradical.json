@@ -1,0 +1,17 @@
+{
+  "company": "PUHAS",
+  "role": "Product Engineer Intern",
+  "contract": {
+    "location": "Hyderabad, Telangana, India",
+    "live": true
+  },
+  "duration": "May 2022 - Present",
+  "description": "Pradical is a business consulting firm that provides technical solutions leveraging spatial and on-ground intelligence. It boasts a rich history of clientele consisting of Harvard University, Puhas Farms, Transerve Technologies, INBEX, and Horizon Hospitals.",
+  "tasks": [
+    "Directing the technical teams of INBEX and Puhas Farms, and designing the solutions for adaptability, scalability, and robustness.",
+    "Ensuring that the company's technology resources satisfy its short and long-term needs.",
+    "Monitoring system infrastructure for functionality and efficiency.",
+    "Creating protocols for quality assurance and data protection.",
+    "Establishing timelines for the development and deployment of all technological services."
+  ]
+}
