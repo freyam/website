@@ -1,12 +1,17 @@
 {
+  "idx": 8,
   "company": "Precog",
   "company_website": "https://precog.iiit.ac.in/",
-  "role": "Undergraduate Researcher",
+  "role": "Machine Learning Researcher",
   "contract": {
     "location": "Hyderabad, Telangana, India",
     "live": true
   },
   "duration": "May 2022 - Present",
   "description": "Precog is a research organisation that studies, analyses, and builds many elements of social networks (for example, social web systems like Twitter and Facebook), including their security and privacy.",
-  "tasks": ["Analysing the effectiveness of COVID vaccines rollout in India."]
+  "tasks": [
+    "Collaborating with Prof. Ponnurangam Kumaraguru to devise high-performance ML systems to quantify the inequities in India's vaccination response during 2020-2022.",
+    "Compiled COVID-related data for competitive analysis by performing web scraping, preliminary analysis and data visualisation.",
+    "Supervising model development, testing, and validation of 20K+ nodes and services heuristics analysis tool to rate any state's efforts to curb the spread of COVID"
+  ]
 }

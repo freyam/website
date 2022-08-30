@@ -1,7 +1,8 @@
 {
+  "idx": 1,
   "company": "Google Code-in",
   "company_website": "https://codein.withgoogle.com/archive/",
-  "role": "Open Source Developer - OpenMRS, LibreHealth, RTEMS and CCExtractorOpen",
+  "role": "Open Source Developer, OpenMRS, LibreHealth, RTEMS, JBoss/WildFly and CCExtractor",
   "contract": {
     "location": "Remote",
     "live": false

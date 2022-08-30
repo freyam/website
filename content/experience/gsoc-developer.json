@@ -1,7 +1,8 @@
 {
-  "company": "Google Summer of Code",
+  "idx": 3,
+  "company": "Google Summer of Code 2021",
   "company_website": "https://summerofcode.withgoogle.com/archive/2021/projects/4961535251709952",
-  "role": "Open Source Developer - Dask",
+  "role": "Data Science Engineer, Dask",
   "contract": {
     "location": "Remote",
     "live": false
@@ -9,8 +10,8 @@
   "duration": "May 2021 - September 2021",
   "description": "Dask is a python library that makes it easy to scale the Python libraries that you know and love like NumPy, pandas, and scikit-learn. As part of the Google Summer of Code 2022, I developed a project, Visualizing the Performance Characteristics of Computations, that aimed to enhance the distributed systems' visualizations by improving the task graphs.",
   "tasks": [
-    "Redeveloped the computational task graph visualisations by enhancing the visuals while being mentored by Genevieve Buckley (Scientist, Monash University) and Martin Durant (Senior Software and Data Engineer, Anaconda).",
-    "Expanded the visual output from 11% to 40% without compromising the performance factor.",
-    "Optimized the visualisations of existing dask collections to push extra metadata to the task graphs after discussions with partnering organisations such as NVIDIA."
+    "Optimised the visualisations for dask collections to display 600% more node metadata in less than 100ms.",
+    "Expanded the global node metadata by 29% in the staging phase after direct collaborations with NVIDIA, Anaconda, and Microsoft.",
+    "Created 12 unit test plans integrated into the CI/CD pipelines spanning official dask production releases."
   ]
 }

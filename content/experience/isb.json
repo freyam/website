@@ -1,17 +1,18 @@
 {
+  "idx": 4,
   "company": "Indian School of Business",
   "company_website": "https://forestgov.isb.edu/",
-  "role": "Software Engineer Intern",
+  "role": "Software Engineer (Intern)",
   "contract": {
     "location": "Hyderabad, Telangana, India",
     "live": false
   },
-  "duration": "October 2021 - Present",
+  "duration": "October 2021 - April 2022",
   "description": "\"Initiative on the Forest Economy\" is an effort to create partnerships between local communities as custodians of forests, industries as the users and government as facilitators of wealth creation.",
   "tasks": [
-    "Led the end-to-end design, development, and deployment process of the mobile-ﬁrst application suite for the Forest Governance initiative.",
-    "Designed a secure and accountable platform to resolve issues related to forest rights.",
-    "Spearheaded the creation of an intuitive and lightweight medium for the community to record up-to-date information on the lands (their ownership, usability, resource value, etc.), ultimately helping in the research studies.",
-    "Leveraged the applications for a positive impact in over 300 local communities of Odisha, Himachal Pradesh, and Jharkhand by directly beneﬁtting the lives of 400-500 forest dwellers and community members."
+    "Led a cross-functional team of 4 to design, develop, and deploy the mobile-first Fi Application Suite}.",
+    "Spearheaded the creation of a one-stop solution for resolving forest rights concerns and recorded up-to-date information about the forest lands of over 500 communities across 3 states in East India.",
+    "Developed 4 applications (SpecieFi, MapiFi, RatiFi and FormiFi) impacting the lives of up to 5K forest landowners and officials.",
+    "Managed the production pipelines and created protocols for automated E2E testing."
   ]
 }

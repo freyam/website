@@ -11,10 +11,7 @@
         <ul
           class="flex items-center overflow-x-auto md:overflow-visible md:block"
         >
-          <li
-            v-for="(exp, index) in experience"
-            :key="(index + 1) * Math.random()"
-          >
+          <li v-for="(exp, index) in experience" :key="index + 1">
             <button
               class="
                 px-4
@@ -67,8 +64,6 @@
           </div>
           <p class="mb-2">
             {{ exp.description }}
-            <!-- <span v-if="exp.contract.live"> My tasks include: </span>
-            <span v-else> My tasks included: </span> -->
           </p>
           <ul class="px-4 list-disc">
             <li
@@ -95,13 +90,12 @@ export default {
     };
   },
   created() {
-    this.getAbout().then(() => this.setActiveTab());
+    this.getExperience().then(() => this.setActiveTab());
   },
   methods: {
-    async getAbout() {
-      const experience = await this.$content('experience')
-        .sortBy('updatedAt')
-        .fetch();
+    async getExperience() {
+      const experience = await this.$content('experience').fetch();
+      this.experience = experience.sort((a, b) => a.idx - b.idx).reverse();
 
       this.experience = experience;
     },

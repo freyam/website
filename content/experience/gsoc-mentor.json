@@ -1,7 +1,8 @@
 {
-  "company": "Google Summer of Code",
+  "idx": 7,
+  "company": "Google Summer of Code 2022",
   "company_website": "https://summerofcode.withgoogle.com/programs/2022/projects/XJwp022t",
-  "role": "Open Source Mentor - Joomla!",
+  "role": "Open Source Mentor, Joomla!",
   "contract": {
     "location": "Remote",
     "live": true
